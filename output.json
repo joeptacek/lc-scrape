@@ -1,10 +1,6 @@
 [
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "African American barbershops [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006821",
-    "recordIdApproved": "sh2021006821",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006821",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -15,35 +11,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "African American barbershops [May Subd Geog]",
-        "lineLength": 47
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Barbershops, African American",
-        "lineLength": 35
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT African American business enterprises",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Barbershops--United States",
-        "lineLength": 32
-      }
+    "lines": [
+      "150 African American barbershops [May Subd Geog]",
+      "450 UF Barbershops, African American",
+      "550 BT African American business enterprises",
+      "550 BT Barbershops--United States"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "African American entertainers in literature [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005649",
-    "recordIdApproved": "sh2021005649",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005649",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -54,20 +30,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "African American entertainers in literature [Not Subd Geog]",
-        "lineLength": 62
-      }
+    "lines": [
+      "150 African American entertainers in literature [Not Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Autobiography--Brazilian authors [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006220",
-    "recordIdApproved": "sh2021006220",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006220",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -78,30 +46,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Autobiography--Brazilian authors [May Subd Geog]",
-        "lineLength": 51
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Autobiography of Brazilians",
-        "lineLength": 33
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Brazilian autobiography",
-        "lineLength": 29
-      }
+    "lines": [
+      "150 Autobiography--Brazilian authors [May Subd Geog]",
+      "450 UF Autobiography of Brazilians",
+      "450 UF Brazilian autobiography"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Autobiography--Latin American authors",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006795",
-    "recordIdApproved": "sh2021006795",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006795",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -112,30 +64,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Autobiography--Latin American authors",
-        "lineLength": 40
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Autobiography of Latin Americans",
-        "lineLength": 38
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Latin American autobiography",
-        "lineLength": 34
-      }
+    "lines": [
+      "150 Autobiography--Latin American authors",
+      "450 UF Autobiography of Latin Americans",
+      "450 UF Latin American autobiography"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Ballalarayana Fort (India)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003794",
-    "recordIdApproved": "sh2021003794",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003794",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -146,40 +82,16 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Ballalarayana Fort (India)",
-        "lineLength": 29
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Ballalarayana Durga (India)",
-        "lineLength": 33
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Ballalarayanadurga (India)",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Fortification--India",
-        "lineLength": 26
-      },
-      {
-        "fieldNumber": "781",
-        "fieldContent": "India--Ballalarayana Fort",
-        "lineLength": 28
-      }
+    "lines": [
+      "151 Ballalarayana Fort (India)",
+      "451 UF Ballalarayana Durga (India)",
+      "451 UF Ballalarayanadurga (India)",
+      "550 BT Fortification--India",
+      "781 India--Ballalarayana Fort"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Barbershops--United States",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006830",
-    "recordIdApproved": "sh2021006830",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006830",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -190,20 +102,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Barbershops--United States",
-        "lineLength": 29
-      }
+    "lines": [
+      "150 Barbershops--United States"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Buddhist rock-cut temples [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005713",
-    "recordIdApproved": "sh2021005713",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005713",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -214,30 +118,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Buddhist rock-cut temples [May Subd Geog]",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Buddhist temples",
-        "lineLength": 22
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Rock-cut temples",
-        "lineLength": 22
-      }
+    "lines": [
+      "150 Buddhist rock-cut temples [May Subd Geog]",
+      "550 BT Buddhist temples",
+      "550 BT Rock-cut temples"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Burchfield family [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2007007746",
-    "recordIdApproved": "sh2007007746",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2007007746",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -248,30 +136,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "100",
-        "fieldContent": "Burchfield family [Not Subd Geog]",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "072",
-        "fieldContent": "H 1120 ADD FIELD",
-        "lineLength": 19
-      },
-      {
-        "fieldNumber": "400",
-        "fieldContent": "UF Birchfield family ADD FIELD",
-        "lineLength": 33
-      }
+    "lines": [
+      "100 Burchfield family [Not Subd Geog]",
+      "072 H 1120 ADD FIELD",
+      "400 UF Birchfield family ADD FIELD"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Capitol Riot, Washington, D.C., 2021",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005709",
-    "recordIdApproved": "sh2021005709",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005709",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -282,105 +154,29 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Capitol Riot, Washington, D.C., 2021",
-        "lineLength": 39
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Assault on the Capitol, Washington, D.C., 2021",
-        "lineLength": 52
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Attack on the Capitol, Washington, D.C., 2021",
-        "lineLength": 51
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Capitol Attack, Washington, D.C., 2021",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Capitol Insurrection, Washington, D.C., 2021",
-        "lineLength": 50
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Capitol Protests, Washington, D.C., 2021",
-        "lineLength": 46
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Capitol Siege, Washington, D.C., 2021",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF January 6 Insurrection, Washington, D.C., 2021",
-        "lineLength": 52
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF January 6 Riot, Washington, D.C., 2021",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Riot at the Capitol, Washington, D.C., 2021",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Storming of the Capitol, Washington, D.C., 2021",
-        "lineLength": 53
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF United States Capitol (Washington, D.C.)--Attack, 2021",
-        "lineLength": 60
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF United States Capitol (Washington, D.C.)--Insurrection, 2021",
-        "lineLength": 66
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF United States Capitol (Washington, D.C.)--Protests, 2021",
-        "lineLength": 62
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF United States Capitol (Washington, D.C.)--Riot, 2021",
-        "lineLength": 58
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF United States Capitol (Washington, D.C.)--Siege, 2021",
-        "lineLength": 59
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Riots--Washington (D.C.)",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Sieges--Washington (D.C.)",
-        "lineLength": 31
-      }
+    "lines": [
+      "150 Capitol Riot, Washington, D.C., 2021",
+      "450 UF Assault on the Capitol, Washington, D.C., 2021",
+      "450 UF Attack on the Capitol, Washington, D.C., 2021",
+      "450 UF Capitol Attack, Washington, D.C., 2021",
+      "450 UF Capitol Insurrection, Washington, D.C., 2021",
+      "450 UF Capitol Protests, Washington, D.C., 2021",
+      "450 UF Capitol Siege, Washington, D.C., 2021",
+      "450 UF January 6 Insurrection, Washington, D.C., 2021",
+      "450 UF January 6 Riot, Washington, D.C., 2021",
+      "450 UF Riot at the Capitol, Washington, D.C., 2021",
+      "450 UF Storming of the Capitol, Washington, D.C., 2021",
+      "410 UF United States Capitol (Washington, D.C.)--Attack, 2021",
+      "410 UF United States Capitol (Washington, D.C.)--Insurrection, 2021",
+      "410 UF United States Capitol (Washington, D.C.)--Protests, 2021",
+      "410 UF United States Capitol (Washington, D.C.)--Riot, 2021",
+      "410 UF United States Capitol (Washington, D.C.)--Siege, 2021",
+      "550 BT Riots--Washington (D.C.)",
+      "550 BT Sieges--Washington (D.C.)"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Caste in motion pictures [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005707",
-    "recordIdApproved": "sh2021005707",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005707",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -391,25 +187,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Caste in motion pictures [Not Subd Geog]",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Motion pictures",
-        "lineLength": 21
-      }
+    "lines": [
+      "150 Caste in motion pictures [Not Subd Geog]",
+      "550 BT Motion pictures"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Castleman disease [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006900",
-    "recordIdApproved": "sh2021006900",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006900",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -420,45 +204,17 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Castleman disease [May Subd Geog]",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Castleman’s disease",
-        "lineLength": 25
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Giant lymph node hyperplasia",
-        "lineLength": 34
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Lymph node hyperplasia, Giant",
-        "lineLength": 35
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Hyperplasia",
-        "lineLength": 17
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Lymph nodes--Diseases",
-        "lineLength": 27
-      }
+    "lines": [
+      "150 Castleman disease [May Subd Geog]",
+      "450 UF Castleman’s disease",
+      "450 UF Giant lymph node hyperplasia",
+      "450 UF Lymph node hyperplasia, Giant",
+      "550 BT Hyperplasia",
+      "550 BT Lymph nodes--Diseases"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Chagan Lake (Jilin Sheng, China)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006804",
-    "recordIdApproved": "sh2021006804",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006804",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -469,60 +225,20 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Chagan Lake (Jilin Sheng, China)",
-        "lineLength": 35
-      },
-      {
-        "fieldNumber": "072",
-        "fieldContent": "H 1145.5",
-        "lineLength": 11
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Chʻa-kan Hu (Jilin Sheng, China)",
-        "lineLength": 38
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Chʻa-kan-pʻao (Jilin Sheng, China)",
-        "lineLength": 40
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Chagan Hu (Jilin Sheng, China)",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Chagan Nur (Jilin Sheng, China)",
-        "lineLength": 37
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Qagan Nur (Jilin Sheng, China)",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Lakes--China",
-        "lineLength": 18
-      },
-      {
-        "fieldNumber": "781",
-        "fieldContent": "China--Chagan Lake (Jilin Sheng)",
-        "lineLength": 35
-      }
+    "lines": [
+      "151 Chagan Lake (Jilin Sheng, China)",
+      "072 H 1145.5",
+      "451 UF Chʻa-kan Hu (Jilin Sheng, China)",
+      "451 UF Chʻa-kan-pʻao (Jilin Sheng, China)",
+      "451 UF Chagan Hu (Jilin Sheng, China)",
+      "451 UF Chagan Nur (Jilin Sheng, China)",
+      "451 UF Qagan Nur (Jilin Sheng, China)",
+      "550 BT Lakes--China",
+      "781 China--Chagan Lake (Jilin Sheng)"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Charleston Workhouse Slave Rebellion, Charleston, S.C., 1849",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005502",
-    "recordIdApproved": "sh2021005502",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005502",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -533,25 +249,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Charleston Workhouse Slave Rebellion, Charleston, S.C., 1849",
-        "lineLength": 63
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Slave insurrections--South Carolina",
-        "lineLength": 41
-      }
+    "lines": [
+      "150 Charleston Workhouse Slave Rebellion, Charleston, S.C., 1849",
+      "550 BT Slave insurrections--South Carolina"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Charter school enrollment [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003592",
-    "recordIdApproved": "sh2021003592",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003592",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -562,25 +266,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Charter school enrollment [May Subd Geog]",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT School enrollment",
-        "lineLength": 23
-      }
+    "lines": [
+      "150 Charter school enrollment [May Subd Geog]",
+      "550 BT School enrollment"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Chiapas (Mexico)--History--Peasant Uprising, 1994---Religious aspects",
-    "headingOld": null,
-    "recordIdProposed": "sp2021008125",
-    "recordIdApproved": "sh2021008125",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008125",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -591,20 +283,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Chiapas (Mexico)--History--Peasant Uprising, 1994---Religious aspects",
-        "lineLength": 72
-      }
+    "lines": [
+      "151 Chiapas (Mexico)--History--Peasant Uprising, 1994---Religious aspects"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Chiapas (Mexico)--History--Peasant Uprising, 1994---Religious aspects--Catholic Church",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006863",
-    "recordIdApproved": "sh2021006863",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006863",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -615,20 +299,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Chiapas (Mexico)--History--Peasant Uprising, 1994---Religious aspects--Catholic Church",
-        "lineLength": 89
-      }
+    "lines": [
+      "151 Chiapas (Mexico)--History--Peasant Uprising, 1994---Religious aspects--Catholic Church"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Chief ministers--Dwellings [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006860",
-    "recordIdApproved": "sh2021006860",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006860",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -639,20 +315,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Chief ministers--Dwellings [May Subd Geog]",
-        "lineLength": 45
-      }
+    "lines": [
+      "150 Chief ministers--Dwellings [May Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Chief ministers--Dwellings--India",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006861",
-    "recordIdApproved": "sh2021006861",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006861",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -663,20 +331,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Chief ministers--Dwellings--India",
-        "lineLength": 36
-      }
+    "lines": [
+      "150 Chief ministers--Dwellings--India"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "China--Civilization--East Asian influences",
-    "headingOld": null,
-    "recordIdProposed": "sp2021004092",
-    "recordIdApproved": "sh2021004092",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004092",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -687,25 +347,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "China--Civilization--East Asian influences",
-        "lineLength": 45
-      },
-      {
-        "fieldNumber": "551",
-        "fieldContent": "BT East Asia--Civilization",
-        "lineLength": 29
-      }
+    "lines": [
+      "150 China--Civilization--East Asian influences",
+      "551 BT East Asia--Civilization"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Civilization, Assyro-Babylonian, in motion pictures [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003632",
-    "recordIdApproved": "sh2021003632",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003632",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -716,30 +364,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Civilization, Assyro-Babylonian, in motion pictures [Not Subd Geog]",
-        "lineLength": 70
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "PN1995.9.C517",
-        "lineLength": 16
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Motion pictures",
-        "lineLength": 21
-      }
+    "lines": [
+      "150 Civilization, Assyro-Babylonian, in motion pictures [Not Subd Geog]",
+      "053 PN1995.9.C517",
+      "550 BT Motion pictures"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "College teacher turnover [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005524",
-    "recordIdApproved": "sh2021005524",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005524",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -750,45 +382,17 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "College teacher turnover [May Subd Geog]",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "LB2335.3",
-        "lineLength": 11
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Turnover, College teacher",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT College teachers--Selection and appointment",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT College teachers--Tenure",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Teacher turnover",
-        "lineLength": 22
-      }
+    "lines": [
+      "150 College teacher turnover [May Subd Geog]",
+      "053 LB2335.3",
+      "450 UF Turnover, College teacher",
+      "550 BT College teachers--Selection and appointment",
+      "550 BT College teachers--Tenure",
+      "550 BT Teacher turnover"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Colonel Peter Vroman House (Schoharie, N.Y.)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006784",
-    "recordIdApproved": "sh2021006784",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006784",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -799,35 +403,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "110",
-        "fieldContent": "Colonel Peter Vroman House (Schoharie, N.Y.)",
-        "lineLength": 47
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF Peter Vroman House (Schoharie, N.Y.)",
-        "lineLength": 42
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF Vroman House (Schoharie, N.Y.)",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Dwellings--New York (State)",
-        "lineLength": 33
-      }
+    "lines": [
+      "110 Colonel Peter Vroman House (Schoharie, N.Y.)",
+      "410 UF Peter Vroman House (Schoharie, N.Y.)",
+      "410 UF Vroman House (Schoharie, N.Y.)",
+      "550 BT Dwellings--New York (State)"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "COVID-19 (Disease) in mass media [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003696",
-    "recordIdApproved": "sh2021003696",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003696",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -838,25 +422,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "COVID-19 (Disease) in mass media [Not Subd Geog]",
-        "lineLength": 51
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Mass media",
-        "lineLength": 16
-      }
+    "lines": [
+      "150 COVID-19 (Disease) in mass media [Not Subd Geog]",
+      "550 BT Mass media"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "COVID-19 Pandemic, 2020- , in mass media [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003697",
-    "recordIdApproved": "sh2021003697",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003697",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -867,30 +439,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "COVID-19 Pandemic, 2020- , in mass media [Not Subd Geog]",
-        "lineLength": 59
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "P96.C69-P96.C692",
-        "lineLength": 19
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Mass media",
-        "lineLength": 16
-      }
+    "lines": [
+      "150 COVID-19 Pandemic, 2020- , in mass media [Not Subd Geog]",
+      "053 P96.C69-P96.C692",
+      "550 BT Mass media"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Critical geography [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005679",
-    "recordIdApproved": "sh2021005679",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005679",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -901,40 +457,16 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Critical geography [May Subd Geog]",
-        "lineLength": 37
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Critical human geography",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Critical theory",
-        "lineLength": 21
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Human geography",
-        "lineLength": 21
-      },
-      {
-        "fieldNumber": "680",
-        "fieldContent": "Here are entered works on the social construction of space and place that interacts with, resists, and reinforces structures of power.",
-        "lineLength": 137
-      }
+    "lines": [
+      "150 Critical geography [May Subd Geog]",
+      "450 UF Critical human geography",
+      "550 BT Critical theory",
+      "550 BT Human geography",
+      "680 Here are entered works on the social construction of space and place that interacts with, resists, and reinforces structures of power."
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Cultural fusion in motion pictures [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005631",
-    "recordIdApproved": "sh2021005631",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005631",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -945,30 +477,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Cultural fusion in motion pictures [Not Subd Geog]",
-        "lineLength": 53
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "PN1995.9.C844",
-        "lineLength": 16
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Motion pictures",
-        "lineLength": 21
-      }
+    "lines": [
+      "150 Cultural fusion in motion pictures [Not Subd Geog]",
+      "053 PN1995.9.C844",
+      "550 BT Motion pictures"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Culturally sustaining pedagogy [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005509",
-    "recordIdApproved": "sh2021005509",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005509",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -979,30 +495,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Culturally sustaining pedagogy [May Subd Geog]",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Teaching--Methodology",
-        "lineLength": 27
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "RT Multicultural education",
-        "lineLength": 29
-      }
+    "lines": [
+      "150 Culturally sustaining pedagogy [May Subd Geog]",
+      "550 BT Teaching--Methodology",
+      "550 RT Multicultural education"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Cyberinfrastructure--Security measures [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021001609",
-    "recordIdApproved": "sh2021001609",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021001609",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1013,20 +513,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Cyberinfrastructure--Security measures [May Subd Geog]",
-        "lineLength": 57
-      }
+    "lines": [
+      "150 Cyberinfrastructure--Security measures [May Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Cyberspace--Security measures [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021002499",
-    "recordIdApproved": "sh2021002499",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021002499",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1037,20 +529,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Cyberspace--Security measures [May Subd Geog]",
-        "lineLength": 48
-      }
+    "lines": [
+      "150 Cyberspace--Security measures [May Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Dice--Religious aspects",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005488",
-    "recordIdApproved": "sh2021005488",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005488",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1061,20 +545,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Dice--Religious aspects",
-        "lineLength": 26
-      }
+    "lines": [
+      "150 Dice--Religious aspects"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Dice--Religious aspects--Buddhism",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005490",
-    "recordIdApproved": "sh2021005490",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005490",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1085,20 +561,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Dice--Religious aspects--Buddhism",
-        "lineLength": 36
-      }
+    "lines": [
+      "150 Dice--Religious aspects--Buddhism"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Discomfort (Psychology) [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005512",
-    "recordIdApproved": "sh2021005512",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005512",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1109,30 +577,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Discomfort (Psychology) [May Subd Geog]",
-        "lineLength": 42
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Uneasiness (Psychology)",
-        "lineLength": 29
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Emotions",
-        "lineLength": 14
-      }
+    "lines": [
+      "150 Discomfort (Psychology) [May Subd Geog]",
+      "450 UF Uneasiness (Psychology)",
+      "550 BT Emotions"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Discomfort (Psychology) in motion pictures [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005513",
-    "recordIdApproved": "sh2021005513",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005513",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1143,30 +595,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Discomfort (Psychology) in motion pictures [May Subd Geog]",
-        "lineLength": 61
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "PN1995.9.D554",
-        "lineLength": 16
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Motion pictures",
-        "lineLength": 21
-      }
+    "lines": [
+      "150 Discomfort (Psychology) in motion pictures [May Subd Geog]",
+      "053 PN1995.9.D554",
+      "550 BT Motion pictures"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Eight-constitution medicine [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005537",
-    "recordIdApproved": "sh2021005537",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005537",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1177,45 +613,17 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Eight-constitution medicine [May Subd Geog]",
-        "lineLength": 46
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "RZ418",
-        "lineLength": 8
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF 8-ch'ejil ŭihak",
-        "lineLength": 21
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF 8-constitution medicine",
-        "lineLength": 29
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF P'al ch'ejil ŭihak",
-        "lineLength": 24
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Medicine, Korean",
-        "lineLength": 22
-      }
+    "lines": [
+      "150 Eight-constitution medicine [May Subd Geog]",
+      "053 RZ418",
+      "450 UF 8-ch'ejil ŭihak",
+      "450 UF 8-constitution medicine",
+      "450 UF P'al ch'ejil ŭihak",
+      "550 BT Medicine, Korean"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Firearms--Design and construction",
-    "headingOld": null,
-    "recordIdProposed": "sp85048535",
-    "recordIdApproved": "sh85048535",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85048535",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -1226,25 +634,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Firearms--Design and construction",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Gunsmithing ADD FIELD",
-        "lineLength": 27
-      }
+    "lines": [
+      "150 Firearms--Design and construction",
+      "550 BT Gunsmithing ADD FIELD"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Fontwell Park Racecourse (Fontwell, England)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006856",
-    "recordIdApproved": "sh2021006856",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006856",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1255,25 +651,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "110",
-        "fieldContent": "Fontwell Park Racecourse (Fontwell, England)",
-        "lineLength": 47
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Racetracks (Horse racing)--England",
-        "lineLength": 40
-      }
+    "lines": [
+      "110 Fontwell Park Racecourse (Fontwell, England)",
+      "550 BT Racetracks (Horse racing)--England"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Food supply and war [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005515",
-    "recordIdApproved": "sh2021005515",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005515",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1284,35 +668,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Food supply and war [May Subd Geog]",
-        "lineLength": 38
-      },
-      {
-        "fieldNumber": "360",
-        "fieldContent": "SA subdivision Food supply under individual wars, e.g., World War, 1939-1945--Food supply",
-        "lineLength": 92
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF War and food supply",
-        "lineLength": 25
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT War",
-        "lineLength": 9
-      }
+    "lines": [
+      "150 Food supply and war [May Subd Geog]",
+      "360 SA subdivision Food supply under individual wars, e.g., World War, 1939-1945--Food supply",
+      "450 UF War and food supply",
+      "550 BT War"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Gays’ writings, Bikol [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005603",
-    "recordIdApproved": "sh2021005603",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005603",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1323,30 +687,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Gays’ writings, Bikol [May Subd Geog]",
-        "lineLength": 40
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Bikol gays’ writings",
-        "lineLength": 26
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Bikol literature",
-        "lineLength": 22
-      }
+    "lines": [
+      "150 Gays’ writings, Bikol [May Subd Geog]",
+      "450 UF Bikol gays’ writings",
+      "550 BT Bikol literature"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Generation Y--Communication [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005621",
-    "recordIdApproved": "sh2021005621",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005621",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1357,25 +705,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Generation Y--Communication [May Subd Geog]",
-        "lineLength": 46
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Communication",
-        "lineLength": 19
-      }
+    "lines": [
+      "150 Generation Y--Communication [May Subd Geog]",
+      "550 BT Communication"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Ghost guns [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005647",
-    "recordIdApproved": "sh2021005647",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005647",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1386,40 +722,16 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Ghost guns [May Subd Geog]",
-        "lineLength": 29
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Home-built firearms",
-        "lineLength": 25
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Homemade guns",
-        "lineLength": 19
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Kit guns",
-        "lineLength": 14
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Firearms",
-        "lineLength": 14
-      }
+    "lines": [
+      "150 Ghost guns [May Subd Geog]",
+      "450 UF Home-built firearms",
+      "450 UF Homemade guns",
+      "450 UF Kit guns",
+      "550 BT Firearms"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Ghost tours [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006891",
-    "recordIdApproved": "sh2021006891",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006891",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1430,35 +742,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Ghost tours [May Subd Geog]",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Tours, Ghost",
-        "lineLength": 18
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Tourism",
-        "lineLength": 13
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "RT Haunted places",
-        "lineLength": 20
-      }
+    "lines": [
+      "150 Ghost tours [May Subd Geog]",
+      "450 UF Tours, Ghost",
+      "550 BT Tourism",
+      "550 RT Haunted places"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Handball coaches [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006877",
-    "recordIdApproved": "sh2021006877",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006877",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1469,25 +761,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Handball coaches [May Subd Geog]",
-        "lineLength": 35
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Coaches (Athletics)",
-        "lineLength": 25
-      }
+    "lines": [
+      "150 Handball coaches [May Subd Geog]",
+      "550 BT Coaches (Athletics)"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Haunted places [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp96002928",
-    "recordIdApproved": "sh96002928",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh96002928",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -1498,25 +778,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Haunted places [May Subd Geog]",
-        "lineLength": 33
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "RT Ghost tours ADD FIELD",
-        "lineLength": 27
-      }
+    "lines": [
+      "150 Haunted places [May Subd Geog]",
+      "550 RT Ghost tours ADD FIELD"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Higano family [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006813",
-    "recordIdApproved": "sh2021006813",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006813",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1527,25 +795,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "100",
-        "fieldContent": "Higano family [Not Subd Geog]",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "072",
-        "fieldContent": "H 1120",
-        "lineLength": 9
-      }
+    "lines": [
+      "100 Higano family [Not Subd Geog]",
+      "072 H 1120"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Ḥinzāb family [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003825",
-    "recordIdApproved": "sh2021003825",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003825",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1556,30 +812,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "100",
-        "fieldContent": "Ḥinzāb family [Not Subd Geog]",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "072",
-        "fieldContent": "H 1120",
-        "lineLength": 9
-      },
-      {
-        "fieldNumber": "400",
-        "fieldContent": "UF Āl Ḥinzāb",
-        "lineLength": 15
-      }
+    "lines": [
+      "100 Ḥinzāb family [Not Subd Geog]",
+      "072 H 1120",
+      "400 UF Āl Ḥinzāb"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Hobbyhorses in literature [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006852",
-    "recordIdApproved": "sh2021006852",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006852",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1590,20 +830,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Hobbyhorses in literature [Not Subd Geog]",
-        "lineLength": 44
-      }
+    "lines": [
+      "150 Hobbyhorses in literature [Not Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Hobbyhorses in popular culture [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006853",
-    "recordIdApproved": "sh2021006853",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006853",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1614,30 +846,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Hobbyhorses in popular culture [May Subd Geog]",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Popular culture",
-        "lineLength": 21
-      },
-      {
-        "fieldNumber": "680",
-        "fieldContent": "Here are entered works on the representation of hobbyhorses in popular culture.",
-        "lineLength": 82
-      }
+    "lines": [
+      "150 Hobbyhorses in popular culture [May Subd Geog]",
+      "550 BT Popular culture",
+      "680 Here are entered works on the representation of hobbyhorses in popular culture."
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Houston Race Riot, Houston, Tex., 1917",
-    "headingOld": null,
-    "recordIdProposed": "sp2021001356",
-    "recordIdApproved": "sh2021001356",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021001356",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1648,55 +864,19 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Houston Race Riot, Houston, Tex., 1917",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Camp Logan Mutiny, Houston, Tex., 1917",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Camp Logan Riot, Houston, Tex., 1917",
-        "lineLength": 42
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Houston Military Riot, Houston, Tex., 1917",
-        "lineLength": 48
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Houston Mutiny and Riot, Houston, Tex., 1917",
-        "lineLength": 50
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Houston Riot, Houston, Tex., 1917",
-        "lineLength": 39
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Mutiny--Texas",
-        "lineLength": 19
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Race riots--Texas",
-        "lineLength": 23
-      }
+    "lines": [
+      "150 Houston Race Riot, Houston, Tex., 1917",
+      "450 UF Camp Logan Mutiny, Houston, Tex., 1917",
+      "450 UF Camp Logan Riot, Houston, Tex., 1917",
+      "450 UF Houston Military Riot, Houston, Tex., 1917",
+      "450 UF Houston Mutiny and Riot, Houston, Tex., 1917",
+      "450 UF Houston Riot, Houston, Tex., 1917",
+      "550 BT Mutiny--Texas",
+      "550 BT Race riots--Texas"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Incantations, Chinese [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006232",
-    "recordIdApproved": "sh2021006232",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006232",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1707,25 +887,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Incantations, Chinese [May Subd Geog]",
-        "lineLength": 40
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Chinese incantations",
-        "lineLength": 26
-      }
+    "lines": [
+      "150 Incantations, Chinese [May Subd Geog]",
+      "450 UF Chinese incantations"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Indigenous children--Government policy [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021008186",
-    "recordIdApproved": "sh2021008186",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008186",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1736,20 +904,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Indigenous children--Government policy [May Subd Geog]",
-        "lineLength": 57
-      }
+    "lines": [
+      "150 Indigenous children--Government policy [May Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Indigenous children--Government policy--Canada",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006866",
-    "recordIdApproved": "sh2021006866",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006866",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1760,20 +920,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Indigenous children--Government policy--Canada",
-        "lineLength": 49
-      }
+    "lines": [
+      "150 Indigenous children--Government policy--Canada"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Infrastructure (Economics)--Security measures [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021002511",
-    "recordIdApproved": "sh2021002511",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021002511",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1784,20 +936,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Infrastructure (Economics)--Security measures [May Subd Geog]",
-        "lineLength": 64
-      }
+    "lines": [
+      "150 Infrastructure (Economics)--Security measures [May Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Lady's maids in art [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005710",
-    "recordIdApproved": "sh2021005710",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005710",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1808,20 +952,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Lady's maids in art [Not Subd Geog]",
-        "lineLength": 38
-      }
+    "lines": [
+      "150 Lady's maids in art [Not Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Legado das Águas (Brazil)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006787",
-    "recordIdApproved": "sh2021006787",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006787",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1832,35 +968,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Legado das Águas (Brazil)",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Águas, Legado das (Brazil)",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Natural areas--Brazil",
-        "lineLength": 27
-      },
-      {
-        "fieldNumber": "781",
-        "fieldContent": "Brazil--Legado das Águas",
-        "lineLength": 27
-      }
+    "lines": [
+      "151 Legado das Águas (Brazil)",
+      "451 UF Águas, Legado das (Brazil)",
+      "550 BT Natural areas--Brazil",
+      "781 Brazil--Legado das Águas"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Literary prizes--Thailand",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005532",
-    "recordIdApproved": "sh2021005532",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005532",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1871,20 +987,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Literary prizes--Thailand",
-        "lineLength": 28
-      }
+    "lines": [
+      "150 Literary prizes--Thailand"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Lucha libre in literature [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006874",
-    "recordIdApproved": "sh2021006874",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006874",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1895,20 +1003,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Lucha libre in literature [Not Subd Geog]",
-        "lineLength": 44
-      }
+    "lines": [
+      "150 Lucha libre in literature [Not Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Lucha libre in popular culture [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006875",
-    "recordIdApproved": "sh2021006875",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006875",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -1919,25 +1019,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Lucha libre in popular culture [May Subd Geog]",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Popular culture",
-        "lineLength": 21
-      }
+    "lines": [
+      "150 Lucha libre in popular culture [May Subd Geog]",
+      "550 BT Popular culture"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Maranao (Philippine people) [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp85080898",
-    "recordIdApproved": "sh85080898",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85080898",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -1948,50 +1036,18 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Maranao (Philippine people) [May Subd Geog]",
-        "lineLength": 46
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Lanao (Philippine people) ADD FIELD",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Meranao (Philippine people) ADD FIELD",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Meranaw (Philippine people) ADD FIELD",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Mranao (Philippine people) ADD FIELD",
-        "lineLength": 42
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Ranao (Philippine people) ADD FIELD",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Muslims--Philippines DELETE FIELD",
-        "lineLength": 39
-      }
+    "lines": [
+      "150 Maranao (Philippine people) [May Subd Geog]",
+      "450 UF Lanao (Philippine people) ADD FIELD",
+      "450 UF Meranao (Philippine people) ADD FIELD",
+      "450 UF Meranaw (Philippine people) ADD FIELD",
+      "450 UF Mranao (Philippine people) ADD FIELD",
+      "450 UF Ranao (Philippine people) ADD FIELD",
+      "550 BT Muslims--Philippines DELETE FIELD"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Mass media and regionalism [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021004181",
-    "recordIdApproved": "sh2021004181",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004181",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2002,30 +1058,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Mass media and regionalism [May Subd Geog]",
-        "lineLength": 45
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Regionalism and mass media",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Regionalism",
-        "lineLength": 17
-      }
+    "lines": [
+      "150 Mass media and regionalism [May Subd Geog]",
+      "450 UF Regionalism and mass media",
+      "550 BT Regionalism"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Mintokgang (Gangtok, India)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006772",
-    "recordIdApproved": "sh2021006772",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006772",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2036,30 +1076,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "110",
-        "fieldContent": "Mintokgang (Gangtok, India)",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Chief ministers--Dwellings--India",
-        "lineLength": 39
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Official residences--India",
-        "lineLength": 32
-      }
+    "lines": [
+      "110 Mintokgang (Gangtok, India)",
+      "550 BT Chief ministers--Dwellings--India",
+      "550 BT Official residences--India"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Multicultural education [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp85067223",
-    "recordIdApproved": "sh85067223",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85067223",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -2070,25 +1094,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Multicultural education [May Subd Geog]",
-        "lineLength": 42
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "RT Culturally sustaining pedagogy ADD FIELD",
-        "lineLength": 46
-      }
+    "lines": [
+      "150 Multicultural education [May Subd Geog]",
+      "550 RT Culturally sustaining pedagogy ADD FIELD"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Mutiny--Texas",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005623",
-    "recordIdApproved": "sh2021005623",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005623",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2099,20 +1111,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Mutiny--Texas",
-        "lineLength": 16
-      }
+    "lines": [
+      "150 Mutiny--Texas"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Nahar Garh Fort (Nāhargarh, India)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005706",
-    "recordIdApproved": "sh2021005706",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005706",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2123,50 +1127,18 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Nahar Garh Fort (Nāhargarh, India)",
-        "lineLength": 37
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Lal Kila (Nāhargarh, India)",
-        "lineLength": 33
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Lāla Kilā (Nāhargarh, India)",
-        "lineLength": 34
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Nāharagaṛha Fort (Nāhargarh, India)",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Nahargarh Fort (Nāhargarh, India)",
-        "lineLength": 39
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Fortification--India",
-        "lineLength": 26
-      },
-      {
-        "fieldNumber": "667",
-        "fieldContent": "This heading is not valid for use as a geographic subdivision.",
-        "lineLength": 65
-      }
+    "lines": [
+      "151 Nahar Garh Fort (Nāhargarh, India)",
+      "451 UF Lal Kila (Nāhargarh, India)",
+      "451 UF Lāla Kilā (Nāhargarh, India)",
+      "451 UF Nāharagaṛha Fort (Nāhargarh, India)",
+      "451 UF Nahargarh Fort (Nāhargarh, India)",
+      "550 BT Fortification--India",
+      "667 This heading is not valid for use as a geographic subdivision."
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Oil-in-water emulsions [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005655",
-    "recordIdApproved": "sh2021005655",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005655",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2177,30 +1149,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Oil-in-water emulsions [May Subd Geog]",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Water-in-oil emulsions",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Emulsions",
-        "lineLength": 15
-      }
+    "lines": [
+      "150 Oil-in-water emulsions [May Subd Geog]",
+      "450 UF Water-in-oil emulsions",
+      "550 BT Emulsions"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Osteocalcin [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006864",
-    "recordIdApproved": "sh2021006864",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006864",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2211,80 +1167,24 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Osteocalcin [May Subd Geog]",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF 4-carboxyglutamic protein, Bone",
-        "lineLength": 37
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF BGP (Bone gla-protein)",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Bone 4-carboxyglutamic protein",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Bone gamma-carboxyglutamic acid protein",
-        "lineLength": 45
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Bone gla-protein",
-        "lineLength": 22
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Gamma-carboxyglutamic acid protein, Bone",
-        "lineLength": 46
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Gla-protein, Bone",
-        "lineLength": 23
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF OC (Osteocalcin)",
-        "lineLength": 22
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF OCa (Osteocalcin)",
-        "lineLength": 23
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Vitamin K-dependent bone protein",
-        "lineLength": 38
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Vitamin K-dependent calcium-binding protein",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Calcium-binding proteins",
-        "lineLength": 30
-      }
+    "lines": [
+      "150 Osteocalcin [May Subd Geog]",
+      "450 UF 4-carboxyglutamic protein, Bone",
+      "450 UF BGP (Bone gla-protein)",
+      "450 UF Bone 4-carboxyglutamic protein",
+      "450 UF Bone gamma-carboxyglutamic acid protein",
+      "450 UF Bone gla-protein",
+      "450 UF Gamma-carboxyglutamic acid protein, Bone",
+      "450 UF Gla-protein, Bone",
+      "450 UF OC (Osteocalcin)",
+      "450 UF OCa (Osteocalcin)",
+      "450 UF Vitamin K-dependent bone protein",
+      "450 UF Vitamin K-dependent calcium-binding protein",
+      "550 BT Calcium-binding proteins"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Parents of gender-nonconforming children [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005703",
-    "recordIdApproved": "sh2021005703",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005703",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2295,25 +1195,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Parents of gender-nonconforming children [May Subd Geog]",
-        "lineLength": 59
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Gender-nonconforming children",
-        "lineLength": 35
-      }
+    "lines": [
+      "150 Parents of gender-nonconforming children [May Subd Geog]",
+      "550 BT Gender-nonconforming children"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Pedestrian inertial navigation systems [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006793",
-    "recordIdApproved": "sh2021006793",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006793",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2324,55 +1212,19 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Pedestrian inertial navigation systems [May Subd Geog]",
-        "lineLength": 57
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "G109.53.P43",
-        "lineLength": 14
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Inertial pedestrian navigation systems",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Pedestrian dead reckoning systems",
-        "lineLength": 39
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Pedestrian navigation systems, Inertial",
-        "lineLength": 45
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Human-machine systems",
-        "lineLength": 27
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Inertial navigation systems",
-        "lineLength": 33
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Mobile geographic information systems",
-        "lineLength": 43
-      }
+    "lines": [
+      "150 Pedestrian inertial navigation systems [May Subd Geog]",
+      "053 G109.53.P43",
+      "450 UF Inertial pedestrian navigation systems",
+      "450 UF Pedestrian dead reckoning systems",
+      "450 UF Pedestrian navigation systems, Inertial",
+      "550 BT Human-machine systems",
+      "550 BT Inertial navigation systems",
+      "550 BT Mobile geographic information systems"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Post-and-lintel construction [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005719",
-    "recordIdApproved": "sh2021005719",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005719",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2383,105 +1235,29 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Post-and-lintel construction [May Subd Geog]",
-        "lineLength": 47
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Assemblies, Column and beam (Architecture)",
-        "lineLength": 48
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Column and beam assemblies (Architecture)",
-        "lineLength": 47
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Construction, Plank-and-beam",
-        "lineLength": 34
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Construction, Post-and-beam",
-        "lineLength": 33
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Construction, Post-and-lintel",
-        "lineLength": 35
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Framing, Post-and-beam",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Plank-and-beam construction",
-        "lineLength": 33
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Post-and-beam construction",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Post-and-beam framing",
-        "lineLength": 27
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Post-and-beam structures",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Post-and-lintel system (Architecture)",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Structures, Post-and-beam",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Structures, Trabeated",
-        "lineLength": 27
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Trabeated architecture",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Trabeated structures",
-        "lineLength": 26
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Building",
-        "lineLength": 14
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Structural frames",
-        "lineLength": 23
-      }
+    "lines": [
+      "150 Post-and-lintel construction [May Subd Geog]",
+      "450 UF Assemblies, Column and beam (Architecture)",
+      "450 UF Column and beam assemblies (Architecture)",
+      "450 UF Construction, Plank-and-beam",
+      "450 UF Construction, Post-and-beam",
+      "450 UF Construction, Post-and-lintel",
+      "450 UF Framing, Post-and-beam",
+      "450 UF Plank-and-beam construction",
+      "450 UF Post-and-beam construction",
+      "450 UF Post-and-beam framing",
+      "450 UF Post-and-beam structures",
+      "450 UF Post-and-lintel system (Architecture)",
+      "450 UF Structures, Post-and-beam",
+      "450 UF Structures, Trabeated",
+      "450 UF Trabeated architecture",
+      "450 UF Trabeated structures",
+      "550 BT Building",
+      "550 BT Structural frames"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Poste du Louvre (Paris, France : Building)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006800",
-    "recordIdApproved": "sh2021006800",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006800",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2492,40 +1268,16 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "110",
-        "fieldContent": "Poste du Louvre (Paris, France : Building)",
-        "lineLength": 45
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF Central Post Office of the Louvre (Paris, France : Building)",
-        "lineLength": 66
-      },
-      {
-        "fieldNumber": "410",
-        "fieldContent": "UF Poste centrale du Louvre (Paris, France : Building)",
-        "lineLength": 57
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Multipurpose buildings--France",
-        "lineLength": 36
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Post office buildings--France",
-        "lineLength": 35
-      }
+    "lines": [
+      "110 Poste du Louvre (Paris, France : Building)",
+      "410 UF Central Post Office of the Louvre (Paris, France : Building)",
+      "410 UF Poste centrale du Louvre (Paris, France : Building)",
+      "550 BT Multipurpose buildings--France",
+      "550 BT Post office buildings--France"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Race riots--Texas",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005622",
-    "recordIdApproved": "sh2021005622",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005622",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2536,20 +1288,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Race riots--Texas",
-        "lineLength": 20
-      }
+    "lines": [
+      "150 Race riots--Texas"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Racism in law enforcement [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005525",
-    "recordIdApproved": "sh2021005525",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005525",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2560,30 +1304,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Racism in law enforcement [May Subd Geog]",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "HV7936.R3",
-        "lineLength": 12
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Law enforcement",
-        "lineLength": 21
-      }
+    "lines": [
+      "150 Racism in law enforcement [May Subd Geog]",
+      "053 HV7936.R3",
+      "550 BT Law enforcement"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Rape culture in literature [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003917",
-    "recordIdApproved": "sh2021003917",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003917",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2594,20 +1322,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Rape culture in literature [Not Subd Geog]",
-        "lineLength": 45
-      }
+    "lines": [
+      "150 Rape culture in literature [Not Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Rectory Farm Site (Godmanchester, England)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006904",
-    "recordIdApproved": "sh2021006904",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006904",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2618,30 +1338,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Rectory Farm Site (Godmanchester, England)",
-        "lineLength": 45
-      },
-      {
-        "fieldNumber": "551",
-        "fieldContent": "BT England--Antiquities",
-        "lineLength": 26
-      },
-      {
-        "fieldNumber": "667",
-        "fieldContent": "This heading is not valid for use as a geographic subdivision.",
-        "lineLength": 65
-      }
+    "lines": [
+      "151 Rectory Farm Site (Godmanchester, England)",
+      "551 BT England--Antiquities",
+      "667 This heading is not valid for use as a geographic subdivision."
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Riots--Washington (D.C.)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006227",
-    "recordIdApproved": "sh2021006227",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006227",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2652,20 +1356,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Riots--Washington (D.C.)",
-        "lineLength": 27
-      }
+    "lines": [
+      "150 Riots--Washington (D.C.)"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Romanticism in cartography [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005699",
-    "recordIdApproved": "sh2021005699",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005699",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2676,30 +1372,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Romanticism in cartography [May Subd Geog]",
-        "lineLength": 45
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Cartography",
-        "lineLength": 17
-      },
-      {
-        "fieldNumber": "680",
-        "fieldContent": "Here are entered works on the influence and/or representation of the ideals of the Romantic period in cartography.",
-        "lineLength": 117
-      }
+    "lines": [
+      "150 Romanticism in cartography [May Subd Geog]",
+      "550 BT Cartography",
+      "680 Here are entered works on the influence and/or representation of the ideals of the Romantic period in cartography."
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Rübezahl (Legendary character) CANCEL HEADING",
-    "headingOld": null,
-    "recordIdProposed": "sp2003010118",
-    "recordIdApproved": "sh2003010118",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2003010118",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -2710,25 +1390,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Rübezahl (Legendary character) CANCEL HEADING",
-        "lineLength": 48
-      },
-      {
-        "fieldNumber": "682",
-        "fieldContent": "This authority record has been deleted because the subject heading is covered an identical name heading (DLC)no2021089745",
-        "lineLength": 124
-      }
+    "lines": [
+      "150 Rübezahl (Legendary character) CANCEL HEADING",
+      "682 This authority record has been deleted because the subject heading is covered an identical name heading (DLC)no2021089745"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Shiite poetry, Turkish [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006778",
-    "recordIdApproved": "sh2021006778",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006778",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2739,30 +1407,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Shiite poetry, Turkish [May Subd Geog]",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Turkish Shiite poetry",
-        "lineLength": 27
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Turkish poetry",
-        "lineLength": 20
-      }
+    "lines": [
+      "150 Shiite poetry, Turkish [May Subd Geog]",
+      "450 UF Turkish Shiite poetry",
+      "550 BT Turkish poetry"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Shotguns--Customizing [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005694",
-    "recordIdApproved": "sh2021005694",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005694",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2773,35 +1425,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Shotguns--Customizing [May Subd Geog]",
-        "lineLength": 40
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Customizing of shotguns",
-        "lineLength": 29
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Shotguns--Fitting",
-        "lineLength": 23
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Gunsmithing",
-        "lineLength": 17
-      }
+    "lines": [
+      "150 Shotguns--Customizing [May Subd Geog]",
+      "450 UF Customizing of shotguns",
+      "450 UF Shotguns--Fitting",
+      "550 BT Gunsmithing"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Sieges--Washington (D.C.)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006228",
-    "recordIdApproved": "sh2021006228",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006228",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2812,20 +1444,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Sieges--Washington (D.C.)",
-        "lineLength": 28
-      }
+    "lines": [
+      "150 Sieges--Washington (D.C.)"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Silent film music--Cue sheets",
-    "headingOld": null,
-    "recordIdProposed": "sp2021004066",
-    "recordIdApproved": "sh2021004066",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004066",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2836,30 +1460,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Silent film music--Cue sheets",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Cue sheets for silent film music",
-        "lineLength": 38
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Promptbooks",
-        "lineLength": 17
-      }
+    "lines": [
+      "150 Silent film music--Cue sheets",
+      "450 UF Cue sheets for silent film music",
+      "550 BT Promptbooks"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Sixties Scoop, Canada, 1951-ca. 1980 [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006865",
-    "recordIdApproved": "sh2021006865",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006865",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2870,40 +1478,16 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Sixties Scoop, Canada, 1951-ca. 1980 [May Subd Geog]",
-        "lineLength": 55
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Forced Removal of Indigenous Children, Canada, 1951-ca. 1980",
-        "lineLength": 66
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Scooping of Indigenous Children, Canada, 1951-ca. 1980",
-        "lineLength": 60
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Indigenous children--Government policy--Canada",
-        "lineLength": 52
-      },
-      {
-        "fieldNumber": "680",
-        "fieldContent": "Here are entered works on the large-scale removal of indigenous children from their homes.",
-        "lineLength": 93
-      }
+    "lines": [
+      "150 Sixties Scoop, Canada, 1951-ca. 1980 [May Subd Geog]",
+      "450 UF Forced Removal of Indigenous Children, Canada, 1951-ca. 1980",
+      "450 UF Scooping of Indigenous Children, Canada, 1951-ca. 1980",
+      "550 BT Indigenous children--Government policy--Canada",
+      "680 Here are entered works on the large-scale removal of indigenous children from their homes."
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Southeast Asia--Civilization--Hindu influences",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006226",
-    "recordIdApproved": "sh2021006226",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006226",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2914,25 +1498,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Southeast Asia--Civilization--Hindu influences",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Hindu civilization",
-        "lineLength": 24
-      }
+    "lines": [
+      "151 Southeast Asia--Civilization--Hindu influences",
+      "550 BT Hindu civilization"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Srebrenica Massacre, Srebrenica, Bosnia and Herzegovina, 1995",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006223",
-    "recordIdApproved": "sh2021006223",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006223",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2943,35 +1515,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Srebrenica Massacre, Srebrenica, Bosnia and Herzegovina, 1995",
-        "lineLength": 64
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Srebrenica Genocide, Srebrenica, Bosnia and Herzegovina, 1995",
-        "lineLength": 67
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Massacres--Bosnia and Herzegovina",
-        "lineLength": 39
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Yugoslav War, 1991-1995--Atrocities--Bosnia and Herzegovina",
-        "lineLength": 65
-      }
+    "lines": [
+      "150 Srebrenica Massacre, Srebrenica, Bosnia and Herzegovina, 1995",
+      "450 UF Srebrenica Genocide, Srebrenica, Bosnia and Herzegovina, 1995",
+      "550 BT Massacres--Bosnia and Herzegovina",
+      "550 BT Yugoslav War, 1991-1995--Atrocities--Bosnia and Herzegovina"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Srebrenica Massacre, Srebrenica, Bosnia and Herzegovina, 1995, in literature [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006224",
-    "recordIdApproved": "sh2021006224",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006224",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -2982,20 +1534,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Srebrenica Massacre, Srebrenica, Bosnia and Herzegovina, 1995, in literature [Not Subd Geog]",
-        "lineLength": 95
-      }
+    "lines": [
+      "150 Srebrenica Massacre, Srebrenica, Bosnia and Herzegovina, 1995, in literature [Not Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Sriburapha Award",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005533",
-    "recordIdApproved": "sh2021005533",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005533",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3006,35 +1550,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Sriburapha Award",
-        "lineLength": 19
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Rāngwan Sībūraphā",
-        "lineLength": 23
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Arts--Awards--Thailand",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Literary prizes--Thailand",
-        "lineLength": 31
-      }
+    "lines": [
+      "150 Sriburapha Award",
+      "450 UF Rāngwan Sībūraphā",
+      "550 BT Arts--Awards--Thailand",
+      "550 BT Literary prizes--Thailand"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Statehood (American politics)--Law and legislation [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2020007996",
-    "recordIdApproved": "sh2020007996",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020007996",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3045,25 +1569,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Statehood (American politics)--Law and legislation [May Subd Geog]",
-        "lineLength": 69
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Constitutional law",
-        "lineLength": 24
-      }
+    "lines": [
+      "150 Statehood (American politics)--Law and legislation [May Subd Geog]",
+      "550 BT Constitutional law"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Stehelin family [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp85127888",
-    "recordIdApproved": "sh85127888",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85127888",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -3074,35 +1586,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "100",
-        "fieldContent": "Stehelin family [Not Subd Geog]",
-        "lineLength": 34
-      },
-      {
-        "fieldNumber": "072",
-        "fieldContent": "H 1120 ADD FIELD",
-        "lineLength": 19
-      },
-      {
-        "fieldNumber": "400",
-        "fieldContent": "UF Staehelin family ADD FIELD",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "400",
-        "fieldContent": "UF Stähelin family ADD FIELD",
-        "lineLength": 31
-      }
+    "lines": [
+      "100 Stehelin family [Not Subd Geog]",
+      "072 H 1120 ADD FIELD",
+      "400 UF Staehelin family ADD FIELD",
+      "400 UF Stähelin family ADD FIELD"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Teenage superheroes [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006788",
-    "recordIdApproved": "sh2021006788",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006788",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3113,35 +1605,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Teenage superheroes [May Subd Geog]",
-        "lineLength": 38
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Super teens (Superheroes)",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Superteens (Superheroes)",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Superheroes",
-        "lineLength": 17
-      }
+    "lines": [
+      "150 Teenage superheroes [May Subd Geog]",
+      "450 UF Super teens (Superheroes)",
+      "450 UF Superteens (Superheroes)",
+      "550 BT Superheroes"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Titanium-binding peptides [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006862",
-    "recordIdApproved": "sh2021006862",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006862",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3152,35 +1624,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Titanium-binding peptides [May Subd Geog]",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF TBP (Titanium-binding peptides)",
-        "lineLength": 37
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Ti-binding peptides",
-        "lineLength": 25
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Peptides",
-        "lineLength": 14
-      }
+    "lines": [
+      "150 Titanium-binding peptides [May Subd Geog]",
+      "450 UF TBP (Titanium-binding peptides)",
+      "450 UF Ti-binding peptides",
+      "550 BT Peptides"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Treasure hunting [May Subd Geog]",
-    "headingOld": "Treasure hunt (Game) CHANGE HEADING",
-    "recordIdProposed": "sp95009884",
-    "recordIdApproved": "sh95009884",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh95009884",
     "statusNewHeading": false,
     "statusChangedHeading": true,
@@ -3191,55 +1643,19 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Treasure hunt (Game) CHANGE HEADING",
-        "lineLength": 38
-      },
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Treasure hunting [May Subd Geog]",
-        "lineLength": 35
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "G521-G539 (Adventures)",
-        "lineLength": 25
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "GV1202.T7 (Games)",
-        "lineLength": 20
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Scavenger hunting",
-        "lineLength": 23
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Treasure hunt (Game) [Former heading]",
-        "lineLength": 43
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Adventure and adventurers",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Games",
-        "lineLength": 11
-      }
+    "lines": [
+      "150 Treasure hunt (Game) CHANGE HEADING",
+      "150 Treasure hunting [May Subd Geog]",
+      "053 G521-G539 (Adventures)",
+      "053 GV1202.T7 (Games)",
+      "450 UF Scavenger hunting",
+      "450 UF Treasure hunt (Game) [Former heading]",
+      "550 BT Adventure and adventurers",
+      "550 BT Games"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Triton (Drone aircraft) [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003953",
-    "recordIdApproved": "sh2021003953",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003953",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3250,40 +1666,16 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Triton (Drone aircraft) [Not Subd Geog]",
-        "lineLength": 42
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF MQ-4C (Drone aircraft)",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Drone aircraft",
-        "lineLength": 20
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Northrop aircraft",
-        "lineLength": 23
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Reconnaissance aircraft",
-        "lineLength": 29
-      }
+    "lines": [
+      "150 Triton (Drone aircraft) [Not Subd Geog]",
+      "450 UF MQ-4C (Drone aircraft)",
+      "550 BT Drone aircraft",
+      "550 BT Northrop aircraft",
+      "550 BT Reconnaissance aircraft"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Uirō family [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006870",
-    "recordIdApproved": "sh2021006870",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006870",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3294,25 +1686,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "100",
-        "fieldContent": "Uirō family [Not Subd Geog]",
-        "lineLength": 30
-      },
-      {
-        "fieldNumber": "072",
-        "fieldContent": "H 1120",
-        "lineLength": 9
-      }
+    "lines": [
+      "100 Uirō family [Not Subd Geog]",
+      "072 H 1120"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Victory in literature [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006781",
-    "recordIdApproved": "sh2021006781",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006781",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3323,20 +1703,12 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Victory in literature [Not Subd Geog]",
-        "lineLength": 40
-      }
+    "lines": [
+      "150 Victory in literature [Not Subd Geog]"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Wadāghīr (Arab people) [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021004171",
-    "recordIdApproved": "sh2021004171",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004171",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3347,45 +1719,17 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Wadāghīr (Arab people) [May Subd Geog]",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "DT313.5.W33",
-        "lineLength": 14
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Al-Wadāghīr (Arab people)",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Shurafāʼ al-wadāghīr (Arab people)",
-        "lineLength": 40
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Arabs",
-        "lineLength": 11
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Ethnology--Morocco",
-        "lineLength": 24
-      }
+    "lines": [
+      "150 Wadāghīr (Arab people) [May Subd Geog]",
+      "053 DT313.5.W33",
+      "450 UF Al-Wadāghīr (Arab people)",
+      "450 UF Shurafāʼ al-wadāghīr (Arab people)",
+      "550 BT Arabs",
+      "550 BT Ethnology--Morocco"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Water crimes [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006884",
-    "recordIdApproved": "sh2021006884",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006884",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3396,45 +1740,17 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Water crimes [May Subd Geog]",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "HV6408-HV6408.3",
-        "lineLength": 18
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Crimes against water",
-        "lineLength": 26
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Offences against water",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Water-related crimes",
-        "lineLength": 26
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Offenses against the environment",
-        "lineLength": 38
-      }
+    "lines": [
+      "150 Water crimes [May Subd Geog]",
+      "053 HV6408-HV6408.3",
+      "450 UF Crimes against water",
+      "450 UF Offences against water",
+      "450 UF Water-related crimes",
+      "550 BT Offenses against the environment"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Wetter family [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2018001240",
-    "recordIdApproved": "sh2018001240",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2018001240",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3445,25 +1761,13 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "100",
-        "fieldContent": "Wetter family [Not Subd Geog]",
-        "lineLength": 32
-      },
-      {
-        "fieldNumber": "072",
-        "fieldContent": "H 1120",
-        "lineLength": 9
-      }
+    "lines": [
+      "100 Wetter family [Not Subd Geog]",
+      "072 H 1120"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Women antiheroes",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003800",
-    "recordIdApproved": "sh2021003800",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003800",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3474,30 +1778,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Women antiheroes",
-        "lineLength": 19
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Female antiheroes",
-        "lineLength": 23
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Antiheroes",
-        "lineLength": 16
-      }
+    "lines": [
+      "150 Women antiheroes",
+      "450 UF Female antiheroes",
+      "550 BT Antiheroes"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Women antiheroes on television [Not Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp2021003801",
-    "recordIdApproved": "sh2021003801",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003801",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3508,30 +1796,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "Women antiheroes on television [Not Subd Geog]",
-        "lineLength": 49
-      },
-      {
-        "fieldNumber": "053",
-        "fieldContent": "PN1992.8.A65",
-        "lineLength": 15
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Television",
-        "lineLength": 16
-      }
+    "lines": [
+      "150 Women antiheroes on television [Not Subd Geog]",
+      "053 PN1992.8.A65",
+      "550 BT Television"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "World game (Simulation game)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021005035",
-    "recordIdApproved": "sh2021005035",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005035",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3542,35 +1814,15 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "World game (Simulation game)",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF Buckminster Fuller's world game (Simulation game)",
-        "lineLength": 55
-      },
-      {
-        "fieldNumber": "450",
-        "fieldContent": "UF World Peace game (Simulation game)",
-        "lineLength": 40
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Simulation games",
-        "lineLength": 22
-      }
+    "lines": [
+      "150 World game (Simulation game)",
+      "450 UF Buckminster Fuller's world game (Simulation game)",
+      "450 UF World Peace game (Simulation game)",
+      "550 BT Simulation games"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "World War, 1939-1945--Food supply [May Subd Geog]",
-    "headingOld": null,
-    "recordIdProposed": "sp85148413",
-    "recordIdApproved": "sh85148413",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85148413",
     "statusNewHeading": false,
     "statusChangedHeading": false,
@@ -3581,30 +1833,14 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "150",
-        "fieldContent": "World War, 1939-1945--Food supply [May Subd Geog]",
-        "lineLength": 52
-      },
-      {
-        "fieldNumber": "681",
-        "fieldContent": "Example under Food relief; Food supply DELETE FIELD",
-        "lineLength": 54
-      },
-      {
-        "fieldNumber": "681",
-        "fieldContent": "Example under Food relief; Food supply; Food supply and war ADD FIELD",
-        "lineLength": 72
-      }
+    "lines": [
+      "150 World War, 1939-1945--Food supply [May Subd Geog]",
+      "681 Example under Food relief; Food supply DELETE FIELD",
+      "681 Example under Food relief; Food supply; Food supply and war ADD FIELD"
     ]
   },
   {
     "recordType": "mainSubjectHeadings",
-    "heading": "Zitadelle Petersberg (Erfurt, Germany)",
-    "headingOld": null,
-    "recordIdProposed": "sp2021006794",
-    "recordIdApproved": "sh2021006794",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006794",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3615,40 +1851,16 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "151",
-        "fieldContent": "Zitadelle Petersberg (Erfurt, Germany)",
-        "lineLength": 41
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Citadelle Petersberg (Erfurt, Germany)",
-        "lineLength": 44
-      },
-      {
-        "fieldNumber": "451",
-        "fieldContent": "UF Petersberg Citadel (Erfurt, Germany)",
-        "lineLength": 42
-      },
-      {
-        "fieldNumber": "550",
-        "fieldContent": "BT Fortification--Germany",
-        "lineLength": 28
-      },
-      {
-        "fieldNumber": "667",
-        "fieldContent": "This heading is not valid for use as a geographic subdivision.",
-        "lineLength": 65
-      }
+    "lines": [
+      "151 Zitadelle Petersberg (Erfurt, Germany)",
+      "451 UF Citadelle Petersberg (Erfurt, Germany)",
+      "451 UF Petersberg Citadel (Erfurt, Germany)",
+      "550 BT Fortification--Germany",
+      "667 This heading is not valid for use as a geographic subdivision."
     ]
   },
   {
     "recordType": "genreFormTerms",
-    "heading": "Cue sheets (Music)",
-    "headingOld": null,
-    "recordIdProposed": "gp2021026020",
-    "recordIdApproved": "gf2021026020",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2021026020",
     "statusNewHeading": true,
     "statusChangedHeading": false,
@@ -3659,22 +1871,10 @@
     "statusUpdatedGeog": false,
     "statusAddedGeog": false,
     "statusDeletedGeog": false,
-    "allFields": [
-      {
-        "fieldNumber": "155",
-        "fieldContent": "Cue sheets (Music)",
-        "lineLength": 21
-      },
-      {
-        "fieldNumber": "455",
-        "fieldContent": "UF Thematic music cue sheets",
-        "lineLength": 31
-      },
-      {
-        "fieldNumber": "555",
-        "fieldContent": "BT Records (Documents)",
-        "lineLength": 25
-      }
+    "lines": [
+      "155 Cue sheets (Music)",
+      "455 UF Thematic music cue sheets",
+      "555 BT Records (Documents)"
     ]
   }
 ]

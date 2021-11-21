@@ -18,10 +18,6 @@ soup = BeautifulSoup(htmlText, 'html.parser')
 def initNewRec(recordType):
     return {
         "recordType": recordType,
-        "heading": None,
-        "headingOld": None,
-        "recordIdProposed": None,
-        "recordIdApproved": None,
         "linkedDataURI": None,
         "statusNewHeading": False,
         "statusChangedHeading": False,
@@ -32,24 +28,24 @@ def initNewRec(recordType):
         "statusUpdatedGeog": False,
         "statusAddedGeog": False,
         "statusDeletedGeog": False,
-        "allFields": []
+        "lines": []
     }
 
 def squashSpaces(s):
     return " ".join(s.split())
 
-def extractRecordId(fc):
-    outputString = fc
+def extractRecordId(string):
+    outputString = string
     outputRecordId = None
     pattern = r"\[(sp|gp|dp|pp).+]"
-    found = re.search(pattern, fc)
-    if not found: raise Exception("Expected field content to contain a record ID: ", fc)
-    outputString = re.sub(pattern, "", fc).strip()
+    found = re.search(pattern, string)
+    if not found: raise Exception("Expected field content to contain a record ID: ", string)
+    outputString = re.sub(pattern, "", string).strip()
     # remove stray spaces, opening and closing bracket
     outputRecordId = found.group().replace(" ", "")[1:-1]
     return outputString, outputRecordId
 
-def getIdAndURI(recordIdProposed, currentRecordType):
+def getURI(recordIdProposed, currentRecordType):
     if currentRecordType == "mainSubjectHeadings":
         recordIdApproved = recordIdProposed.replace("sp", "sh")
         linkedDataURI = "http://id.loc.gov/authorities/subjects/" + recordIdApproved
@@ -65,7 +61,7 @@ def getIdAndURI(recordIdProposed, currentRecordType):
     elif currentRecordType == "demographicGroupTerms":
         recordIdApproved = recordIdProposed.replace("dp", "dg")
         linkedDataURI = "http://id.loc.gov/authorities/demographicTerms" + recordIdApproved
-    return recordIdApproved, linkedDataURI
+    return linkedDataURI
 
 records = []
 currentRecordType = "mainSubjectHeadings" # LOC always starts with this?
@@ -91,21 +87,17 @@ for tr in soup.select("body > table > tr"):
             if fn[0] != "1": raise Exception("Expected record to start with 1xx, instead: ", fn)
             if changeHeadingLine: # 1xx for changed heading; represents old heading
                 newRecord["statusChangedHeading"] = True
-                newRecord["headingOld"] = fc
-                newRecord["allFields"].append({"fieldNumber": fn, "fieldContent": fc, "lineLength": len(fn + fc)})
+                newRecord["lines"].append(fn + " " + fc)
             else: # 1xx for non-changed heading
                 if cancelHeadingLine: newRecord["statusCancelledHeading"] = True
                 if addGeogLine or deleteGeogLine:
                     newRecord["statusUpdatedGeog"] = True
                     if addGeogLine: newRecord["statusAddedGeog"] = True
                     if deleteGeogLine: newRecord["statusDeletedGeog"] = True
-                heading, recordIdProposed = extractRecordId(fc)
-                recordIdApproved, linkedDataURI = getIdAndURI(recordIdProposed, currentRecordType)
-                newRecord["heading"] = heading
-                newRecord["recordIdProposed"] = recordIdProposed
-                newRecord["recordIdApproved"] = recordIdApproved
+                fcNew, recordIdProposed = extractRecordId(fc)
+                linkedDataURI = getURI(recordIdProposed, currentRecordType)
                 newRecord["linkedDataURI"] = linkedDataURI
-                newRecord["allFields"].append({"fieldNumber": fn, "fieldContent": heading, "lineLength": len(fn + heading)})
+                newRecord["lines"].append(fn + " " + fcNew)
         else: # blank rows
             continue
     else:
@@ -117,19 +109,16 @@ for tr in soup.select("body > table > tr"):
                     newRecord["statusUpdatedGeog"] = True
                     if addGeogLine: newRecord["statusAddedGeog"] = True
                     if deleteGeogLine: newRecord["statusDeletedGeog"] = True
-                heading, recordIdProposed = extractRecordId(fc)
-                recordIdApproved, linkedDataURI = getIdAndURI(recordIdProposed, currentRecordType)
-                newRecord["heading"] = heading
-                newRecord["recordIdProposed"] = recordIdProposed
-                newRecord["recordIdApproved"] = recordIdApproved
+                fcNew, recordIdProposed = extractRecordId(fc)
+                linkedDataURI = getURI(recordIdProposed, currentRecordType)
                 newRecord["linkedDataURI"] = linkedDataURI
-                newRecord["allFields"].append({"fieldNumber": fn, "fieldContent": heading, "lineLength": len(fn + heading)})
+                newRecord["lines"].append(fn + " " + fcNew)
             else: # non-1xx lines
                 if addFieldLine or deleteFieldLine:
                     newRecord["statusUpdatedField"] = True
                     if addFieldLine: newRecord["statusAddedField"] = True
                     if deleteFieldLine: newRecord["statusDeletedField"] = True
-                newRecord["allFields"].append({"fieldNumber": fn, "fieldContent": fc, "lineLength": len(fn + fc)})
+                newRecord["lines"].append(fn + " " + fc)
         else:
             addingRecord = False # done adding record
             if not (newRecord["statusChangedHeading"] or newRecord["statusCancelledHeading"] or newRecord["statusUpdatedField"] or newRecord["statusUpdatedGeog"]): newRecord["statusNewHeading"] = True
@@ -148,9 +137,9 @@ print(
     "----------------------------------",
     "New headings:                 " + str(len([rec for rec in records if rec["statusNewHeading"]])),
     "Changed headings:             " + str(len([rec for rec in records if rec["statusChangedHeading"]])),
-    "Cancelled headings:           " + str(len([rec for rec in records if rec["statusCancelledHeading"]])),
     "├──With added geog:           " + str(len([rec for rec in records if (rec["statusAddedGeog"] and rec["statusChangedHeading"])])),
     "└──With deleted geog:         " + str(len([rec for rec in records if (rec["statusDeletedGeog"] and rec["statusChangedHeading"])])),
+    "Cancelled headings:           " + str(len([rec for rec in records if rec["statusCancelledHeading"]])),
     "With other changes:           " + str(len([rec for rec in records if (rec["statusUpdatedField"] or rec["statusUpdatedGeog"] and not rec["statusChangedHeading"])])),
     "├──With added field(s):       " + str(len([rec for rec in records if rec["statusAddedField"]])),
     "├──With deleted field(s):     " + str(len([rec for rec in records if rec["statusDeletedField"]])),
