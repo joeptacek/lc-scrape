@@ -7,9 +7,12 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-# optionally retrieve HTML via network request
-# targetURL = "https://classweb.org/approved-subjects/2109.html"
-# htmlText = requests.get(targetURL).text
+# eventually get both of these from args
+approvalDate = "September 17, 2021"
+approvalURL = "https://classweb.org/approved-subjects/2109.html"
+
+# eventually retrieve HTML via network request
+# htmlText = requests.get(approvalURL).text
 
 # just grabbing HTML from local files for now
 htmlText = codecs.open("lcsh-html/2109.html", "r", "utf-8").read()
@@ -124,6 +127,37 @@ for tr in soup.select("body > table > tr"):
             if not (newRecord["statusChangedHeading"] or newRecord["statusCancelledHeading"] or newRecord["statusUpdatedField"] or newRecord["statusUpdatedGeog"]): newRecord["statusNewHeading"] = True
             records.append(newRecord)
 
+allTweetThreads = []
+for record in records:
+    if record["recordType"] == "mainSubjectHeadings": hashtags = "#newLCSH"
+    if record["recordType"] == "genreFormTerms": hashtags = "newLCGFT"
+    if record["recordType"] == "childrensSubjectHeadings": hashtags = "#newLCSHAC"
+    if record["recordType"] == "mediumOfPerformanceTerms": hashtags = "#newLCMPT"
+    if record["recordType"] == "demographicGroupTerms": hashtags = "#newLCDGT"
+    if record["statusNewHeading"]: hashtags += " #newHeading"
+    if record["statusChangedHeading"]: hashtags += " #changedHeading"
+    if record["statusCancelledHeading"]: hashtags += " #cancelledHeading"
+    if record["statusUpdatedField"]: hashtags += " #updatedField"
+    if record["statusUpdatedGeog"]: hashtags += " #updatedGeog"
+
+    approvedDateTweet = f"Approved on {approvalDate} →\n{approvalURL}"
+    linkedDataTweet = f"LC linked data service entry →\n{record['linkedDataURI']}"
+
+    tweetThread = []
+    for index, line in enumerate(record["lines"]):
+        if index == 0:
+            tweet = f"{line}\n{hashtags}"
+        elif index == 1 and record["statusChangedHeading"]:
+            tweet = f"New heading →\n{line}"
+        else:
+            tweet = line
+        tweetThread.append(tweet)
+
+    tweetThread.append(approvedDateTweet)
+    tweetThread.append(linkedDataTweet)
+
+    allTweetThreads.append(tweetThread)
+
 # print(json.dumps(records, indent=2, ensure_ascii=False))
 print(
     "----------------------------------",
@@ -149,8 +183,11 @@ print(
     sep="\n"
 )
 
-with open('output.json', 'w') as outfile:
+with open('output-scrape.json', 'w') as outfile:
     json.dump(records, outfile, indent=2, ensure_ascii=False)
+
+with open('output-tweets.json', 'w') as outfile:
+    json.dump(allTweetThreads, outfile, indent=2, ensure_ascii=False)
 
 # CHANGE HEADING always on first line with old heading; record never (?) includes by ADD/DELETE FIELD; record sometimes (rarely) includes ADD/DELETE GEOG (on second with new heading)
 # CANCEL HEADING always brief

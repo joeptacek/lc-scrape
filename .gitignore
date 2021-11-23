@@ -1,3 +1,4 @@
 env/
 .DS_Store
-output.json
+output-scrape.json
+output-tweets.json
