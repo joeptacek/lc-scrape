@@ -2,6 +2,7 @@
 import codecs
 import json
 import re
+import textwrap
 
 # installed packages
 import requests
@@ -15,7 +16,7 @@ approvalURL = "https://classweb.org/approved-subjects/2109.html"
 # htmlText = requests.get(approvalURL).text
 
 # just grabbing HTML from local files for now
-htmlText = codecs.open("lcsh-html/2109.html", "r", "utf-8").read()
+htmlText = codecs.open("lcsh-html/2111b.html", "r", "utf-8").read()
 soup = BeautifulSoup(htmlText, 'html.parser')
 
 def initNewRec(recordType):
@@ -31,6 +32,7 @@ def initNewRec(recordType):
         "statusUpdatedGeog": False,
         "statusAddedGeog": False,
         "statusDeletedGeog": False,
+        "statusChangedGeog": False,
         "lines": []
     }
 
@@ -80,6 +82,7 @@ for tr in soup.select("body > table > tr"):
     deleteFieldLine = True if "DELETE FIELD" in tr.text else False
     addGeogLine = True if "ADD GEOG" in tr.text else False
     deleteGeogLine = True if "DELETE GEOG" in tr.text else False
+    changeGeogLine = True if "CHANGE GEOG" in tr.text else False
 
     if addingRecord == False:
         if tr.select_one("table"): # beginning new record, first line (1xx)
@@ -93,10 +96,11 @@ for tr in soup.select("body > table > tr"):
                 newRecord["lines"].append(fn + " " + fc)
             else: # 1xx for non-changed heading
                 if cancelHeadingLine: newRecord["statusCancelledHeading"] = True
-                if addGeogLine or deleteGeogLine:
+                if addGeogLine or deleteGeogLine or changeGeogLine:
                     newRecord["statusUpdatedGeog"] = True
                     if addGeogLine: newRecord["statusAddedGeog"] = True
                     if deleteGeogLine: newRecord["statusDeletedGeog"] = True
+                    if changeGeogLine: newRecord["statusChangedGeog"] = True
                 fcNew, recordIdProposed = extractRecordId(fc)
                 linkedDataURI = getURI(recordIdProposed, currentRecordType)
                 newRecord["linkedDataURI"] = linkedDataURI
@@ -108,10 +112,11 @@ for tr in soup.select("body > table > tr"):
             fn = tr.select_one("td > table > tr > td:first-child").get_text()
             fc = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
             if fn[0] == "1": # 1xx after changed heading; represents new heading
-                if addGeogLine or deleteGeogLine:
+                if addGeogLine or deleteGeogLine or changeGeogLine:
                     newRecord["statusUpdatedGeog"] = True
                     if addGeogLine: newRecord["statusAddedGeog"] = True
                     if deleteGeogLine: newRecord["statusDeletedGeog"] = True
+                    if changeGeogLine: newRecord["statusChangedGeog"] = True
                 fcNew, recordIdProposed = extractRecordId(fc)
                 linkedDataURI = getURI(recordIdProposed, currentRecordType)
                 newRecord["linkedDataURI"] = linkedDataURI
@@ -146,12 +151,19 @@ for record in records:
     tweetThread = []
     for index, line in enumerate(record["lines"]):
         if index == 0:
-            tweet = f"{line}\n{hashtags}"
+            tweetThread.append(f"{line}\n{hashtags}")
         elif index == 1 and record["statusChangedHeading"]:
-            tweet = f"New heading →\n{line}"
+            tweetThread.append(f"New heading →\n{line}")
         else:
-            tweet = line
-        tweetThread.append(tweet)
+            # maybe be more conservative just in case
+            chunks = textwrap.wrap(line, 274)
+            if len(chunks) == 1:
+                tweetThread.append(chunks[0])
+            else:
+                tweetThread.append(chunks[0] + " [...]")
+                for chunk in chunks[1:-1]:
+                    tweetThread.append("[...] " + chunk + " [...]")
+                tweetThread.append("[...] " + chunks[-1])
 
     tweetThread.append(approvedDateTweet)
     tweetThread.append(linkedDataTweet)
@@ -172,13 +184,15 @@ print(
     "New headings:                 " + str(len([rec for rec in records if rec["statusNewHeading"]])),
     "Changed headings:             " + str(len([rec for rec in records if rec["statusChangedHeading"]])),
     "├──With added geog:           " + str(len([rec for rec in records if (rec["statusAddedGeog"] and rec["statusChangedHeading"])])),
-    "└──With deleted geog:         " + str(len([rec for rec in records if (rec["statusDeletedGeog"] and rec["statusChangedHeading"])])),
+    "├──With deleted geog:         " + str(len([rec for rec in records if (rec["statusDeletedGeog"] and rec["statusChangedHeading"])])),
+    "└──With changed geog:         " + str(len([rec for rec in records if (rec["statusChangedGeog"] and rec["statusChangedHeading"])])),
     "Cancelled headings:           " + str(len([rec for rec in records if rec["statusCancelledHeading"]])),
     "With other changes:           " + str(len([rec for rec in records if (rec["statusUpdatedField"] or rec["statusUpdatedGeog"] and not rec["statusChangedHeading"])])),
     "├──With added field(s):       " + str(len([rec for rec in records if rec["statusAddedField"]])),
     "├──With deleted field(s):     " + str(len([rec for rec in records if rec["statusDeletedField"]])),
     "├──With added geog:           " + str(len([rec for rec in records if (rec["statusAddedGeog"] and not rec["statusChangedHeading"])])),
-    "└──With deleted geog:         " + str(len([rec for rec in records if (rec["statusDeletedGeog"] and not rec["statusChangedHeading"])])),
+    "├──With deleted geog:         " + str(len([rec for rec in records if (rec["statusDeletedGeog"] and not rec["statusChangedHeading"])])),
+    "└──With changed geog:         " + str(len([rec for rec in records if (rec["statusChangedGeog"] and not rec["statusChangedHeading"])])),
     "----------------------------------",
     sep="\n"
 )
