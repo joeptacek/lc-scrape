@@ -135,7 +135,7 @@ for tr in soup.select("body > table > tr"):
 allTweetThreads = []
 for record in records:
     if record["recordType"] == "mainSubjectHeadings": hashtags = "#newLCSH"
-    if record["recordType"] == "genreFormTerms": hashtags = "newLCGFT"
+    if record["recordType"] == "genreFormTerms": hashtags = "#newLCGFT"
     if record["recordType"] == "childrensSubjectHeadings": hashtags = "#newLCSHAC"
     if record["recordType"] == "mediumOfPerformanceTerms": hashtags = "#newLCMPT"
     if record["recordType"] == "demographicGroupTerms": hashtags = "#newLCDGT"
