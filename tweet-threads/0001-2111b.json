@@ -1,0 +1,505 @@
+[
+  [
+    "150 African Americans [May Subd Geog]\n#newLCSH #updatedField",
+    "680 Here are entered works on citizens of the United States of black African descent. Works on blacks who temporarily reside in the United States, such as aliens, students from abroad, etc., are entered under Blacks--United States. Works on blacks outside the United States...",
+    "...are entered under Blacks--[place]. DELETE FIELD\n680 Here are entered works on citizens of the United States of black African descent. Works on blacks who temporarily reside in the United States, such as noncitizens, students from abroad, etc., are entered under...",
+    "...Blacks--United States. Works on blacks outside the United States are entered under Blacks--[place]. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85001932"
+  ],
+  [
+    "150 Alien criminals CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizen criminals [May Subd Geog]",
+    "450 UF Alien criminals [Former heading]\n450 UF Alien labor criminals [Former heading]\n450 UF Criminal noncitizens\n450 UF Foreign criminals\n450 UF Immigrant criminals (Noncitizen criminals)\n550 BT Criminals",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003532"
+  ],
+  [
+    "150 Alien detention centers CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizen detention centers [May Subd Geog]",
+    "450 UF Alien detention centers [Former heading]\n450 UF Detention centers, Immigration\n450 UF Detention centers, Noncitizen\n450 UF Immigration detention centers\n550 BT Detention of persons\n550 RT Illegal immigration",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh97006426"
+  ],
+  [
+    "150 Alien property [May Subd Geog]\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003534"
+  ],
+  [
+    "150 Aliens CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens [May Subd Geog]",
+    "450 UF Aliens [Former heading]\n450 UF Enemy aliens\n450 UF Expatriates\n450 UF Foreign population\n450 UF Foreign residents\n450 UF Foreigners\n450 UF Illegal aliens [Former heading]\n450 UF Illegal immigrants\n450 UF Non-citizens\n450 UF Noncitizens--Legal status, laws, etc.\n450...",
+    "...UF Resident aliens\n450 UF Unauthorized immigrants\n450 UF Undocumented aliens\n450 UF Undocumented immigrants\n450 UF Unnaturalized foreign residents\n550 BT Persons\n680 Here are entered works on persons who are not citizens of the country in which they reside. When this...",
+    "...heading is assigned to works on noncitizens who permanently or temporarily relocate across national borders without complying with the legal requirements of the destination country, the heading Illegal immigration is also assigned.\n680 Works on those persons who have no...",
+    "...citizenship are entered under Stateless persons.\n681 Note under Illegal immigration; Stateless persons\n681 Example under Status (Law)",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003545"
+  ],
+  [
+    "150 Aliens--China CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--China",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003550"
+  ],
+  [
+    "150 Aliens--Confederate States of America CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Confederate States of America",
+    "451 UF Confederate States of America--Foreign population [Former heading]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh87000557"
+  ],
+  [
+    "150 Aliens--Great Britain CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Great Britain",
+    "451 UF Great Britain--Foreign population [Former heading]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh87000558"
+  ],
+  [
+    "150 Aliens--Housing CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Housing [May Subd Geog]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh89005761"
+  ],
+  [
+    "150 Aliens--Housing--Great Britain CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Housing--Great Britain",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh87000559"
+  ],
+  [
+    "150 Aliens--Medical care CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Medical care [May Subd Geog]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003546"
+  ],
+  [
+    "150 Aliens--Medical care--Law and legislation CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Medical care--Law and legislation [May Subd Geog]",
+    "550 BT Medical laws and legislation",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003547"
+  ],
+  [
+    "150 Aliens--Medical examinations CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Medical examinations [May Subd Geog]",
+    "450 UF Medical inspection of noncitizens",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85082948"
+  ],
+  [
+    "150 Aliens--Mental health CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Mental health [May Subd Geog]",
+    "053 RC451.4.E45",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003548"
+  ],
+  [
+    "150 Aliens--Political activity CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Political activity [May Subd Geog]",
+    "681 Example under Status (Law)",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003549"
+  ],
+  [
+    "150 Aliens--Suffrage CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Suffrage [May Subd Geog]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh87003058"
+  ],
+  [
+    "150 Aliens--Taxation CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Taxation [May Subd Geog]",
+    "450 UF Taxation of aliens [Former heading]\n450 UF Taxation of noncitizens",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85132877"
+  ],
+  [
+    "150 Aliens--Taxation--Law and legislation CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--Taxation--Law and legislation [May Subd Geog]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh95007733"
+  ],
+  [
+    "150 Aliens--United States CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--United States",
+    "451 UF United States--Foreign population [Former heading]\n451 UF United States--Noncitizens",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003551"
+  ],
+  [
+    "150 Aliens--United States--Identification CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--United States--Identification",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh96006638"
+  ],
+  [
+    "150 Aliens--United States--Juvenile literature CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens--United States--Juvenile literature",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh87000560"
+  ],
+  [
+    "150 Aliens (Greek law) CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens (Greek law)",
+    "450 UF Aliens (Greek law) [Former heading]\n550 BT Law, Greek",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003554"
+  ],
+  [
+    "150 Aliens in art CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens in art [Not Subd Geog]",
+    "450 UF Aliens in art [Former heading]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh98004165"
+  ],
+  [
+    "150 Aliens in literature CANCEL HEADING\n#newLCSH #cancelledHeading",
+    "682 This authority record has been deleted because the heading is covered by the subject heading Noncitizens in literature (DLC)sh2016000795",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003558"
+  ],
+  [
+    "150 Aliens in mass media CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens in mass media [Not Subd Geog]",
+    "450 UF Aliens in mass media [Former heading]\n550 BT Mass media",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2013002183"
+  ],
+  [
+    "150 Aliens in motion pictures CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens in motion pictures [Not Subd Geog]",
+    "053 PN1995.9.A48\n450 UF Aliens in motion pictures [Former heading]\n550 BT Motion pictures\n680 Here are entered works on the portrayal of noncitizens in motion pictures.",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh97002436"
+  ],
+  [
+    "150 Aliens (Islamic law) CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens (Islamic law) [May Subd Geog]",
+    "450 UF Aliens (Islamic law) [Former heading]\n550 BT Islamic law",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003555"
+  ],
+  [
+    "150 Aliens (Jewish law) CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens (Jewish law)",
+    "450 UF Aliens (Jewish law) [Former heading]\n550 BT Jewish law",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003556"
+  ],
+  [
+    "150 Aliens (Roman law) CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Noncitizens (Roman law)",
+    "450 UF Aliens (Roman law) [Former heading]\n550 BT Roman law",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003557"
+  ],
+  [
+    "150 Blacks--United States\n#newLCSH #updatedField",
+    "680 Here are entered works on blacks who temporarily reside in the United States, such as aliens, students from abroad, etc. Works on citizens of the United States of black African descent are entered under African Americans. DELETE FIELD\n680 Here are entered works on...",
+    "...blacks who temporarily reside in the United States, such as noncitizens, students from abroad, etc. Works on citizens of the United States of black African descent are entered under African Americans. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh90001208"
+  ],
+  [
+    "150 Brokers' medals [May Subd Geog]\n#newLCSH #updatedField",
+    "680 Here are entered works on medals that licensed Jews and aliens to broker on London's Royal Exchange in the 18th century. DELETE FIELD\n680 Here are entered works on medals that licensed Jews and noncitizens to broker on London's Royal Exchange in the 18th century. ADD...",
+    "...FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2009000858"
+  ],
+  [
+    "150 Children of illegal aliens CANCEL HEADING\n#newLCSH #cancelledHeading",
+    "682 This authority record has been deleted because the heading is covered by the subject headings Children of noncitizens (DLC)sh2016000741 and Illegal immigration (DLC)sh2016000739",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2011000897"
+  ],
+  [
+    "150 Children of illegal aliens--Education CHANGE HEADING\n#newLCSH #changedHeading #updatedGeog",
+    "New heading →\n150 Children of noncitizens--Education [May Subd Geog] ADD GEOG",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2011003415"
+  ],
+  [
+    "150 Children of illegal aliens--Education--Law and legislation CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Children of noncitizens--Education--Law and legislation [May Subd Geog]",
+    "550 BT Educational law and legislation",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2011003293"
+  ],
+  [
+    "150 Children of noncitizens [May Subd Geog]\n#newLCSH #newHeading",
+    "450 UF Children of illegal aliens [Former heading]\n450 UF First generation children\n450 UF Noncitizens' children\n450 UF Second generation children\n550 BT Noncitizens\n680 Here are entered works on the children of noncitizens. When this heading is assigned to works on...",
+    "...children whose parents immigrate illegally, the heading Illegal immigration is also assigned.",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2016000741"
+  ],
+  [
+    "151 China--Officials and employees, Alien CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n151 China--Officials and employees, Noncitizen",
+    "550 BT Noncitizens--China",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85024152"
+  ],
+  [
+    "150 Church work with aliens CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens [May Subd Geog]",
+    "053 BV639.I4\n450 UF Church work with aliens [Former heading]\n450 UF Church work with foreigners [Former heading]\n550 BT Noncitizens",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85025797"
+  ],
+  [
+    "150 Church work with aliens--Baptists CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Baptists",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007106"
+  ],
+  [
+    "150 Church work with aliens--Catholic Church CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Catholic Church",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007107"
+  ],
+  [
+    "150 Church work with aliens--Church of the Nazarene CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Church of the Nazarene",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007108"
+  ],
+  [
+    "150 Church work with aliens--Lutheran Church CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Lutheran Church",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007109"
+  ],
+  [
+    "150 Church work with aliens--Methodist Church CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Methodist Church",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007110"
+  ],
+  [
+    "150 Church work with aliens--Protestant churches CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Protestant churches",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007111"
+  ],
+  [
+    "150 Church work with aliens--Seventh-Day Adventists CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Seventh-Day Adventists",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007112"
+  ],
+  [
+    "150 Church work with aliens--Taehan Yesugyo Changnohoe CHANGE HEADING\n#newLCSH #changedHeading",
+    "New heading →\n150 Church work with noncitizens--Taehan Yesugyo Changnohoe",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2021007113"
+  ],
+  [
+    "150 Corporations, Foreign [May Subd Geog]\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD\n550 BT Investments, Foreign DELETE FIELD\n550 RT Corporations--Nationality DELETE FIELD\n680 Here are entered works on corporations operating in countries (or states of the United States) other than those countries (or states of the United States)...",
+    "...under whose laws they were organized. Works on corporations organized under the laws of an individual country and operating outside that country are entered under headings of the type Corporations, [nationality], with further subdivision by place, if any, in which the...",
+    "...corporations are operating, e.g. Corporations, American--France. DELETE FIELD\n680 Here are entered works on corporations operating in countries (or states of the United States) other than those countries (or states of the United States) under whose laws they were organized....",
+    "...Works on corporations organized under the laws of an individual country and operating outside that country are entered under headings of the type Corporations, [nationality], with further subdivision by place, if any, in which the corporations are operating, e.g....",
+    "...Corporations, American--France. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85032974"
+  ],
+  [
+    "150 Deportees [May Subd Geog]\n#newLCSH #updatedField",
+    "550 RT Aliens DELETE FIELD\n550 RT Exiles DELETE FIELD\n550 RT Refugees DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2010001818"
+  ],
+  [
+    "150 Drago doctrine\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85039274"
+  ],
+  [
+    "150 Droit d'aubaine\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85039617"
+  ],
+  [
+    "150 Exiles [May Subd Geog]\n#newLCSH #updatedField",
+    "550 RT Aliens DELETE FIELD\n550 RT Deportees DELETE FIELD\n550 RT Refugees DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85046366"
+  ],
+  [
+    "150 Foreign radio stations [May Subd Geog]\n#newLCSH #updatedField",
+    "450 UF Alien radio stations DELETE FIELD\n450 UF Radio stations, Foreign DELETE FIELD\n550 BT Radio stations ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85050518"
+  ],
+  [
+    "150 Foreign spouses [May Subd Geog]\n#newLCSH #updatedField",
+    "450 UF Alien spouses DELETE FIELD\n450 UF Noncitizen spouses ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2004001363"
+  ],
+  [
+    "150 Foreign workers [May Subd Geog]\n#newLCSH #updatedField",
+    "450 UF Aliens--Employment DELETE FIELD\n450 UF Noncitizen labor ADD FIELD\n450 UF Noncitizens--Employment ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003502"
+  ],
+  [
+    "150 Green cards [May Subd Geog]\n#newLCSH #updatedField",
+    "450 UF Permanent resident cards ADD FIELD\n550 BT Aliens--United States--Identification DELETE FIELD\n550 BT Noncitizens--United States--Identification ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh96004809"
+  ],
+  [
+    "150 Human smuggling [May Subd Geog]\n#newLCSH #updatedField",
+    "550 RT Illegal aliens DELETE FIELD\n550 RT Illegal immigration ADD FIELD\n680 Here are entered works on facilitating the entry of illegal aliens into a country with the objective of making a profit. Works on the coercive commercial trade in human beings for the purpose of...",
+    "...sexual or other exploitation are entered under Human trafficking. DELETE FIELD\n680 Here are entered works on facilitating the unauthorized entry of persons into a country with the objective of making a profit. Works on the coercive commercial trade in human beings for the...",
+    "...purpose of sexual or other exploitation are entered under Human trafficking. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2002001970"
+  ],
+  [
+    "150 Human trafficking [May Subd Geog]\n#newLCSH #updatedField",
+    "680 Here are entered works on the coercive commercial trade in human beings for the purpose of sexual or other exploitation. Works on facilitating the entry of illegal aliens into a country with the objective of making a profit are entered under Human smuggling. DELETE...",
+    "...FIELD\n680 Here are entered works on the coercive commercial trade in human beings for the purpose of sexual or other exploitation. Works on facilitating the unauthorized entry of noncitizens into a country with the objective of making a profit are entered under Human...",
+    "...smuggling. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2006002629"
+  ],
+  [
+    "150 Illegal alien children CANCEL HEADING\n#newLCSH #cancelledHeading",
+    "682 This authority record has been deleted because the heading is covered by Noncitizen children (DLC)2016000743 and Illegal immigration (DLC)2016000739",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2008002554"
+  ],
+  [
+    "150 Illegal aliens CANCEL HEADING\n#newLCSH #cancelledHeading",
+    "682 This authority record has been deleted because the heading is covered by the subject headings Noncitizens (DLC)sh 85003545 and Illegal immigration (DLC)sh2016000739",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003553"
+  ],
+  [
+    "150 Illegal aliens in literature CANCEL HEADING\n#newLCSH #cancelledHeading",
+    "682 This authority record has been deleted because the heading is covered by the subject headings Noncitizens in literature (DLC)sh 85003558 and Illegal immigration in literature (DLC)sh2016000742",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2009001797"
+  ],
+  [
+    "150 Illegal immigration [May Subd Geog]\n#newLCSH #newHeading",
+    "450 UF Children of illegal aliens [Former heading]\n450 UF Illegal alien children [Former heading]\n450 UF Illegal aliens [Former heading]\n450 UF Irregular migration\n450 UF Unauthorized immigration\n450 UF Undocumented immigration\n450 UF Women illegal aliens [Former heading]...",
+    "...550 BT Emigration and immigration\n550 RT Human smuggling\n550 RT Noncitizen detention centers\n680 Here are entered works on the act of permanently or temporarily relocating across national borders without complying with the legal requirements of the destination country. When...",
+    "...this heading is assigned to works on persons who immigrate illegally, the heading Noncitizens is also assigned.\n681 Note under Noncitizens; Children of noncitizens; Noncitizen children; Women noncitizens",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2016000739"
+  ],
+  [
+    "150 Illegal immigration in literature [Not Subd Geog]\n#newLCSH #newHeading",
+    "450 UF Illegal aliens in literature [Former heading]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2016000742"
+  ],
+  [
+    "150 Immigrants [May Subd Geog]\n#newLCSH #updatedField",
+    "550 RT Aliens DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85064517"
+  ],
+  [
+    "150 Noncitizen children [May Subd Geog]\n#newLCSH #newHeading",
+    "450 UF Illegal alien children [Former heading]\n450 UF Illegal immigrant children\n450 UF Unaccompanied alien children\n450 UF Undocumented child immigrants\n450 UF Undocumented children\n450 UF Undocumented immigrant children\n550 BT Children\n680 Here are entered works on...",
+    "...children who are not citizens of the country in which they reside. When this heading is assigned to works on children who permanently or temporarily relocate across national borders without complying with the legal requirements of the destination country, the heading...",
+    "...Illegal immigration is also assigned.\n681 Note under Illegal immigration",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2016000743"
+  ],
+  [
+    "150 Noncitizens in literature [May Subd Geog]\n#newLCSH #newHeading",
+    "450 UF Aliens in literature [Former heading]\n450 UF Illegal aliens in literature [Former heading]",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2016000795"
+  ],
+  [
+    "150 Pilgrims and pilgrimages--Law and legislation [May Subd Geog]\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85102132"
+  ],
+  [
+    "150 Refuge (Humanitarian assistance) [May Subd Geog]\n#newLCSH #updatedField",
+    "680 Here are entered works on the provision of shelter to illegal aliens or refugees. DELETE FIELD\n680 Here are entered works on the provision of shelter to persons who immigrate illegally, or to refugees. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85112295"
+  ],
+  [
+    "150 Refugees [May Subd Geog]\n#newLCSH #updatedField",
+    "550 RT Aliens DELETE FIELD\n550 RT Deportees DELETE FIELD\n550 RT Exiles DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85112299"
+  ],
+  [
+    "150 Repatriation [May Subd Geog]\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD\n550 BT Emigration and immigration DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85112903"
+  ],
+  [
+    "150 Sanctuary movement [May Subd Geog]\n#newLCSH #updatedField",
+    "680 Here are entered works on American religious congregations that publicly give shelter to illegal aliens or refugees from Central America. DELETE FIELD\n680 Here are entered works on American religious congregations that publicly give shelter to Central American refugees...",
+    "...or to Central Americans who illegally immigrate to the United States. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85117162"
+  ],
+  [
+    "150 Security for costs [May Subd Geog]\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD\n550 BT Security (Law) DELETE FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85119480"
+  ],
+  [
+    "150 Stateless persons [May Subd Geog]\n#newLCSH #updatedField",
+    "550 BT Aliens DELETE FIELD\n550 RT Statelessness DELETE FIELD\n550 BT Noncitizens ADD FIELD\n680 Here are entered works on those persons who have no citizenship. DELETE FIELD\n680 Here are entered works on those persons who have no citizenship. Works on persons who are not...",
+    "...citizens of the country in which they reside are entered under Noncitizens. ADD FIELD\n681 Note under Noncitizens ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh95008704"
+  ],
+  [
+    "150 Status (Law) [May Subd Geog]\n#newLCSH #updatedField",
+    "360 SA headings for special groups, e.g. Aliens; and subdivision Legal status, laws, etc. under names of other groups, e.g. Architects--Legal status, laws, etc.; Prisoners--Legal status, laws, etc. DELETE FIELD\n360 SA headings for special groups, e.g. Noncitizens; and...",
+    "...subdivision Legal status, laws, etc. under names of other groups, e.g. Architects--Legal status, laws, etc.; Prisoners--Legal status, laws, etc. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85127607"
+  ],
+  [
+    "150 Travel restrictions [May Subd Geog]\n#newLCSH #updatedField",
+    "450 UF Aliens--Travel restrictions DELETE FIELD\n450 UF Areas closed to aliens DELETE FIELD\n450 UF Areas restricted to aliens DELETE FIELD\n450 UF Restricted to aliens DELETE FIELD\n450 UF Areas closed to noncitizens ADD FIELD\n450 UF Areas restricted to noncitizens ADD FIELD...",
+    "...450 UF Noncitizens--Travel restrictions ADD FIELD\n450 UF Restricted to noncitizens ADD FIELD\n680 Here are entered works on restrictions of travel by aliens or other groups of people. DELETE FIELD\n680 Here are entered works on restrictions of travel by noncitizens or other...",
+    "...groups of people. ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85137166"
+  ],
+  [
+    "150 Travel restrictions--United States\n#newLCSH #updatedField",
+    "450 UF Noncitizens--United States--Travel restrictions ADD FIELD",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh85003552"
+  ],
+  [
+    "150 Women illegal aliens CANCEL HEADING\n#newLCSH #cancelledHeading",
+    "682 This authority record has been deleted because the heading is covered by the subject headings Women noncitizens (DLC)sh2016000740 and Illegal immigration (DLC)sh2016000739",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2001002003"
+  ],
+  [
+    "150 Women noncitizens [May Subd Geog]\n#newLCSH #newHeading",
+    "450 UF Women illegal aliens [Former heading]\n550 BT Noncitizens\n680 Here are entered works on women who are not citizens of the country in which they reside. When this heading is assigned to works on women who permanently or temporarily relocate across national borders...",
+    "...without complying with the legal requirements of the destination country, the heading Illegal immigration is also assigned.\n681 Note under Illegal immigration",
+    "Approved on November 12, 2021 →\nhttps://classweb.org/approved-subjects/2111b.html",
+    "LC linked data service entry →\nhttp://id.loc.gov/authorities/subjects/sh2016000740"
+  ]
+]

@@ -1,23 +1,28 @@
-# built-in modules
-import codecs
+# approved subject lists here: https://classweb.org/approved-subjects/
+#
+# example use:
+# python scrape.py lcsh-html/211b.html "November 12, 2021"
+# python scrape.py https://classweb.org/approved-subjects/2111b.html "November 12, 2021"
+
 import json
 import re
 import textwrap
-
-# installed packages
+import sys
 import requests
 from bs4 import BeautifulSoup
 
-# eventually get both of these from args
-approvalDate = "September 17, 2021"
-approvalURL = "https://classweb.org/approved-subjects/2109.html"
+# get html text from arg 1
+approvalURL = sys.argv[1]
+htmlText = requests.get(approvalURL).text
 
-# eventually retrieve HTML via network request
-# htmlText = requests.get(approvalURL).text
+# todo: save html file to lcsh-html archive
 
-# just grabbing HTML from local files for now
-htmlText = codecs.open("lcsh-html/2111b.html", "r", "utf-8").read()
-soup = BeautifulSoup(htmlText, 'html.parser')
+# can use local html for testing instead
+# import codecs
+# htmlText = codecs.open(lcsh-html/2111y.html, "r", "utf-8").read()
+
+# get date from arg 2
+approvalDate = sys.argv[2]
 
 def initNewRec(recordType):
     return {
@@ -68,8 +73,10 @@ def getURI(recordIdProposed, currentRecordType):
         linkedDataURI = "http://id.loc.gov/authorities/demographicTerms" + recordIdApproved
     return linkedDataURI
 
+# scrape records from htmltext
+soup = BeautifulSoup(htmlText, 'html.parser')
 records = []
-currentRecordType = "mainSubjectHeadings" # LOC always starts with this?
+currentRecordType = "mainSubjectHeadings" # LC always starts with this?
 addingRecord = False
 for tr in soup.select("body > table > tr"):
     if "GENRE/FORM TERMS" in tr.text: currentRecordType = "genreFormTerms"
@@ -132,6 +139,7 @@ for tr in soup.select("body > table > tr"):
             if not (newRecord["statusChangedHeading"] or newRecord["statusCancelledHeading"] or newRecord["statusUpdatedField"] or newRecord["statusUpdatedGeog"]): newRecord["statusNewHeading"] = True
             records.append(newRecord)
 
+# generate tweet threads from records
 allTweetThreads = []
 for record in records:
     if record["recordType"] == "mainSubjectHeadings": hashtags = "#newLCSH"
@@ -145,32 +153,36 @@ for record in records:
     if record["statusUpdatedField"]: hashtags += " #updatedField"
     if record["statusUpdatedGeog"]: hashtags += " #updatedGeog"
 
-    approvedDateTweet = f"Approved on {approvalDate} →\n{approvalURL}"
-    linkedDataTweet = f"LC linked data service entry →\n{record['linkedDataURI']}"
-
     tweetThread = []
+    tweetBody = ""
     for index, line in enumerate(record["lines"]):
         if index == 0:
             tweetThread.append(f"{line}\n{hashtags}")
         elif index == 1 and record["statusChangedHeading"]:
             tweetThread.append(f"New heading →\n{line}")
         else:
-            # maybe be more conservative just in case
-            chunks = textwrap.wrap(line, 274)
-            if len(chunks) == 1:
-                tweetThread.append(chunks[0])
+            if tweetBody == "":
+                tweetBody += line
             else:
-                tweetThread.append(chunks[0] + " [...]")
-                for chunk in chunks[1:-1]:
-                    tweetThread.append("[...] " + chunk + " [...]")
-                tweetThread.append("[...] " + chunks[-1])
+                tweetBody += "\n" + line
 
-    tweetThread.append(approvedDateTweet)
-    tweetThread.append(linkedDataTweet)
+    if tweetBody:
+        tweetBodyChunks = textwrap.wrap(tweetBody, width=274, replace_whitespace=False, break_on_hyphens=False)
+        if len(tweetBodyChunks) == 1:
+            tweetThread.append(tweetBodyChunks[0])
+        else:
+            tweetThread.append(tweetBodyChunks[0] + "...")
+            for chunk in tweetBodyChunks[1:-1]:
+                tweetThread.append("..." + chunk + "...")
+            tweetThread.append("..." + tweetBodyChunks[-1])
+
+    tweetThread.append(f"Approved on {approvalDate} →\n{approvalURL}")
+
+    # make sure to confirm URLs work! LC doesn't always have this ready right away
+    tweetThread.append(f"LC linked data service entry →\n{record['linkedDataURI']}")
 
     allTweetThreads.append(tweetThread)
 
-# print(json.dumps(records, indent=2, ensure_ascii=False))
 print(
     "----------------------------------",
     "TOTAL RECORDS:                " + str(len(records)),
