@@ -1,0 +1,970 @@
+[
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051204",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Art, American [May Subd Geog] CHANGE GEOG",
+      "550 RT Eight (Group of American artists) DELETE FIELD",
+      "550 RT Indian Space (Group of artists) DELETE FIELD",
+      "550 RT Mission School (Group of artists) DELETE FIELD",
+      "550 RT NO!Art (Group of artists) DELETE FIELD",
+      "550 RT Old Bohemians (Group of artists) DELETE FIELD",
+      "550 RT Stieglitz Circle (Group of artists) DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061701",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Art, Canadian [May Subd Geog]",
+      "450 UF Canadian art"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061702",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Art, Greenlandic [May Subd Geog]",
+      "450 UF Greenlandic art"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052567",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Bicycle racing [May Subd Geog] CHANGE GEOG"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021058436",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Bicycle touring [May Subd Geog] CHANGE GEOG"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj96004911",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Bicycles and bicycling [May Subd Geog] CHANGE GEOG",
+      "450 UF Bikes DELETE FIELD",
+      "450 UF Bicycles [Former heading] ADD FIELD",
+      "450 UF Bikes and biking ADD FIELD",
+      "450 UF Biking and bikes ADD FIELD",
+      "681 Note under Cycling ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061707",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Big churches [May Subd Geog]",
+      "053 BV637.9",
+      "450 UF Big congregations",
+      "450 UF Churches, Big",
+      "450 UF Churches, Large",
+      "450 UF Congregations, Big",
+      "450 UF Congregations, Large",
+      "450 UF Large churches",
+      "450 UF Large congregations",
+      "450 UF Megachurches",
+      "550 BT Church work"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021050178",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Biography [Not Subd Geog]",
+      "053 CT DELETE FIELD",
+      "360 SA subdivision Biography under headings for ethnic groups, headings for fields in which no class of persons heading designates the profession or the contributions of the biographee, and the heading Women DELETE FIELD",
+      "360 SA subdivision Biography under headings for ethnic groups, fields and disciplines when a heading for the class of persons does not exist and cannot be created, and the heading Women ADD FIELD",
+      "550 BT History DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061654",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Border stations [May Subd Geog]",
+      "450 UF Border checkpoint stations",
+      "450 UF Border crossing stations",
+      "450 UF Border patrol stations",
+      "450 UF Land ports of entry",
+      "450 UF Ports of entry, Land",
+      "450 UF Stations, Border",
+      "550 BT Buildings"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061704",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Brazil--Literatures"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061705",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Brazilian literature [May Subd Geog]",
+      "053 PQ9500-9698.436",
+      "450 UF Portuguese literature--Brazil",
+      "550 BT Brazil--Literatures"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061706",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Brazilian poetry [May Subd Geog]",
+      "053 PQ9561-PQ9581 (History)",
+      "053 PQ9648-PQ9663 (Collections)",
+      "550 BT Brazilian literature"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj96004933",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": true,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Brothers and sisters [May Subd Geog] ADD GEOG",
+      "450 UF Sibling relations ADD FIELD",
+      "450 UF Siblings ADD FIELD",
+      "450 UF Sisters and brothers ADD FIELD",
+      "550 RT Babies DELETE FIELD",
+      "550 BT Families ADD FIELD",
+      "550 BT Family life ADD FIELD",
+      "550 RT Sibling abuse ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061695",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Brothers and sisters--Fiction",
+      "681 Example under Twins--Fiction"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051206",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Cooking (Fruit) [May Subd Geog] CHANGE GEOG",
+      "450 UF Cookery (Fruit) [Former heading] DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061674",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Counterrevolutionaries [May Subd Geog]",
+      "450 UF Contras",
+      "450 UF Counter-revolutionaries",
+      "550 BT Dissenters"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021050218",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Ethnology [May Subd Geog] CHANGE GEOG",
+      "360 SA individual ethnic groups and peoples, e.g. Indo-Europeans; Caucasian race; Hopi Indians; Igbo (African people) DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061670",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Ethnology--Indonesia"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061669",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Ethnology--United States"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061663",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Health facilities [May Subd Geog]",
+      "450 UF Facilities, Health care",
+      "450 UF Facilities, Medical care",
+      "450 UF Health care facilities",
+      "450 UF Health care institutions",
+      "450 UF Institutions, Health care",
+      "450 UF Institutions, Medical care",
+      "450 UF Medical care facilities",
+      "450 UF Medical care institutions",
+      "550 RT Medical care"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061664",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Hospital buildings [May Subd Geog]",
+      "053 RA967-RA969.95",
+      "450 UF Hospitals--Buildings",
+      "550 BT Buildings",
+      "550 BT Health facilities"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021054051",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Human powered vehicles [May Subd Geog] CHANGE GEOG",
+      "450 UF Vehicles, Human powered DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061673",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Indonesian Americans [May Subd Geog]",
+      "053 E184.I45",
+      "450 UF Indonesian Americans--United States",
+      "550 BT Ethnology--United States",
+      "550 BT Indonesians--United States"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061671",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Indonesians [May Subd Geog]",
+      "550 BT Ethnology--Indonesia"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061672",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Indonesians--United States"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021054433",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Inuit art [May Subd Geog] CHANGE GEOG",
+      "450 UF Inuit--Art [Former heading] DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061665",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Library buildings [May Subd Geog]",
+      "450 UF Libraries--Buildings",
+      "550 BT Buildings"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021056876",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Minibike racing [May Subd Geog] CHANGE GEOG",
+      "550 BT Minibikes DELETE FIELD",
+      "550 BT Bicycle racing ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052685",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Mopeds [May Subd Geog] CHANGE GEOG"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051598",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Motorcycles [May Subd Geog] CHANGE GEOG",
+      "550 BT Motor vehicles ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052107",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Mountain bikes [May Subd Geog] CHANGE GEOG",
+      "450 UF All terrain bicycles [Former heading] DELETE FIELD",
+      "450 UF All terrain bikes DELETE FIELD",
+      "450 UF Off-road bikes DELETE FIELD",
+      "450 UF All terrain bicycles ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052718",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Mountain biking [May Subd Geog] CHANGE GEOG",
+      "053 GV1056 DELETE FIELD",
+      "053 GV1056-GV1056.52 ADD FIELD",
+      "450 UF All terrain biking DELETE FIELD",
+      "450 UF Off-road biking DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061658",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Nervous system--Diseases [May Subd Geog] CHANGE GEOG",
+      "053 RC346-RC429 DELETE FIELD",
+      "053 RC346-RC429.2 ADD FIELD",
+      "360 SA specific diseases, e.g., Amyotrophic lateral sclerosis DELETE FIELD",
+      "550 RT Neurology DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021059301",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Neurology [May Subd Geog] CHANGE GEOG",
+      "053 RC346-RC429 DELETE FIELD",
+      "053 RC346-RC429.2 ADD FIELD",
+      "550 RT Nervous system--Diseases DELETE FIELD",
+      "550 RT Neuropsychiatry DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021050740",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Police stations [May Subd Geog] CHANGE GEOG",
+      "550 BT Public buildings DELETE FIELD",
+      "550 BT Buildings ADD FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061681",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Portuguese language--Dictionaries",
+      "053 PC5325-PC5348"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061650",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Portuguese language--Readers",
+      "680 Here are entered reading texts in Portuguese containing material for instruction and practice in reading that language. Works written in Portuguese intended primarily for general information or recreational reading are entered under Portuguese language materials.",
+      "681 Note under Portuguese language materials"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061666",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Public baths [May Subd Geog]",
+      "053 RA605-RA607 (Public health)",
+      "550 BT Baths",
+      "550 BT Buildings"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061678",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Romance languages [May Subd Geog]",
+      "450 UF Neo-Latin languages",
+      "550 BT Language and languages"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061677",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Portuguese language [May Subd Geog]",
+      "053 PC5001-5498",
+      "550 BT Romance languages"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061649",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Portuguese language materials",
+      "680 Here are entered works written in Portuguese intended primarily for general information or recreational reading. Such works with text also given in another language are further subdivided by the subdivision Bilingual, i.e., Portuguese language materials--Bilingual. Reading texts in Portuguese containing material for instruction and practice in reading that language are entered under Portuguese language--Readers.",
+      "681 Note under Portuguese language--Readers"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061651",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Portuguese language materials--Bilingual",
+      "681 Note under Portuguese language materials"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061703",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Rooms [May Subd Geog]",
+      "450 UF Galleries (Rooms)",
+      "550 BT Buildings"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052394",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Speech disorders [May Subd Geog] CHANGE GEOG",
+      "450 UF Defective speech DELETE FIELD",
+      "450 UF Speech defects DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061662",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Sports facilities [May Subd Geog]",
+      "053 GV401-GV433",
+      "450 UF Buildings, Sports",
+      "450 UF Facilities, Sports",
+      "450 UF Sports buildings",
+      "550 RT Recreation centers"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051539",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Taos art [May Subd Geog] CHANGE GEOG",
+      "450 UF Taos Indians--Art [Former heading] DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD",
+      "680 Here are entered works on the art of the Taos Indians. Works on the modern school of art that developed in Taos, New Mexico are entered under Taos school of art. DELETE FIELD",
+      "680 Here are entered works on the art of the Taos Indians. ADD FIELD",
+      "681 Note under Taos school of art DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051098",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Twins [May Subd Geog] CHANGE GEOG",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061694",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Twins--Fiction",
+      "680 When this heading is used, an additional subject heading is assigned for the relationship between the siblings, e.g., 1. Twins--Fiction. 2. Brothers and sisters--Fiction.",
+      "681 Example under Multiple birth"
+    ]
+  },
+  {
+    "recordType": "childrensSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021054734",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": true,
+    "lines": [
+      "150 Woodland art [May Subd Geog] CHANGE GEOG",
+      "450 UF Woodland Indians--Art [Former heading] DELETE FIELD",
+      "667 Machine-derived authority record. DELETE FIELD"
+    ]
+  }
+]

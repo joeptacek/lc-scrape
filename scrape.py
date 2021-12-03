@@ -159,7 +159,7 @@ for record in records:
         if index == 0:
             tweetThread.append(f"{line}\n{hashtags}")
         elif index == 1 and record["statusChangedHeading"]:
-            tweetThread.append(f"New heading →\n{line}")
+            tweetThread.append(f"NEW HEADING →\n{line}")
         else:
             if tweetBody == "":
                 tweetBody += line
@@ -176,10 +176,8 @@ for record in records:
                 tweetThread.append("..." + chunk + "...")
             tweetThread.append("..." + tweetBodyChunks[-1])
 
-    tweetThread.append(f"Approved on {approvalDate} →\n{approvalURL}")
-
     # make sure to confirm URLs work! LC doesn't always have this ready right away
-    tweetThread.append(f"LC linked data service entry →\n{record['linkedDataURI']}")
+    tweetThread.append(f"🗓️ Approved on {approvalDate} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{record['linkedDataURI']}")
 
     allTweetThreads.append(tweetThread)
 

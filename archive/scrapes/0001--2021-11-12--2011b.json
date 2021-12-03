@@ -1,0 +1,1504 @@
+[
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85001932",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 African Americans [May Subd Geog]",
+      "680 Here are entered works on citizens of the United States of black African descent. Works on blacks who temporarily reside in the United States, such as aliens, students from abroad, etc., are entered under Blacks--United States. Works on blacks outside the United States are entered under Blacks--[place]. DELETE FIELD",
+      "680 Here are entered works on citizens of the United States of black African descent. Works on blacks who temporarily reside in the United States, such as noncitizens, students from abroad, etc., are entered under Blacks--United States. Works on blacks outside the United States are entered under Blacks--[place]. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003532",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Alien criminals CHANGE HEADING",
+      "150 Noncitizen criminals [May Subd Geog]",
+      "450 UF Alien criminals [Former heading]",
+      "450 UF Alien labor criminals [Former heading]",
+      "450 UF Criminal noncitizens",
+      "450 UF Foreign criminals",
+      "450 UF Immigrant criminals (Noncitizen criminals)",
+      "550 BT Criminals"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh97006426",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Alien detention centers CHANGE HEADING",
+      "150 Noncitizen detention centers [May Subd Geog]",
+      "450 UF Alien detention centers [Former heading]",
+      "450 UF Detention centers, Immigration",
+      "450 UF Detention centers, Noncitizen",
+      "450 UF Immigration detention centers",
+      "550 BT Detention of persons",
+      "550 RT Illegal immigration"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003534",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Alien property [May Subd Geog]",
+      "550 BT Aliens DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003545",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens CHANGE HEADING",
+      "150 Noncitizens [May Subd Geog]",
+      "450 UF Aliens [Former heading]",
+      "450 UF Enemy aliens",
+      "450 UF Expatriates",
+      "450 UF Foreign population",
+      "450 UF Foreign residents",
+      "450 UF Foreigners",
+      "450 UF Illegal aliens [Former heading]",
+      "450 UF Illegal immigrants",
+      "450 UF Non-citizens",
+      "450 UF Noncitizens--Legal status, laws, etc.",
+      "450 UF Resident aliens",
+      "450 UF Unauthorized immigrants",
+      "450 UF Undocumented aliens",
+      "450 UF Undocumented immigrants",
+      "450 UF Unnaturalized foreign residents",
+      "550 BT Persons",
+      "680 Here are entered works on persons who are not citizens of the country in which they reside. When this heading is assigned to works on noncitizens who permanently or temporarily relocate across national borders without complying with the legal requirements of the destination country, the heading Illegal immigration is also assigned.",
+      "680 Works on those persons who have no citizenship are entered under Stateless persons.",
+      "681 Note under Illegal immigration; Stateless persons",
+      "681 Example under Status (Law)"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003550",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--China CHANGE HEADING",
+      "150 Noncitizens--China"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh87000557",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Confederate States of America CHANGE HEADING",
+      "150 Noncitizens--Confederate States of America",
+      "451 UF Confederate States of America--Foreign population [Former heading]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh87000558",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Great Britain CHANGE HEADING",
+      "150 Noncitizens--Great Britain",
+      "451 UF Great Britain--Foreign population [Former heading]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh89005761",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Housing CHANGE HEADING",
+      "150 Noncitizens--Housing [May Subd Geog]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh87000559",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Housing--Great Britain CHANGE HEADING",
+      "150 Noncitizens--Housing--Great Britain"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003546",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Medical care CHANGE HEADING",
+      "150 Noncitizens--Medical care [May Subd Geog]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003547",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Medical care--Law and legislation CHANGE HEADING",
+      "150 Noncitizens--Medical care--Law and legislation [May Subd Geog]",
+      "550 BT Medical laws and legislation"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85082948",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Medical examinations CHANGE HEADING",
+      "150 Noncitizens--Medical examinations [May Subd Geog]",
+      "450 UF Medical inspection of noncitizens"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003548",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Mental health CHANGE HEADING",
+      "150 Noncitizens--Mental health [May Subd Geog]",
+      "053 RC451.4.E45"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003549",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Political activity CHANGE HEADING",
+      "150 Noncitizens--Political activity [May Subd Geog]",
+      "681 Example under Status (Law)"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh87003058",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Suffrage CHANGE HEADING",
+      "150 Noncitizens--Suffrage [May Subd Geog]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85132877",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Taxation CHANGE HEADING",
+      "150 Noncitizens--Taxation [May Subd Geog]",
+      "450 UF Taxation of aliens [Former heading]",
+      "450 UF Taxation of noncitizens"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh95007733",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--Taxation--Law and legislation CHANGE HEADING",
+      "150 Noncitizens--Taxation--Law and legislation [May Subd Geog]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003551",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--United States CHANGE HEADING",
+      "150 Noncitizens--United States",
+      "451 UF United States--Foreign population [Former heading]",
+      "451 UF United States--Noncitizens"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh96006638",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--United States--Identification CHANGE HEADING",
+      "150 Noncitizens--United States--Identification"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh87000560",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens--United States--Juvenile literature CHANGE HEADING",
+      "150 Noncitizens--United States--Juvenile literature"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003554",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens (Greek law) CHANGE HEADING",
+      "150 Noncitizens (Greek law)",
+      "450 UF Aliens (Greek law) [Former heading]",
+      "550 BT Law, Greek"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh98004165",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens in art CHANGE HEADING",
+      "150 Noncitizens in art [Not Subd Geog]",
+      "450 UF Aliens in art [Former heading]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003558",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": true,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens in literature CANCEL HEADING",
+      "682 This authority record has been deleted because the heading is covered by the subject heading Noncitizens in literature (DLC)sh2016000795"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2013002183",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens in mass media CHANGE HEADING",
+      "150 Noncitizens in mass media [Not Subd Geog]",
+      "450 UF Aliens in mass media [Former heading]",
+      "550 BT Mass media"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh97002436",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens in motion pictures CHANGE HEADING",
+      "150 Noncitizens in motion pictures [Not Subd Geog]",
+      "053 PN1995.9.A48",
+      "450 UF Aliens in motion pictures [Former heading]",
+      "550 BT Motion pictures",
+      "680 Here are entered works on the portrayal of noncitizens in motion pictures."
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003555",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens (Islamic law) CHANGE HEADING",
+      "150 Noncitizens (Islamic law) [May Subd Geog]",
+      "450 UF Aliens (Islamic law) [Former heading]",
+      "550 BT Islamic law"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003556",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens (Jewish law) CHANGE HEADING",
+      "150 Noncitizens (Jewish law)",
+      "450 UF Aliens (Jewish law) [Former heading]",
+      "550 BT Jewish law"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003557",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Aliens (Roman law) CHANGE HEADING",
+      "150 Noncitizens (Roman law)",
+      "450 UF Aliens (Roman law) [Former heading]",
+      "550 BT Roman law"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh90001208",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Blacks--United States",
+      "680 Here are entered works on blacks who temporarily reside in the United States, such as aliens, students from abroad, etc. Works on citizens of the United States of black African descent are entered under African Americans. DELETE FIELD",
+      "680 Here are entered works on blacks who temporarily reside in the United States, such as noncitizens, students from abroad, etc. Works on citizens of the United States of black African descent are entered under African Americans. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2009000858",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Brokers' medals [May Subd Geog]",
+      "680 Here are entered works on medals that licensed Jews and aliens to broker on London's Royal Exchange in the 18th century. DELETE FIELD",
+      "680 Here are entered works on medals that licensed Jews and noncitizens to broker on London's Royal Exchange in the 18th century. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2011000897",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": true,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Children of illegal aliens CANCEL HEADING",
+      "682 This authority record has been deleted because the heading is covered by the subject headings Children of noncitizens (DLC)sh2016000741 and Illegal immigration (DLC)sh2016000739"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2011003415",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": true,
+    "statusAddedGeog": true,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Children of illegal aliens--Education CHANGE HEADING",
+      "150 Children of noncitizens--Education [May Subd Geog] ADD GEOG"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2011003293",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Children of illegal aliens--Education--Law and legislation CHANGE HEADING",
+      "150 Children of noncitizens--Education--Law and legislation [May Subd Geog]",
+      "550 BT Educational law and legislation"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016000741",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Children of noncitizens [May Subd Geog]",
+      "450 UF Children of illegal aliens [Former heading]",
+      "450 UF First generation children",
+      "450 UF Noncitizens' children",
+      "450 UF Second generation children",
+      "550 BT Noncitizens",
+      "680 Here are entered works on the children of noncitizens. When this heading is assigned to works on children whose parents immigrate illegally, the heading Illegal immigration is also assigned."
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85024152",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "151 China--Officials and employees, Alien CHANGE HEADING",
+      "151 China--Officials and employees, Noncitizen",
+      "550 BT Noncitizens--China"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85025797",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens CHANGE HEADING",
+      "150 Church work with noncitizens [May Subd Geog]",
+      "053 BV639.I4",
+      "450 UF Church work with aliens [Former heading]",
+      "450 UF Church work with foreigners [Former heading]",
+      "550 BT Noncitizens"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007106",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Baptists CHANGE HEADING",
+      "150 Church work with noncitizens--Baptists"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007107",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Catholic Church CHANGE HEADING",
+      "150 Church work with noncitizens--Catholic Church"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007108",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Church of the Nazarene CHANGE HEADING",
+      "150 Church work with noncitizens--Church of the Nazarene"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007109",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Lutheran Church CHANGE HEADING",
+      "150 Church work with noncitizens--Lutheran Church"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007110",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Methodist Church CHANGE HEADING",
+      "150 Church work with noncitizens--Methodist Church"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007111",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Protestant churches CHANGE HEADING",
+      "150 Church work with noncitizens--Protestant churches"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007112",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Seventh-Day Adventists CHANGE HEADING",
+      "150 Church work with noncitizens--Seventh-Day Adventists"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007113",
+    "statusNewHeading": false,
+    "statusChangedHeading": true,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Church work with aliens--Taehan Yesugyo Changnohoe CHANGE HEADING",
+      "150 Church work with noncitizens--Taehan Yesugyo Changnohoe"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85032974",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Corporations, Foreign [May Subd Geog]",
+      "550 BT Aliens DELETE FIELD",
+      "550 BT Investments, Foreign DELETE FIELD",
+      "550 RT Corporations--Nationality DELETE FIELD",
+      "680 Here are entered works on corporations operating in countries (or states of the United States) other than those countries (or states of the United States) under whose laws they were organized. Works on corporations organized under the laws of an individual country and operating outside that country are entered under headings of the type Corporations, [nationality], with further subdivision by place, if any, in which the corporations are operating, e.g. Corporations, American--France. DELETE FIELD",
+      "680 Here are entered works on corporations operating in countries (or states of the United States) other than those countries (or states of the United States) under whose laws they were organized. Works on corporations organized under the laws of an individual country and operating outside that country are entered under headings of the type Corporations, [nationality], with further subdivision by place, if any, in which the corporations are operating, e.g. Corporations, American--France. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2010001818",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Deportees [May Subd Geog]",
+      "550 RT Aliens DELETE FIELD",
+      "550 RT Exiles DELETE FIELD",
+      "550 RT Refugees DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85039274",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Drago doctrine",
+      "550 BT Aliens DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85039617",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Droit d'aubaine",
+      "550 BT Aliens DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85046366",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Exiles [May Subd Geog]",
+      "550 RT Aliens DELETE FIELD",
+      "550 RT Deportees DELETE FIELD",
+      "550 RT Refugees DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85050518",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Foreign radio stations [May Subd Geog]",
+      "450 UF Alien radio stations DELETE FIELD",
+      "450 UF Radio stations, Foreign DELETE FIELD",
+      "550 BT Radio stations ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2004001363",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Foreign spouses [May Subd Geog]",
+      "450 UF Alien spouses DELETE FIELD",
+      "450 UF Noncitizen spouses ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003502",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Foreign workers [May Subd Geog]",
+      "450 UF Aliens--Employment DELETE FIELD",
+      "450 UF Noncitizen labor ADD FIELD",
+      "450 UF Noncitizens--Employment ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh96004809",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Green cards [May Subd Geog]",
+      "450 UF Permanent resident cards ADD FIELD",
+      "550 BT Aliens--United States--Identification DELETE FIELD",
+      "550 BT Noncitizens--United States--Identification ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2002001970",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Human smuggling [May Subd Geog]",
+      "550 RT Illegal aliens DELETE FIELD",
+      "550 RT Illegal immigration ADD FIELD",
+      "680 Here are entered works on facilitating the entry of illegal aliens into a country with the objective of making a profit. Works on the coercive commercial trade in human beings for the purpose of sexual or other exploitation are entered under Human trafficking. DELETE FIELD",
+      "680 Here are entered works on facilitating the unauthorized entry of persons into a country with the objective of making a profit. Works on the coercive commercial trade in human beings for the purpose of sexual or other exploitation are entered under Human trafficking. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2006002629",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Human trafficking [May Subd Geog]",
+      "680 Here are entered works on the coercive commercial trade in human beings for the purpose of sexual or other exploitation. Works on facilitating the entry of illegal aliens into a country with the objective of making a profit are entered under Human smuggling. DELETE FIELD",
+      "680 Here are entered works on the coercive commercial trade in human beings for the purpose of sexual or other exploitation. Works on facilitating the unauthorized entry of noncitizens into a country with the objective of making a profit are entered under Human smuggling. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2008002554",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": true,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Illegal alien children CANCEL HEADING",
+      "682 This authority record has been deleted because the heading is covered by Noncitizen children (DLC)2016000743 and Illegal immigration (DLC)2016000739"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003553",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": true,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Illegal aliens CANCEL HEADING",
+      "682 This authority record has been deleted because the heading is covered by the subject headings Noncitizens (DLC)sh 85003545 and Illegal immigration (DLC)sh2016000739"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2009001797",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": true,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Illegal aliens in literature CANCEL HEADING",
+      "682 This authority record has been deleted because the heading is covered by the subject headings Noncitizens in literature (DLC)sh 85003558 and Illegal immigration in literature (DLC)sh2016000742"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016000739",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Illegal immigration [May Subd Geog]",
+      "450 UF Children of illegal aliens [Former heading]",
+      "450 UF Illegal alien children [Former heading]",
+      "450 UF Illegal aliens [Former heading]",
+      "450 UF Irregular migration",
+      "450 UF Unauthorized immigration",
+      "450 UF Undocumented immigration",
+      "450 UF Women illegal aliens [Former heading]",
+      "550 BT Emigration and immigration",
+      "550 RT Human smuggling",
+      "550 RT Noncitizen detention centers",
+      "680 Here are entered works on the act of permanently or temporarily relocating across national borders without complying with the legal requirements of the destination country. When this heading is assigned to works on persons who immigrate illegally, the heading Noncitizens is also assigned.",
+      "681 Note under Noncitizens; Children of noncitizens; Noncitizen children; Women noncitizens"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016000742",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Illegal immigration in literature [Not Subd Geog]",
+      "450 UF Illegal aliens in literature [Former heading]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85064517",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Immigrants [May Subd Geog]",
+      "550 RT Aliens DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016000743",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Noncitizen children [May Subd Geog]",
+      "450 UF Illegal alien children [Former heading]",
+      "450 UF Illegal immigrant children",
+      "450 UF Unaccompanied alien children",
+      "450 UF Undocumented child immigrants",
+      "450 UF Undocumented children",
+      "450 UF Undocumented immigrant children",
+      "550 BT Children",
+      "680 Here are entered works on children who are not citizens of the country in which they reside. When this heading is assigned to works on children who permanently or temporarily relocate across national borders without complying with the legal requirements of the destination country, the heading Illegal immigration is also assigned.",
+      "681 Note under Illegal immigration"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016000795",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Noncitizens in literature [May Subd Geog]",
+      "450 UF Aliens in literature [Former heading]",
+      "450 UF Illegal aliens in literature [Former heading]"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85102132",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Pilgrims and pilgrimages--Law and legislation [May Subd Geog]",
+      "550 BT Aliens DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85112295",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Refuge (Humanitarian assistance) [May Subd Geog]",
+      "680 Here are entered works on the provision of shelter to illegal aliens or refugees. DELETE FIELD",
+      "680 Here are entered works on the provision of shelter to persons who immigrate illegally, or to refugees. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85112299",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Refugees [May Subd Geog]",
+      "550 RT Aliens DELETE FIELD",
+      "550 RT Deportees DELETE FIELD",
+      "550 RT Exiles DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85112903",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Repatriation [May Subd Geog]",
+      "550 BT Aliens DELETE FIELD",
+      "550 BT Emigration and immigration DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85117162",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Sanctuary movement [May Subd Geog]",
+      "680 Here are entered works on American religious congregations that publicly give shelter to illegal aliens or refugees from Central America. DELETE FIELD",
+      "680 Here are entered works on American religious congregations that publicly give shelter to Central American refugees or to Central Americans who illegally immigrate to the United States. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85119480",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": false,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Security for costs [May Subd Geog]",
+      "550 BT Aliens DELETE FIELD",
+      "550 BT Security (Law) DELETE FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh95008704",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Stateless persons [May Subd Geog]",
+      "550 BT Aliens DELETE FIELD",
+      "550 RT Statelessness DELETE FIELD",
+      "550 BT Noncitizens ADD FIELD",
+      "680 Here are entered works on those persons who have no citizenship. DELETE FIELD",
+      "680 Here are entered works on those persons who have no citizenship. Works on persons who are not citizens of the country in which they reside are entered under Noncitizens. ADD FIELD",
+      "681 Note under Noncitizens ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85127607",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Status (Law) [May Subd Geog]",
+      "360 SA headings for special groups, e.g. Aliens; and subdivision Legal status, laws, etc. under names of other groups, e.g. Architects--Legal status, laws, etc.; Prisoners--Legal status, laws, etc. DELETE FIELD",
+      "360 SA headings for special groups, e.g. Noncitizens; and subdivision Legal status, laws, etc. under names of other groups, e.g. Architects--Legal status, laws, etc.; Prisoners--Legal status, laws, etc. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85137166",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": true,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Travel restrictions [May Subd Geog]",
+      "450 UF Aliens--Travel restrictions DELETE FIELD",
+      "450 UF Areas closed to aliens DELETE FIELD",
+      "450 UF Areas restricted to aliens DELETE FIELD",
+      "450 UF Restricted to aliens DELETE FIELD",
+      "450 UF Areas closed to noncitizens ADD FIELD",
+      "450 UF Areas restricted to noncitizens ADD FIELD",
+      "450 UF Noncitizens--Travel restrictions ADD FIELD",
+      "450 UF Restricted to noncitizens ADD FIELD",
+      "680 Here are entered works on restrictions of travel by aliens or other groups of people. DELETE FIELD",
+      "680 Here are entered works on restrictions of travel by noncitizens or other groups of people. ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003552",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": true,
+    "statusAddedField": true,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Travel restrictions--United States",
+      "450 UF Noncitizens--United States--Travel restrictions ADD FIELD"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2001002003",
+    "statusNewHeading": false,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": true,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Women illegal aliens CANCEL HEADING",
+      "682 This authority record has been deleted because the heading is covered by the subject headings Women noncitizens (DLC)sh2016000740 and Illegal immigration (DLC)sh2016000739"
+    ]
+  },
+  {
+    "recordType": "mainSubjectHeadings",
+    "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016000740",
+    "statusNewHeading": true,
+    "statusChangedHeading": false,
+    "statusCancelledHeading": false,
+    "statusUpdatedField": false,
+    "statusAddedField": false,
+    "statusDeletedField": false,
+    "statusUpdatedGeog": false,
+    "statusAddedGeog": false,
+    "statusDeletedGeog": false,
+    "statusChangedGeog": false,
+    "lines": [
+      "150 Women noncitizens [May Subd Geog]",
+      "450 UF Women illegal aliens [Former heading]",
+      "550 BT Noncitizens",
+      "680 Here are entered works on women who are not citizens of the country in which they reside. When this heading is assigned to works on women who permanently or temporarily relocate across national borders without complying with the legal requirements of the destination country, the heading Illegal immigration is also assigned.",
+      "681 Note under Illegal immigration"
+    ]
+  }
+]
