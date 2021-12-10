@@ -1,8 +1,11 @@
 # approved subject lists here: https://classweb.org/approved-subjects/
 #
 # example use:
-# python scrape.py lcsh-html/211b.html "November 12, 2021"
-# python scrape.py https://classweb.org/approved-subjects/2111b.html "November 12, 2021"
+# python scrape.py https://classweb.org/approved-subjects/2111b.html "Nov. 12, 2021"
+#
+# TODO
+# get 🔗 LCCN permalinks via https://lccn.loc.gov/XXXXXXXX (not available for demographic group terms)
+# try (100) or [100] instead of 100?
 
 import json
 import re
@@ -73,7 +76,7 @@ def getURI(recordIdProposed, currentRecordType):
         linkedDataURI = "http://id.loc.gov/authorities/demographicTerms" + recordIdApproved
     return linkedDataURI
 
-# scrape records from htmltext
+# scrape records from html source
 soup = BeautifulSoup(htmlText, 'html.parser')
 records = []
 currentRecordType = "mainSubjectHeadings" # LC always starts with this?
@@ -139,6 +142,14 @@ for tr in soup.select("body > table > tr"):
             if not (newRecord["statusChangedHeading"] or newRecord["statusCancelledHeading"] or newRecord["statusUpdatedField"] or newRecord["statusUpdatedGeog"]): newRecord["statusNewHeading"] = True
             records.append(newRecord)
 
+# NOTES RE: OBSERVED LC CONVENTIONS
+# CHANGE HEADING always on first line with old heading; record never (?) includes by ADD/DELETE FIELD; record sometimes (rarely) includes ADD/DELETE GEOG (on second with new heading)
+# CANCEL HEADING always brief
+# ADD/DELETE FIELD sometimes record also includes ADD/REMOVE GEOG
+# ADD/DELETE GEOG usually first line (unless first line contains CHANGE HEADING); sometimes (rarely) on second line if first line includes CHANGE HEADING; sometimes (rarely) record includes only ADD/DELETE GEOG with no other field updates
+# CHANGE GEOG only one of these observed? was supposed to be ADD GEOG? see https://classweb.org/approved-subjects/2101.html
+# total records = new headings + changed headings (includes some ADD/DELETE GEOG) + cancelled headings + updated fields (includes all ADD/DELETE fields and some ADD/DELETE GEOG)
+
 # generate tweet threads from records
 allTweetThreads = []
 for record in records:
@@ -164,7 +175,7 @@ for record in records:
             if tweetBody == "":
                 tweetBody += line
             else:
-                tweetBody += "\n" + line
+                tweetBody += "\n\n" + line
 
     if tweetBody:
         tweetBodyChunks = textwrap.wrap(tweetBody, width=274, replace_whitespace=False, break_on_hyphens=False)
@@ -177,7 +188,7 @@ for record in records:
             tweetThread.append("..." + tweetBodyChunks[-1])
 
     # make sure to confirm URLs work! LC doesn't always have this ready right away
-    tweetThread.append(f"🗓️ Approved on {approvalDate} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{record['linkedDataURI']}")
+    tweetThread.append(f"🗓️ Approved {approvalDate} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{record['linkedDataURI']}")
 
     allTweetThreads.append(tweetThread)
 
@@ -212,10 +223,3 @@ with open('output-scrape.json', 'w') as outfile:
 
 with open('output-tweets.json', 'w') as outfile:
     json.dump(allTweetThreads, outfile, indent=2, ensure_ascii=False)
-
-# CHANGE HEADING always on first line with old heading; record never (?) includes by ADD/DELETE FIELD; record sometimes (rarely) includes ADD/DELETE GEOG (on second with new heading)
-# CANCEL HEADING always brief
-# ADD/DELETE FIELD sometimes record also includes ADD/REMOVE GEOG
-# ADD/DELETE GEOG usually first line (unless first line contains CHANGE HEADING); sometimes (rarely) on second line if first line includes CHANGE HEADING; sometimes (rarely) record includes only ADD/DELETE GEOG with no other field updates
-# CHANGE GEOG only one of these observed? was supposed to be ADD GEOG? see https://classweb.org/approved-subjects/2101.html
-# total records = new headings + changed headings (includes some ADD/DELETE GEOG) + cancelled headings + updated fields (includes all ADD/DELETE fields and some ADD/DELETE GEOG)
