@@ -1,6 +1,6 @@
 # lc-scrape
 
-lc-scrape is a utility for scraping [subject heading approval lists](https://classweb.org/approved-subjects/) from the Library of Congress (LC) website to a pair of output files, `output-scrape.json` and `output-tweets.json`.
+lc-scrape is a utility for scraping [subject heading approval lists](https://classweb.org/approved-subjects/) from the Library of Congress (LC) website to a pair of output files, `output-scrape.json` and `output-tweets.json`. It's quite possible `lc-scrape` will eventually break if LC changes the structure of their HTML approval lists.
 
 `output-scrape.json` is a basic representation of the LC approval list. I'm currently using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to parse the source HTML. List items are categorized according to subject heading type (main subject headings, children's subject headings, genre/form terms, medium of performance terms, demographic group terms) and according to what types of changes were approved (new heading, changed heading, cancelled heading, updated non-heading fields, updated geographic subdivisibility). An LC Linked Data Service URI is inferred from the record number assigned to the proposal.
 
