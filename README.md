@@ -6,11 +6,9 @@ lc-scrape is a utility for scraping [subject heading approval lists](https://cla
 
 `output-tweets.json` transforms `output-scrape.json` to a list of Tweet threads, for use with [lc-tweets](https://github.com/joeptacek/lc-tweet).
 
-## Archive
+*It's quite possible lc-scrape will eventually break if LC ever changes the structure of its approval lists.*
 
-This repository contains archived versions of the original HTML source files from LC and the JSON files I generated from them using lc-scrape—these files are located in the [archive directory](https://github.com/joeptacek/lc-scrape/tree/master/archive).
-
-## Example usage
+## Usage
 
 ```bash
 pip install -r requirements.txt
@@ -19,6 +17,6 @@ python scrape.py https://classweb.org/approved-subjects/2111b.html "Nov. 12, 202
 
 Works with Python 3.9, possibly other versions.
 
-## Disclaimer
+## Archive
 
-It's quite possible lc-scrape will eventually break if LC ever changes the structure of its approval lists.
+This repository also contains archived versions of the original HTML source files from LC and the JSON files I generated from them using lc-scrape—these files are located in the [archive directory](https://github.com/joeptacek/lc-scrape/tree/master/archive).
