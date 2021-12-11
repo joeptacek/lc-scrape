@@ -19,4 +19,4 @@ Works with Python 3.9, possibly other versions.
 
 ## Archive
 
-I'm also using this repository to archive the original HTML approval lists from LC, along with the JSON representations I've derived from these using lc-scrape. These files are all located in the [archive directory](https://github.com/joeptacek/lc-scrape/tree/master/archive).
+I'm also using this repository to archive the original HTML approval lists from LC, along with the JSON representations I've derived from these using lc-scrape. These files are all located in [the archive directory](https://github.com/joeptacek/lc-scrape/tree/master/archive).
