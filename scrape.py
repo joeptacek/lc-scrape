@@ -6,6 +6,7 @@
 # TODO
 # get 🔗 LCCN permalinks via https://lccn.loc.gov/XXXXXXXX (not available for demographic group terms)
 # try (100) or [100] instead of 100?
+# keep hashtags on same line as heading? or add another return?
 
 import json
 import re
