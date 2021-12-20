@@ -169,7 +169,7 @@ for record in records:
     tweetBody = ""
     for index, line in enumerate(record["lines"]):
         if index == 0:
-            tweetThread.append(f"{line}\n{hashtags}")
+            tweetThread.append(f"{line}\n\n{hashtags}")
         elif index == 1 and record["statusChangedHeading"]:
             tweetThread.append(f"NEW HEADING →\n{line}")
         else:
