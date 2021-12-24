@@ -49,4 +49,4 @@ An example update object from `output-scrape.json` is given below.
 
 ## Archive
 
-This repository also contains an archive of original HTML approved lists from LC, along with representations I've derived from these using lc-scrape (i.e., `output-scrape.json`). These files are located in [the archive directory](https://github.com/joeptacek/lc-scrape/tree/master/archive).
+This repository also contains an archive of the original HTML approved lists from LC, along with the representations I've derived from these using lc-scrape (i.e., `output-scrape.json`). These files are located in [the archive directory](https://github.com/joeptacek/lc-scrape/tree/master/archive).
