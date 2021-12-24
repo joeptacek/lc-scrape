@@ -4,9 +4,9 @@
 # python scrape.py https://classweb.org/approved-subjects/2111b.html "Nov. 12, 2021"
 #
 # TODO
-# get 🔗 LCCN permalinks via https://lccn.loc.gov/XXXXXXXX (not available for demographic group terms)
-# try (100) or [100] instead of 100?
-# keep hashtags on same line as heading? or add another return?
+# write script for pushing output-tweets to s3 bucket
+# include date in scrape output?
+# catch lamda timeouts? just use write a cloudwatch rule?
 
 import json
 import re
@@ -32,6 +32,7 @@ def initNewRec(recordType):
     return {
         "recordType": recordType,
         "linkedDataURI": None,
+        "LCCNPermalink": None,
         "statusNewHeading": False,
         "statusChangedHeading": False,
         "statusCancelledHeading": False,
@@ -59,23 +60,35 @@ def extractRecordId(string):
     outputRecordId = found.group().replace(" ", "")[1:-1]
     return outputString, outputRecordId
 
-def getURI(recordIdProposed, currentRecordType):
+def getRecordIdApproved(recordIdProposed, currentRecordType):
     if currentRecordType == "mainSubjectHeadings":
-        recordIdApproved = recordIdProposed.replace("sp", "sh")
-        linkedDataURI = "http://id.loc.gov/authorities/subjects/" + recordIdApproved
+        return recordIdProposed.replace("sp", "sh")
     elif currentRecordType == "genreFormTerms":
-        recordIdApproved = recordIdProposed.replace("gp", "gf")
-        linkedDataURI = "http://id.loc.gov/authorities/genreForms/" + recordIdApproved
+        return recordIdProposed.replace("gp", "gf")
     elif currentRecordType == "childrensSubjectHeadings":
-        recordIdApproved = recordIdProposed.replace("sp", "sj")
-        linkedDataURI = "http://id.loc.gov/authorities/childrensSubjects/" + recordIdApproved
+        return recordIdProposed.replace("sp", "sj")
     elif currentRecordType == "mediumOfPerformanceTerms":
-        recordIdApproved = recordIdProposed.replace("pp", "mp")
-        linkedDataURI = "http://id.loc.gov/authorities/performanceMediums/" + recordIdApproved
+        return recordIdProposed.replace("pp", "mp")
     elif currentRecordType == "demographicGroupTerms":
-        recordIdApproved = recordIdProposed.replace("dp", "dg")
-        linkedDataURI = "http://id.loc.gov/authorities/demographicTerms" + recordIdApproved
-    return linkedDataURI
+        return recordIdProposed.replace("dp", "dg")
+
+def getLinkedDataURI(recordIdProposed, currentRecordType):
+    recordIdApproved = getRecordIdApproved(recordIdProposed, currentRecordType)
+    if currentRecordType == "mainSubjectHeadings":
+        return "http://id.loc.gov/authorities/subjects/" + recordIdApproved
+    elif currentRecordType == "genreFormTerms":
+        return "http://id.loc.gov/authorities/genreForms/" + recordIdApproved
+    elif currentRecordType == "childrensSubjectHeadings":
+        return "http://id.loc.gov/authorities/childrensSubjects/" + recordIdApproved
+    elif currentRecordType == "mediumOfPerformanceTerms":
+        return "http://id.loc.gov/authorities/performanceMediums/" + recordIdApproved
+    elif currentRecordType == "demographicGroupTerms":
+        return "http://id.loc.gov/authorities/demographicTerms" + recordIdApproved
+
+# LCCN Permalink not available for demographic group terms or medium of performance terms
+def getLCCNPermalink(recordIdApproved, currentRecordType):
+    recordIdApproved = getRecordIdApproved(recordIdProposed, currentRecordType)
+    return "https://lccn.loc.gov/" + recordIdApproved
 
 # scrape records from html source
 soup = BeautifulSoup(htmlText, 'html.parser')
@@ -113,8 +126,9 @@ for tr in soup.select("body > table > tr"):
                     if deleteGeogLine: newRecord["statusDeletedGeog"] = True
                     if changeGeogLine: newRecord["statusChangedGeog"] = True
                 fcNew, recordIdProposed = extractRecordId(fc)
-                linkedDataURI = getURI(recordIdProposed, currentRecordType)
-                newRecord["linkedDataURI"] = linkedDataURI
+                newRecord["linkedDataURI"] = getLinkedDataURI(recordIdProposed, currentRecordType)
+                if currentRecordType not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
+                    newRecord["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentRecordType)
                 newRecord["lines"].append(fn + " " + fcNew)
         else: # blank rows
             continue
@@ -129,8 +143,9 @@ for tr in soup.select("body > table > tr"):
                     if deleteGeogLine: newRecord["statusDeletedGeog"] = True
                     if changeGeogLine: newRecord["statusChangedGeog"] = True
                 fcNew, recordIdProposed = extractRecordId(fc)
-                linkedDataURI = getURI(recordIdProposed, currentRecordType)
-                newRecord["linkedDataURI"] = linkedDataURI
+                newRecord["linkedDataURI"] = getLinkedDataURI(recordIdProposed, currentRecordType)
+                if currentRecordType not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
+                    newRecord["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentRecordType)
                 newRecord["lines"].append(fn + " " + fcNew)
             else: # non-1xx lines
                 if addFieldLine or deleteFieldLine:
@@ -188,8 +203,11 @@ for record in records:
                 tweetThread.append("..." + chunk + "...")
             tweetThread.append("..." + tweetBodyChunks[-1])
 
-    # make sure to confirm URLs work! LC doesn't always have this ready right away
-    tweetThread.append(f"🗓️ Approved {approvalDate} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{record['linkedDataURI']}")
+    # Warn re: inactive links for cancelled headings?
+    if record["recordType"] not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
+        tweetThread.append(f"🗓️ Approved {approvalDate} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{record['linkedDataURI']}\n\n🔗 LCCN Permalink →\n{record['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
+    else:
+        tweetThread.append(f"🗓️ Approved {approvalDate} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{record['linkedDataURI']}\n\n*Links might not be active for very recently approved subject headings")
 
     allTweetThreads.append(tweetThread)
 
