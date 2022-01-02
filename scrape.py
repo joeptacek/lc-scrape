@@ -34,7 +34,7 @@ datePretty = date.fromisoformat(dateISO).strftime("%b. %d, %Y").replace(" 0", " 
 def newUpdateObj(headingType, dateISO):
     return {
         "headingType": headingType,
-        "date": dateISO,
+        "listDate": dateISO,
         "linkedDataURI": None,
         "LCCNPermalink": None,
         "approvedBeforeMeeting": False,
@@ -102,8 +102,6 @@ updates = []
 currentHeadingType = "mainSubjectHeadings" # LC always starts with this?
 addingUpdate = False
 for tr in soup.select("body > table > tr"):
-    print(tr)
-
     # detect subject heading type based on page section titles
     if "GENRE/FORM TERMS" in tr.text: currentHeadingType = "genreFormTerms"
     if "CHILDREN'S SUBJECT HEADINGS" in tr.text: currentHeadingType = "childrensSubjectHeadings"

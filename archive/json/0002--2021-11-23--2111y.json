@@ -1,7 +1,11 @@
 [
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051204",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021051204",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -24,8 +28,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061701",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061701",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -42,8 +50,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061702",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061702",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -60,8 +72,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052567",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021052567",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -77,8 +93,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021058436",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021058436",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -94,8 +114,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj96004911",
+    "LCCNPermalink": "https://lccn.loc.gov/sj96004911",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -116,8 +140,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061707",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061707",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -143,8 +171,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021050178",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021050178",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -164,8 +196,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061654",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061654",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -188,8 +224,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061704",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061704",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -205,8 +245,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061705",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061705",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -225,8 +269,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061706",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061706",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -245,8 +293,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj96004933",
+    "LCCNPermalink": "https://lccn.loc.gov/sj96004933",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -269,8 +321,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061695",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061695",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -287,8 +343,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051206",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021051206",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -306,8 +366,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061674",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061674",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -326,8 +390,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021050218",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021050218",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -345,8 +413,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061670",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061670",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -362,8 +434,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061669",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061669",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -379,8 +455,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061663",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061663",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -405,8 +485,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061664",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061664",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -426,8 +510,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021054051",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021054051",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -445,8 +533,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061673",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061673",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -466,8 +558,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061671",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061671",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -484,8 +580,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061672",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061672",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -501,8 +601,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021054433",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021054433",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -520,8 +624,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061665",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061665",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -539,8 +647,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021056876",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021056876",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -558,8 +670,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052685",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021052685",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -575,8 +691,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051598",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021051598",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -593,8 +713,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052107",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021052107",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -614,8 +738,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052718",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021052718",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -635,8 +763,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061658",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061658",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -656,8 +788,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021059301",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021059301",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -678,8 +814,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021050740",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021050740",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -698,8 +838,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061681",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061681",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -716,8 +860,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061650",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061650",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -735,8 +883,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061666",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061666",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -755,8 +907,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061678",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061678",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -774,8 +930,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061677",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061677",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -793,8 +953,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061649",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061649",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -812,8 +976,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061651",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061651",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -830,8 +998,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061703",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061703",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -849,8 +1021,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021052394",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021052394",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -868,8 +1044,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061662",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061662",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -890,8 +1070,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051539",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021051539",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -912,8 +1096,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021051098",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021051098",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -930,8 +1118,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021061694",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021061694",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -949,8 +1141,12 @@
     ]
   },
   {
-    "recordType": "childrensSubjectHeadings",
+    "headingType": "childrensSubjectHeadings",
+    "listDate": "2021-11-23",
     "linkedDataURI": "http://id.loc.gov/authorities/childrensSubjects/sj2021054734",
+    "LCCNPermalink": "https://lccn.loc.gov/sj2021054734",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,

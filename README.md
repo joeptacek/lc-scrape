@@ -28,7 +28,7 @@ Example update object from `scrape.json` →
 ```json
 {
   "headingType": "mainSubjectHeadings",
-  "date": "2021-11-12",
+  "listDate": "2021-11-12",
   "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003553",
   "LCCNPermalink": "https://lccn.loc.gov/sh85003553",
   "approvedBeforeMeeting": false,

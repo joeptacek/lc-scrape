@@ -1,8 +1,11 @@
 [
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012363",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012363",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -20,9 +23,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005604",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005604",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -40,9 +46,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007061",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007061",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -63,9 +72,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007063",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007063",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -83,9 +95,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85144421",
     "LCCNPermalink": "https://lccn.loc.gov/sh85144421",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -105,9 +120,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007026",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007026",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -125,9 +143,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007025",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007025",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -145,9 +166,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008120",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008120",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -165,9 +189,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85002509",
     "LCCNPermalink": "https://lccn.loc.gov/sh85002509",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -184,9 +211,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85002777",
     "LCCNPermalink": "https://lccn.loc.gov/sh85002777",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -203,9 +233,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003729",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003729",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -225,9 +258,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2007000574",
     "LCCNPermalink": "https://lccn.loc.gov/sh2007000574",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -247,9 +283,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007003",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007003",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -266,9 +305,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008126",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008126",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -286,9 +328,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008210",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008210",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -307,9 +352,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008596",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008596",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -325,9 +373,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019103377",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019103377",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -344,9 +395,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004134",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004134",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -365,9 +419,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020006646",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020006646",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -386,9 +443,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005591",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005591",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -406,9 +466,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008193",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008193",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -425,9 +488,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008249",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008249",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -443,9 +509,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008286",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008286",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -461,9 +530,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85010633",
     "LCCNPermalink": "https://lccn.loc.gov/sh85010633",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -480,9 +552,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008309",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008309",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -500,9 +575,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005609",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005609",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -524,9 +602,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85011489",
     "LCCNPermalink": "https://lccn.loc.gov/sh85011489",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -553,9 +634,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020011730",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020011730",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -573,9 +657,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008116",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008116",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -593,9 +680,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008200",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008200",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -613,9 +703,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008206",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008206",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -635,9 +728,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008207",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008207",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -656,9 +752,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008299",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008299",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -676,9 +775,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh96010317",
     "LCCNPermalink": "https://lccn.loc.gov/sh96010317",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -695,9 +797,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008130",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008130",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -716,9 +821,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85015019",
     "LCCNPermalink": "https://lccn.loc.gov/sh85015019",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -739,9 +847,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh90001273",
     "LCCNPermalink": "https://lccn.loc.gov/sh90001273",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -758,9 +869,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh90000834",
     "LCCNPermalink": "https://lccn.loc.gov/sh90000834",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -782,9 +896,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003874",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003874",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -801,9 +918,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019001727",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019001727",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -821,9 +941,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008148",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008148",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -844,9 +967,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005567",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005567",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -863,9 +989,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006974",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006974",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -884,9 +1013,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85018711",
     "LCCNPermalink": "https://lccn.loc.gov/sh85018711",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -908,9 +1040,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008600",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008600",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -930,9 +1065,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006912",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006912",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -950,9 +1088,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021011935",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021011935",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -970,9 +1111,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006959",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006959",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1002,9 +1146,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008169",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008169",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1026,9 +1173,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008174",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008174",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1046,9 +1196,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2018001287",
     "LCCNPermalink": "https://lccn.loc.gov/sh2018001287",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1065,9 +1218,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019102638",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019102638",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1086,9 +1242,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008124",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008124",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1109,9 +1268,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008978",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008978",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1129,9 +1291,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008977",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008977",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1149,9 +1314,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007067",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007067",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1167,9 +1335,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020001404",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020001404",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1187,9 +1358,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020001448",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020001448",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1207,9 +1381,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003039",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003039",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1227,9 +1404,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020007517",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020007517",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1247,9 +1427,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85025104",
     "LCCNPermalink": "https://lccn.loc.gov/sh85025104",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1267,9 +1450,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020009587",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020009587",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1287,9 +1473,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008218",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008218",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1307,9 +1496,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2015002906",
     "LCCNPermalink": "https://lccn.loc.gov/sh2015002906",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1329,9 +1521,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004196",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004196",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1348,9 +1543,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004195",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004195",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1367,9 +1565,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008141",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008141",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1385,9 +1586,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007044",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007044",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1405,9 +1609,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008323",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008323",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1425,9 +1632,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008267",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008267",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1445,9 +1655,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007028",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007028",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1464,9 +1677,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008325",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008325",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1485,9 +1701,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008145",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008145",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1506,9 +1725,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020000570",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020000570",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1526,9 +1748,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012362",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012362",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1544,9 +1769,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2009005586",
     "LCCNPermalink": "https://lccn.loc.gov/sh2009005586",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1564,9 +1792,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh97009072",
     "LCCNPermalink": "https://lccn.loc.gov/sh97009072",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1587,9 +1818,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020006648",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020006648",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1606,9 +1840,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019002058",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019002058",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1626,9 +1863,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008158",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008158",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1644,9 +1884,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008252",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008252",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1664,9 +1907,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019002340",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019002340",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1684,9 +1930,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007040",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007040",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1704,9 +1953,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003767",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003767",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1729,9 +1981,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006916",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006916",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1753,9 +2008,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008281",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008281",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1773,9 +2031,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004104",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004104",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1793,9 +2054,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008290",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008290",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1814,9 +2078,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005611",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005611",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1833,9 +2100,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006869",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006869",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1858,9 +2128,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008205",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008205",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1878,9 +2151,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019002633",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019002633",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -1898,9 +2174,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012144",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012144",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1916,9 +2195,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008294",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008294",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1940,9 +2222,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008153",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008153",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1959,9 +2244,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh93004752",
     "LCCNPermalink": "https://lccn.loc.gov/sh93004752",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1978,9 +2266,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85044370",
     "LCCNPermalink": "https://lccn.loc.gov/sh85044370",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -1997,9 +2288,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008139",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008139",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2015,9 +2309,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008238",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008238",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2042,9 +2339,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003882",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003882",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2060,9 +2360,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008318",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008318",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2080,9 +2383,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008316",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008316",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2099,9 +2405,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020011530",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020011530",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -2119,9 +2428,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008190",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008190",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2138,9 +2450,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008321",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008321",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2157,9 +2472,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh95004104",
     "LCCNPermalink": "https://lccn.loc.gov/sh95004104",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2176,9 +2494,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008245",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008245",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2196,9 +2517,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005686",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005686",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2217,9 +2541,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85048151",
     "LCCNPermalink": "https://lccn.loc.gov/sh85048151",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -2253,9 +2580,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008138",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008138",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2273,9 +2603,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007039",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007039",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2292,9 +2625,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008189",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008189",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2311,9 +2647,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2018000786",
     "LCCNPermalink": "https://lccn.loc.gov/sh2018000786",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2332,9 +2671,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008296",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008296",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2350,9 +2692,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007038",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007038",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2370,9 +2715,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019003484",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019003484",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -2390,9 +2738,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008214",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008214",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2411,9 +2762,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008241",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008241",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2431,9 +2785,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006927",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006927",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2469,9 +2826,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008122",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008122",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2489,9 +2849,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008112",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008112",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2509,9 +2872,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh94005816",
     "LCCNPermalink": "https://lccn.loc.gov/sh94005816",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -2532,9 +2898,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008258",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008258",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2554,9 +2923,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008133",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008133",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2575,9 +2947,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005573",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005573",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2594,9 +2969,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008208",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008208",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2614,9 +2992,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008185",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008185",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2636,9 +3017,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008204",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008204",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2655,9 +3039,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008618",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008618",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2679,9 +3066,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003951",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003951",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2699,9 +3089,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008128",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008128",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2720,9 +3113,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012146",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012146",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2738,9 +3134,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008314",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008314",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2759,9 +3158,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008175",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008175",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2778,9 +3180,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh98001935",
     "LCCNPermalink": "https://lccn.loc.gov/sh98001935",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": true,
@@ -2797,9 +3202,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020002508",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020002508",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -2817,9 +3225,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh88003102",
     "LCCNPermalink": "https://lccn.loc.gov/sh88003102",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2840,9 +3251,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020002719",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020002719",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -2860,9 +3274,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006971",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006971",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2878,9 +3295,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85063696",
     "LCCNPermalink": "https://lccn.loc.gov/sh85063696",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2898,9 +3318,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85063783",
     "LCCNPermalink": "https://lccn.loc.gov/sh85063783",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2921,9 +3344,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005639",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005639",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2940,9 +3366,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007031",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007031",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -2959,9 +3388,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85064917",
     "LCCNPermalink": "https://lccn.loc.gov/sh85064917",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": true,
@@ -2978,9 +3410,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85064918",
     "LCCNPermalink": "https://lccn.loc.gov/sh85064918",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": true,
@@ -2997,9 +3432,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2003003212",
     "LCCNPermalink": "https://lccn.loc.gov/sh2003003212",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -3016,9 +3454,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020006673",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020006673",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3037,9 +3478,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007050",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007050",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3058,9 +3502,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012167",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012167",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3076,9 +3523,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008107",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008107",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3097,9 +3547,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020000306",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020000306",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3117,9 +3570,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008320",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008320",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3140,9 +3596,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008606",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008606",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3162,9 +3621,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003916",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003916",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3184,9 +3646,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006824",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006824",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3204,9 +3669,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006822",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006822",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3223,9 +3691,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008628",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008628",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3249,9 +3720,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003787",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003787",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3272,9 +3746,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008244",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008244",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3291,9 +3768,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008266",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008266",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3310,9 +3790,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008262",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008262",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3329,9 +3812,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008247",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008247",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3353,9 +3839,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008310",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008310",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3372,9 +3861,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003865",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003865",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3391,9 +3883,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008269",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008269",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3417,9 +3912,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006846",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006846",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3436,9 +3934,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020006643",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020006643",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3455,9 +3956,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008164",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008164",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3477,9 +3981,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005493",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005493",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3501,9 +4008,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004075",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004075",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3528,9 +4038,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004076",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004076",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3546,9 +4059,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004077",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004077",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3564,9 +4080,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85075509",
     "LCCNPermalink": "https://lccn.loc.gov/sh85075509",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": true,
@@ -3583,9 +4102,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85075510",
     "LCCNPermalink": "https://lccn.loc.gov/sh85075510",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": true,
@@ -3602,9 +4124,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh94005799",
     "LCCNPermalink": "https://lccn.loc.gov/sh94005799",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": true,
@@ -3621,9 +4146,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003952",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003952",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3643,9 +4171,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh88002996",
     "LCCNPermalink": "https://lccn.loc.gov/sh88002996",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -3678,9 +4209,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh93009491",
     "LCCNPermalink": "https://lccn.loc.gov/sh93009491",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3701,9 +4235,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008312",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008312",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3719,9 +4256,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85077002",
     "LCCNPermalink": "https://lccn.loc.gov/sh85077002",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -3747,9 +4287,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85078732",
     "LCCNPermalink": "https://lccn.loc.gov/sh85078732",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -3781,9 +4324,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008635",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008635",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3801,9 +4347,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008152",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008152",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3822,9 +4371,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019100279",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019100279",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -3842,9 +4394,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85081694",
     "LCCNPermalink": "https://lccn.loc.gov/sh85081694",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3862,9 +4417,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008288",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008288",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3880,9 +4438,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008155",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008155",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3898,9 +4459,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008157",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008157",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3916,9 +4480,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008220",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008220",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3934,9 +4501,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008183",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008183",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3959,9 +4529,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005666",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005666",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3979,9 +4552,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003879",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003879",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -3999,9 +4575,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004096",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004096",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4019,9 +4598,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008254",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008254",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4039,9 +4621,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008147",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008147",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4061,9 +4646,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005633",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005633",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4081,9 +4669,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008180",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008180",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4099,9 +4690,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003785",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003785",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4120,9 +4714,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019100851",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019100851",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -4140,9 +4737,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008117",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008117",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4160,9 +4760,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003880",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003880",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4181,9 +4784,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008280",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008280",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4203,9 +4809,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008639",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008639",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4221,9 +4830,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008256",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008256",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4239,9 +4851,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008293",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008293",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4270,9 +4885,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008284",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008284",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4290,9 +4908,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019000020",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019000020",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4312,9 +4933,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008638",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008638",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4333,9 +4957,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008295",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008295",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4359,9 +4986,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008604",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008604",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4381,9 +5011,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008236",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008236",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4401,9 +5034,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85092226",
     "LCCNPermalink": "https://lccn.loc.gov/sh85092226",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -4430,9 +5066,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019101206",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019101206",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -4449,9 +5088,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019101101",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019101101",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -4468,9 +5110,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh88006210",
     "LCCNPermalink": "https://lccn.loc.gov/sh88006210",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4488,9 +5133,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008291",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008291",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4507,9 +5155,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004059",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004059",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4525,9 +5176,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008168",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008168",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4544,9 +5198,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008253",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008253",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4564,9 +5221,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008213",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008213",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4583,9 +5243,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006968",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006968",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4607,9 +5270,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019101486",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019101486",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -4627,9 +5293,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh94007971",
     "LCCNPermalink": "https://lccn.loc.gov/sh94007971",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4648,9 +5317,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008319",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008319",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4669,9 +5341,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005523",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005523",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4694,9 +5369,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh96000851",
     "LCCNPermalink": "https://lccn.loc.gov/sh96000851",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -4717,9 +5395,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016002305",
     "LCCNPermalink": "https://lccn.loc.gov/sh2016002305",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4737,9 +5418,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008322",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008322",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4758,9 +5442,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012179",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012179",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4776,9 +5463,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006805",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006805",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4802,9 +5492,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008231",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008231",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4821,9 +5514,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85097921",
     "LCCNPermalink": "https://lccn.loc.gov/sh85097921",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4841,9 +5537,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007068",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007068",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4864,9 +5563,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007069",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007069",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4885,9 +5587,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003919",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003919",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4907,9 +5612,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019102634",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019102634",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4926,9 +5634,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019101645",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019101645",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -4946,9 +5657,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003890",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003890",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4966,9 +5680,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85098905",
     "LCCNPermalink": "https://lccn.loc.gov/sh85098905",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -4987,9 +5704,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019101699",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019101699",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -5007,9 +5727,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008597",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008597",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5025,9 +5748,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008172",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008172",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5048,9 +5774,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85099787",
     "LCCNPermalink": "https://lccn.loc.gov/sh85099787",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -5079,9 +5808,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85099967",
     "LCCNPermalink": "https://lccn.loc.gov/sh85099967",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5099,9 +5831,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006847",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006847",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5120,9 +5855,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008259",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008259",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5138,9 +5876,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85100550",
     "LCCNPermalink": "https://lccn.loc.gov/sh85100550",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5158,9 +5899,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85102131",
     "LCCNPermalink": "https://lccn.loc.gov/sh85102131",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5177,9 +5921,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005640",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005640",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5197,9 +5944,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85103166",
     "LCCNPermalink": "https://lccn.loc.gov/sh85103166",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5216,9 +5966,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008311",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008311",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5234,9 +5987,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012166",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012166",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5253,9 +6009,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019102377",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019102377",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5275,9 +6034,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008632",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008632",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5296,9 +6058,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85105891",
     "LCCNPermalink": "https://lccn.loc.gov/sh85105891",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5316,9 +6081,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019102080",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019102080",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -5336,9 +6104,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005540",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005540",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5355,9 +6126,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021012145",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021012145",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5373,9 +6147,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003755",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003755",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5392,9 +6169,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007073",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007073",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5412,9 +6192,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006990",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006990",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5433,9 +6216,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008593",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008593",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5455,9 +6241,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005718",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005718",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5475,9 +6264,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008217",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008217",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5500,9 +6292,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006845",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006845",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5521,9 +6316,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008603",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008603",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5543,9 +6341,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2009007209",
     "LCCNPermalink": "https://lccn.loc.gov/sh2009007209",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5562,9 +6363,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008192",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008192",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5581,9 +6385,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006939",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006939",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5605,9 +6412,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2008028014",
     "LCCNPermalink": "https://lccn.loc.gov/sh2008028014",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5625,9 +6435,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005630",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005630",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5647,9 +6460,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008598",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008598",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5666,9 +6482,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007077",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007077",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5698,9 +6517,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008271",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008271",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5719,9 +6541,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020003671",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020003671",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -5739,9 +6564,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020003810",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020003810",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -5759,9 +6587,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008229",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008229",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5780,9 +6611,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008137",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008137",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5801,9 +6635,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2011006151",
     "LCCNPermalink": "https://lccn.loc.gov/sh2011006151",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": true,
@@ -5820,9 +6657,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020000645",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020000645",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5852,9 +6692,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008223",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008223",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5873,9 +6716,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006780",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006780",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5895,9 +6741,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2016002424",
     "LCCNPermalink": "https://lccn.loc.gov/sh2016002424",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5915,9 +6764,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2015002824",
     "LCCNPermalink": "https://lccn.loc.gov/sh2015002824",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5935,9 +6787,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003754",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003754",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5956,9 +6811,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008612",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008612",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -5974,9 +6832,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021003667",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021003667",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6001,9 +6862,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85125572",
     "LCCNPermalink": "https://lccn.loc.gov/sh85125572",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6020,9 +6884,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008268",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008268",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6038,9 +6905,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021002575",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021002575",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -6058,9 +6928,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007042",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007042",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6080,9 +6953,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004099",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004099",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6098,9 +6974,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008197",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008197",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6116,9 +6995,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008592",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008592",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6138,9 +7020,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh92006214",
     "LCCNPermalink": "https://lccn.loc.gov/sh92006214",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6157,9 +7042,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008165",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008165",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6183,9 +7071,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007033",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007033",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6205,9 +7096,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007035",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007035",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6229,9 +7123,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020004551",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020004551",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -6249,9 +7146,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008216",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008216",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6267,9 +7167,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008182",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008182",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6291,9 +7194,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008222",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008222",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6314,9 +7220,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005495",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005495",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6335,9 +7244,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh91005966",
     "LCCNPermalink": "https://lccn.loc.gov/sh91005966",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6356,9 +7268,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008151",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008151",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6376,9 +7291,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008150",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008150",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6399,9 +7317,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006952",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006952",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6418,9 +7339,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006868",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006868",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6438,9 +7362,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019103287",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019103287",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6457,9 +7384,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008161",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008161",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6476,9 +7406,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85140524",
     "LCCNPermalink": "https://lccn.loc.gov/sh85140524",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -6495,9 +7428,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008201",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008201",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6514,9 +7450,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008106",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008106",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6541,9 +7480,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008188",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008188",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6560,9 +7502,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004120",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004120",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6581,9 +7526,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2019001862",
     "LCCNPermalink": "https://lccn.loc.gov/sh2019001862",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6602,9 +7550,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020004957",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020004957",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -6622,9 +7573,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008166",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008166",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6643,9 +7597,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008167",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008167",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6664,9 +7621,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020005124",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020005124",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": true,
     "statusCancelledHeading": false,
@@ -6684,9 +7644,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008224",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008224",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6707,9 +7670,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008234",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008234",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6733,9 +7699,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008248",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008248",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6752,9 +7721,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2012000175",
     "LCCNPermalink": "https://lccn.loc.gov/sh2012000175",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6772,9 +7744,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021007062",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021007062",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6791,9 +7766,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008634",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008634",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6811,9 +7789,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006799",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006799",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6831,9 +7812,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008225",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008225",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6850,9 +7834,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021008633",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021008633",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6869,9 +7856,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004155",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004155",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6898,9 +7888,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021004202",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021004202",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6919,9 +7912,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2020001110",
     "LCCNPermalink": "https://lccn.loc.gov/sh2020001110",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6939,9 +7935,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021006783",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021006783",
+    "approvedBeforeMeeting": true,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6959,9 +7958,12 @@
     ]
   },
   {
-    "recordType": "mainSubjectHeadings",
+    "headingType": "mainSubjectHeadings",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh2021005521",
     "LCCNPermalink": "https://lccn.loc.gov/sh2021005521",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -6987,9 +7989,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2018026062",
     "LCCNPermalink": "https://lccn.loc.gov/gf2018026062",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7007,9 +8012,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2014026688",
     "LCCNPermalink": "https://lccn.loc.gov/gf2014026688",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7026,9 +8034,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2021026041",
     "LCCNPermalink": "https://lccn.loc.gov/gf2021026041",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7047,9 +8058,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2021026025",
     "LCCNPermalink": "https://lccn.loc.gov/gf2021026025",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7067,9 +8081,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2014026122",
     "LCCNPermalink": "https://lccn.loc.gov/gf2014026122",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7086,9 +8103,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2014026936",
     "LCCNPermalink": "https://lccn.loc.gov/gf2014026936",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7107,9 +8127,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2015026010",
     "LCCNPermalink": "https://lccn.loc.gov/gf2015026010",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7126,9 +8149,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2021026027",
     "LCCNPermalink": "https://lccn.loc.gov/gf2021026027",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7145,9 +8171,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2020026057",
     "LCCNPermalink": "https://lccn.loc.gov/gf2020026057",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7167,9 +8196,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2011026363",
     "LCCNPermalink": "https://lccn.loc.gov/gf2011026363",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7187,9 +8219,12 @@
     ]
   },
   {
-    "recordType": "genreFormTerms",
+    "headingType": "genreFormTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/genreForms/gf2021026042",
     "LCCNPermalink": "https://lccn.loc.gov/gf2021026042",
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7209,9 +8244,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2013015039",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7228,9 +8266,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2021015014",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7247,9 +8288,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2021015010",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7266,9 +8310,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2021015015",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7289,9 +8336,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2021015013",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7309,9 +8359,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2013015478",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7329,9 +8382,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2020015023",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7352,9 +8408,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2020015022",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": false,
     "statusNewHeading": true,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
@@ -7377,9 +8436,12 @@
     ]
   },
   {
-    "recordType": "mediumOfPerformanceTerms",
+    "headingType": "mediumOfPerformanceTerms",
+    "listDate": "2021-11-15",
     "linkedDataURI": "http://id.loc.gov/authorities/performanceMediums/mp2013015788",
     "LCCNPermalink": null,
+    "approvedBeforeMeeting": false,
+    "submittedByCoopLib": true,
     "statusNewHeading": false,
     "statusChangedHeading": false,
     "statusCancelledHeading": false,
