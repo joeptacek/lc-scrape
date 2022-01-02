@@ -231,7 +231,10 @@ for update in updates:
 
 print(
     "----------------------------------",
-    "TOTAL UPDATES:                    " + str(len(updates)),
+    "TOTAL UPDATES:                " + str(len(updates)),
+    "----------------------------------",
+    "Approved before meeting (A):  " + str(len([update for update in updates if update["approvedBeforeMeeting"]])),
+    "Submitted by coop. lib. (C):  " + str(len([update for update in updates if update["submittedByCoopLib"]])),
     "----------------------------------",
     "Main subject headings:        " + str(len([update for update in updates if update["headingType"] == "mainSubjectHeadings"])),
     "Genre/form terms:             " + str(len([update for update in updates if update["headingType"] == "genreFormTerms"])),
