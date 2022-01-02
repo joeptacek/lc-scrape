@@ -1,7 +1,7 @@
 # approved subject lists here: https://classweb.org/approved-subjects/
 #
 # example use:
-# python scrape.py https://classweb.org/approved-subjects/2111b.html "Nov. 12, 2021"
+# python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
 #
 # TODO
 # write script for pushing tweets.json to s3 bucket
