@@ -29,7 +29,8 @@ Example update object from `scrape.json` →
 {
   "headingType": "mainSubjectHeadings",
   "listDate": "2021-11-12",
-  "linkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003553",
+  "listSource": "https://classweb.org/approved-subjects/2111b.html",
+  "LCLinkedDataURI": "http://id.loc.gov/authorities/subjects/sh85003553",
   "LCCNPermalink": "https://lccn.loc.gov/sh85003553",
   "approvedBeforeMeeting": false,
   "submittedByCoopLib": false,
