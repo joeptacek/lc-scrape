@@ -4,9 +4,10 @@
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
 #
 # TODO
+# save requested html as output/source.html
+# automate saving output to archive
 # write script for pushing tweets.json to s3 bucket
-# include date in scrape output?
-# catch lamda timeouts? just use write a cloudwatch rule?
+# write script for running batches from input list
 
 import sys
 from datetime import date
@@ -21,21 +22,23 @@ from bs4 import BeautifulSoup
 approvalURL = sys.argv[1]
 htmlText = requests.get(approvalURL).text
 
-# todo: save html file to lcsh-html archive
-
-# can use local html for testing instead
-# import codecs
-# htmlText = codecs.open(lcsh-html/2111y.html, "r", "utf-8").read()
-
 # get date from arg 2
 dateISO = sys.argv[2]
 datePretty = date.fromisoformat(dateISO).strftime("%b. %d, %Y").replace(" 0", " ")
+
+# can use local html for testing instead
+# import codecs
+# htmlText = codecs.open("./archive/html/0003--2021-11-15--2111.html", "r", "utf-8").read()
+# approvalURL = "https://classweb.org/approved-subjects/2111.html"
+# dateISO = "2021-11-15"
+# datePretty = date.fromisoformat(dateISO).strftime("%b. %d, %Y").replace(" 0", " ")
 
 def newUpdateObj(headingType, dateISO):
     return {
         "headingType": headingType,
         "listDate": dateISO,
-        "linkedDataURI": None,
+        "listSource": approvalURL,
+        "LCLinkedDataURI": None,
         "LCCNPermalink": None,
         "approvedBeforeMeeting": False,
         "submittedByCoopLib": False,
@@ -52,6 +55,7 @@ def newUpdateObj(headingType, dateISO):
         "lines": []
     }
 
+# removes extra spaces between words, also removes any trailing and leading spaces
 def squashSpaces(s):
     return " ".join(s.split())
 
@@ -78,7 +82,7 @@ def getRecordIdApproved(recordIdProposed, currentHeadingType):
     elif currentHeadingType == "demographicGroupTerms":
         return recordIdProposed.replace("dp", "dg")
 
-def getLinkedDataURI(recordIdProposed, currentHeadingType):
+def getLCLinkedDataURI(recordIdProposed, currentHeadingType):
     recordIdApproved = getRecordIdApproved(recordIdProposed, currentHeadingType)
     if currentHeadingType == "mainSubjectHeadings":
         return "http://id.loc.gov/authorities/subjects/" + recordIdApproved
@@ -95,6 +99,24 @@ def getLinkedDataURI(recordIdProposed, currentHeadingType):
 def getLCCNPermalink(recordIdApproved, currentHeadingType):
     recordIdApproved = getRecordIdApproved(recordIdProposed, currentHeadingType)
     return "https://lccn.loc.gov/" + recordIdApproved
+
+# twitter double-weights characters unless they fall in certain unicode ranges (see https://developer.twitter.com/en/docs/counting-characters)
+def isSpecial(chr):
+    chrVal = ord(chr)
+    if (
+        chrVal <= int(0x10FF)
+        or (chrVal >= int(0x2000) and chrVal <= int(0x200D))
+        or (chrVal >= int(0x2010) and chrVal <= int(0x201F))
+        or (chrVal >= int(0x2032) and chrVal <= int(0x2037))
+    ):
+        # e.g., the é in café is single-weighted
+        return False
+    else:
+        # e.g., the ṭ shṭraimels is double-weighted
+        return True
+
+def countSpecialCharacters(string):
+    return len([chr for chr in string if isSpecial(chr)])
 
 # scrape updates from html source
 soup = BeautifulSoup(htmlText, 'html.parser')
@@ -130,7 +152,7 @@ for tr in soup.select("body > table > tr"):
             if approvedBeforeMeetingLine: newUpdate["approvedBeforeMeeting"] = True
             if submittedByCoopLibLine: newUpdate["submittedByCoopLib"] = True
 
-            fn = tr.select_one("td > table > tr > td:first-child").get_text()
+            fn = squashSpaces(tr.select_one("td > table > tr > td:first-child").get_text())
             fc = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
             if fn[0] != "1": raise Exception("Expected update to start with 1xx, instead: ", fn)
             if changeHeadingLine: # 1xx for changed heading; represents old heading
@@ -144,7 +166,7 @@ for tr in soup.select("body > table > tr"):
                     if deleteGeogLine: newUpdate["statusDeletedGeog"] = True
                     if changeGeogLine: newUpdate["statusChangedGeog"] = True
                 fcNew, recordIdProposed = extractRecordId(fc)
-                newUpdate["linkedDataURI"] = getLinkedDataURI(recordIdProposed, currentHeadingType)
+                newUpdate["LCLinkedDataURI"] = getLCLinkedDataURI(recordIdProposed, currentHeadingType)
                 if currentHeadingType not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
                     newUpdate["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentHeadingType)
                 newUpdate["lines"].append(fn + " " + fcNew)
@@ -152,7 +174,7 @@ for tr in soup.select("body > table > tr"):
             continue
     else:
         if tr.select_one("table"): # adding update lines
-            fn = tr.select_one("td > table > tr > td:first-child").get_text()
+            fn = squashSpaces(tr.select_one("td > table > tr > td:first-child").get_text())
             fc = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
             if fn[0] == "1": # 1xx after changed heading; represents new heading
                 if addGeogLine or deleteGeogLine or changeGeogLine:
@@ -161,7 +183,7 @@ for tr in soup.select("body > table > tr"):
                     if deleteGeogLine: newUpdate["statusDeletedGeog"] = True
                     if changeGeogLine: newUpdate["statusChangedGeog"] = True
                 fcNew, recordIdProposed = extractRecordId(fc)
-                newUpdate["linkedDataURI"] = getLinkedDataURI(recordIdProposed, currentHeadingType)
+                newUpdate["LCLinkedDataURI"] = getLCLinkedDataURI(recordIdProposed, currentHeadingType)
                 if currentHeadingType not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
                     newUpdate["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentHeadingType)
                 newUpdate["lines"].append(fn + " " + fcNew)
@@ -201,18 +223,27 @@ for update in updates:
     tweetThread = []
     tweetBody = ""
     for index, line in enumerate(update["lines"]):
+        # first 1-2 heading-related lines = stanalone tweets
         if index == 0:
             tweetThread.append(f"{line}\n\n{hashtags}")
         elif index == 1 and update["statusChangedHeading"]:
             tweetThread.append(f"NEW HEADING →\n{line}")
         else:
+            # concatenate any remaining lines as tweetBody
             if tweetBody == "":
                 tweetBody += line
             else:
                 tweetBody += "\n\n" + line
 
+    # break tweetBody into 280-character chunks (occasionally no tweetBody due to single-line updates)
     if tweetBody:
-        tweetBodyChunks = textwrap.wrap(tweetBody, width=274, replace_whitespace=False, break_on_hyphens=False)
+        maxLen = 274 # 280 minus 6 for possible leading/trailing "..."
+
+        # for Tweets containing special double-weighted characters, reduce max chunk size to accomodate
+        numSpecials = countSpecialCharacters(tweetBody)
+        maxLenAdjusted = maxLen - numSpecials
+        tweetBodyChunks = textwrap.wrap(tweetBody, width=maxLenAdjusted, replace_whitespace=False, break_on_hyphens=False)
+
         if len(tweetBodyChunks) == 1:
             tweetThread.append(tweetBodyChunks[0])
         else:
@@ -221,11 +252,11 @@ for update in updates:
                 tweetThread.append("..." + chunk + "...")
             tweetThread.append("..." + tweetBodyChunks[-1])
 
-    # Warn re: inactive links for cancelled headings?
+    # TODO: warn re: inactive links for cancelled headings?
     if update["headingType"] not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
-        tweetThread.append(f"🗓️ Approved {datePretty} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{update['linkedDataURI']}\n\n🔗 LCCN Permalink →\n{update['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
+        tweetThread.append(f"🗓️ Approved {datePretty} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n🔗 LCCN Permalink →\n{update['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
     else:
-        tweetThread.append(f"🗓️ Approved {datePretty} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{update['linkedDataURI']}\n\n*Links might not be active for very recently approved subject headings")
+        tweetThread.append(f"🗓️ Approved {datePretty} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n*Links might not be active for very recently approved subject headings")
 
     allTweetThreads.append(tweetThread)
 
