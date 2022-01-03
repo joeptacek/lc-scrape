@@ -291,6 +291,9 @@ print(
 
 if not os.path.exists("./output/"): os.makedirs("./output/")
 
+with open('./output/source.html', 'w') as outfile:
+    outfile.write(htmlText)
+
 with open('./output/scrape.json', 'w') as outfile:
     json.dump(updates, outfile, indent=2, ensure_ascii=False)
 

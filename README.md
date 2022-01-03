@@ -1,12 +1,10 @@
 # lc-scrape
 
-lc-scrape is a utility for scraping [subject heading approved lists](https://classweb.org/approved-subjects/) from the Library of Congress (LC) website to a pair of output files.
+*lc-scrape* is a utility for scraping [subject heading approved lists](https://classweb.org/approved-subjects/) from the Library of Congress (LC) website to a set of output files.
 
 `scrape.json` represents the approved list as an array of update objects (example given below).
 
-`tweets.json` represents the approved list as an array Tweet threads for use with [lc-tweet](https://github.com/joeptacek/lc-tweet).
-
-*It's quite possible lc-scrape will eventually break if LC ever changes the structure of its approved lists.*
+`tweets.json` represents the approved list as an array of Tweet threads for use with [*lc-tweet*](https://github.com/joeptacek/lc-tweet).
 
 ## Usage
 
@@ -17,11 +15,15 @@ python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
 
 Works with Python 3.9, possibly other versions.
 
+*It's plausible that lc-scrape will eventually break if LC ever changes the structure of its approved lists.*
+
 ## Output
 
-In `scrape.json`, each update is represented as an object with properties corresponding to subject heading type (main subject headings, children's subject headings, genre/form terms, medium of performance terms, demographic group terms) and types of changes approved (new heading, changed heading, cancelled heading, updated non-heading fields, updated geographic subdivisibility).
+Running `scrape.py` yields three output files, `scrape.json`, `tweets.json`, and `source.html`.
 
-In addition, LC Linked Data Service URI and LCCN Permalink are inferred from the record number assigned to the proposal.
+With `scrape.json`, updates are represented as objects with various properties, e.g., date, heading type (main subject headings, children's subject headings, genre/form terms, medium of performance terms, demographic group terms), update types (new heading, changed heading, cancelled heading, updated non-heading fields, updated geographic subdivisibility), etc.
+
+LC Linked Data Service URI and LCCN Permalink are inferred from the record number assigned to the proposal.
 
 Example update object from `scrape.json` →
 
@@ -51,6 +53,10 @@ Example update object from `scrape.json` →
 }
 ```
 
+Other output files →
+* `tweets.json` represents updates in a format ideal for threaded display on Twitter
+* `source.html` is the HTML file requested from the LC website
+
 ## Archive
 
-This repository also contains an archive of the original HTML approved lists from LC, along with the representations I've derived from these using lc-scrape (i.e., `scrape.json`). These files are located in [the archive directory](https://github.com/joeptacek/lc-scrape/tree/master/archive).
+This repository contains [an archive](https://github.com/joeptacek/lc-scrape/tree/master/archive) of HTML approved lists from LC, along with JSON files I've derived from these using *lc-scrape*.
