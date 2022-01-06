@@ -11,7 +11,7 @@
 
 import sys
 from datetime import date
-import os
+from pathlib import Path
 import json
 import re
 import textwrap
@@ -19,8 +19,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # get html text from arg 1
-approvalURL = sys.argv[1]
-htmlText = requests.get(approvalURL).text
+listSourceURL = sys.argv[1]
+htmlText = requests.get(listSourceURL).text
 
 # get date from arg 2
 dateISO = sys.argv[2]
@@ -29,15 +29,18 @@ datePretty = date.fromisoformat(dateISO).strftime("%b. %d, %Y").replace(" 0", " 
 # can use local html for testing instead
 # import codecs
 # htmlText = codecs.open("./archive/html/0003--2021-11-15--2111.html", "r", "utf-8").read()
-# approvalURL = "https://classweb.org/approved-subjects/2111.html"
+# listSourceURL = "https://classweb.org/approved-subjects/2111.html"
 # dateISO = "2021-11-15"
 # datePretty = date.fromisoformat(dateISO).strftime("%b. %d, %Y").replace(" 0", " ")
 
-def newUpdateObj(headingType, dateISO):
+#
+saveId = sys.argv[3] if len(sys.argv) > 3 else ""
+
+def newUpdateObj(headingType, dateISO, listSourceURL):
     return {
         "headingType": headingType,
         "listDate": dateISO,
-        "listSource": approvalURL,
+        "listSource": listSourceURL,
         "LCLinkedDataURI": None,
         "LCCNPermalink": None,
         "approvedBeforeMeeting": False,
@@ -146,7 +149,7 @@ for tr in soup.select("body > table > tr"):
     if addingUpdate == False:
         if tr.select_one("table"): # beginning new update, first line (1xx)
             addingUpdate = True
-            newUpdate = newUpdateObj(currentHeadingType, dateISO)
+            newUpdate = newUpdateObj(currentHeadingType, dateISO, listSourceURL)
 
             # set (A) and (C)
             if approvedBeforeMeetingLine: newUpdate["approvedBeforeMeeting"] = True
@@ -254,9 +257,9 @@ for update in updates:
 
     # TODO: warn re: inactive links for cancelled headings?
     if update["headingType"] not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
-        tweetThread.append(f"🗓️ Approved {datePretty} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n🔗 LCCN Permalink →\n{update['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
+        tweetThread.append(f"🗓️ Approved {datePretty} →\n{listSourceURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n🔗 LCCN Permalink →\n{update['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
     else:
-        tweetThread.append(f"🗓️ Approved {datePretty} →\n{approvalURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n*Links might not be active for very recently approved subject headings")
+        tweetThread.append(f"🗓️ Approved {datePretty} →\n{listSourceURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n*Links might not be active for very recently approved subject headings")
 
     allTweetThreads.append(tweetThread)
 
@@ -289,13 +292,26 @@ print(
     sep="\n"
 )
 
-if not os.path.exists("./output/"): os.makedirs("./output/")
+if saveId:
+    htmlFilename = Path(listSourceURL).stem # kind of misusing Path module, maybe
 
-with open('./output/source.html', 'w') as outfile:
-    outfile.write(htmlText)
+    if not Path("./archive/html/").exists(): Path("./archive/html/").mkdir(parents=True)
+    with open(f"./archive/html/{saveId}--{dateISO}--{htmlFilename}.html", "w") as outfile:
+        outfile.write(htmlText)
 
-with open('./output/scrape.json', 'w') as outfile:
-    json.dump(updates, outfile, indent=2, ensure_ascii=False)
+    if not Path("./archive/json/").exists(): Path("./archive/json/").mkdir(parents=True)
+    with open(f"./archive/json/{saveId}--{dateISO}--{htmlFilename}.json", "w") as outfile:
+        json.dump(updates, outfile, indent=2, ensure_ascii=False)
+        outfile.write("\n")
+else:
+    if not Path("./output/").exists(): Path("./output/").mkdir()
+    with open("./output/source.html", "w") as outfile:
+        outfile.write(htmlText)
 
-with open('./output/tweets.json', 'w') as outfile:
-    json.dump(allTweetThreads, outfile, indent=2, ensure_ascii=False)
+    with open("./output/scrape.json", "w") as outfile:
+        json.dump(updates, outfile, indent=2, ensure_ascii=False)
+        outfile.write("\n")
+
+    with open("./output/tweets.json", "w") as outfile:
+        json.dump(allTweetThreads, outfile, indent=2, ensure_ascii=False)
+        outfile.write("\n")
