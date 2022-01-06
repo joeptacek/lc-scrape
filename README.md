@@ -14,7 +14,7 @@ pip install -r requirements.txt
 # basic scrape to output/
 python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
 
-# save html/json to archive/ as 0001--2021-11-12--2111b
+# save html & json to archive/ as 0001--2021-11-12--2111b
 python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001
 ```
 
