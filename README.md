@@ -6,16 +6,16 @@
 
 `tweets.json` represents the approved list as an array of Tweet threads for use with [*lc-tweet*](https://github.com/joeptacek/lc-tweet).
 
-## Usage
+## Basic usage
+
+Save `source.html`, `scrape.json`, and `tweets.json` to `output/` →
 
 ```bash
+# install dependancies
 pip install -r requirements.txt
 
-# basic scrape to output/
+# run scrape.py, providing URL and date for approved list
 python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
-
-# save html & json to archive/ as 0001--2021-11-12--2111b
-python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001
 ```
 
 Works with Python 3.9, possibly other versions.
@@ -65,3 +65,20 @@ Other output files →
 ## Archive
 
 This repository contains [an archive](https://github.com/joeptacek/lc-scrape/tree/master/archive) of HTML approved lists from LC, along with JSON files I've derived from these using *lc-scrape*.
+
+To update the archive, run `scrape.py` with a new save ID as the final argument. This will save source HTML and scraped JSON to `archive/` and will append `archive/batch.json` with the latest run. By default, the corresponding Tweet thread array will be pushed to an s3 storage bucket for consumption by *lc-tweet*.
+
+```bash
+# update archive and push tweets to s3
+python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001
+
+# can also --skip-tweets
+python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001 --skip-tweets
+```
+
+Use `--batch` to update the archive from a batch file. This will skip Tweet-related JSON.
+
+```bash
+# update archive from any batch file file, e.g., archive/batch.json
+python scrape.py --batch archive/batch.json
+```

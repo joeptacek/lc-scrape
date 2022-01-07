@@ -17,10 +17,18 @@ import re
 import textwrap
 import requests
 from bs4 import BeautifulSoup
+import boto3
 
-listSourceURL = sys.argv[1]
-dateISO = sys.argv[2]
-saveId = sys.argv[3] if len(sys.argv) > 3 else ""
+doBatch = True if sys.argv[1] == "--batch" else False
+if doBatch:
+    inputBatchPath = sys.argv[2]
+    inputListSourceURL = inputDateISO = inputSaveId = None
+    skipTweets = True
+else:
+    inputListSourceURL = sys.argv[1]
+    inputDateISO = sys.argv[2]
+    inputSaveId = sys.argv[3] if len(sys.argv) > 3 else None
+    skipTweets = True if (len(sys.argv) > 4 and sys.argv[4] == "--skip-tweets") else False
 
 def newUpdateObj(headingType, dateISO, listSourceURL):
     return {
@@ -48,13 +56,13 @@ def newUpdateObj(headingType, dateISO, listSourceURL):
 def squashSpaces(s):
     return " ".join(s.split())
 
-def extractRecordId(string):
-    outputString = string
+def extractRecordId(inputString):
+    outputString = inputString
     outputRecordId = None
     pattern = r"\[(sp|gp|dp|pp).+]"
-    found = re.search(pattern, string)
-    if not found: raise Exception("Expected field content to contain a record ID: ", string)
-    outputString = re.sub(pattern, "", string).strip()
+    found = re.search(pattern, inputString)
+    if not found: raise Exception("Expected field content to contain a record ID: ", inputString)
+    outputString = re.sub(pattern, "", inputString).strip()
     # remove stray spaces, opening and closing bracket
     outputRecordId = found.group().replace(" ", "")[1:-1]
     return outputString, outputRecordId
@@ -104,21 +112,23 @@ def isSpecial(chr):
         # e.g., the ṭ shṭraimels is double-weighted
         return True
 
-def countSpecialCharacters(string):
-    return len([chr for chr in string if isSpecial(chr)])
+def countSpecialCharacters(inputString):
+    return len([chr for chr in inputString if isSpecial(chr)])
 
 # scrape updates from html source
-def scrapeList(listSourceURL, dateISO, saveId):
-    htmlText = requests.get(listSourceURL).text
+def scrapeList(listSourceURL, dateISO):
+    sourceHTML = requests.get(listSourceURL).text
     # can use local html for testing instead
     # import codecs
     # htmlText = codecs.open("./archive/html/0001--2021-11-12--2111b.html", "r", "utf-8").read()
 
-    htmlSoup = BeautifulSoup(htmlText, 'html.parser')
+    htmlSoup = BeautifulSoup(sourceHTML, 'html.parser')
 
-    updates = []
+    scrapeJSON = []
     currentHeadingType = "mainSubjectHeadings" # LC always starts with this?
     addingUpdate = False
+
+    # break html table into chunks based on blank rows
     for tr in htmlSoup.select("body > table > tr"):
         # detect subject heading type based on page section titles
         if "GENRE/FORM TERMS" in tr.text: currentHeadingType = "genreFormTerms"
@@ -139,7 +149,7 @@ def scrapeList(listSourceURL, dateISO, saveId):
         approvedBeforeMeetingLine = True if "(A)" in tr.text else False
         submittedByCoopLibLine = True if "(C)" in tr.text else False
 
-        if addingUpdate == False:
+        if not addingUpdate:
             if tr.select_one("table"): # beginning new update, first line (1xx)
                 addingUpdate = True
                 newUpdate = newUpdateObj(currentHeadingType, dateISO, listSourceURL)
@@ -189,37 +199,11 @@ def scrapeList(listSourceURL, dateISO, saveId):
                         if addFieldLine: newUpdate["statusAddedField"] = True
                         if deleteFieldLine: newUpdate["statusDeletedField"] = True
                     newUpdate["lines"].append(fn + " " + fc)
-            else:
-                addingUpdate = False # done adding update
+            else: # first blank row after update
+                addingUpdate = False
                 if not (newUpdate["statusChangedHeading"] or newUpdate["statusCancelledHeading"] or newUpdate["statusUpdatedField"] or newUpdate["statusUpdatedGeog"]): newUpdate["statusNewHeading"] = True
-                updates.append(newUpdate)
-
-    if saveId:
-        htmlFilename = Path(listSourceURL).stem # kind of misusing Path module, maybe
-
-        if not Path("./archive/html/").exists(): Path("./archive/html/").mkdir(parents=True)
-        with open(f"./archive/html/{saveId}--{dateISO}--{htmlFilename}.html", "w") as outfile:
-            outfile.write(htmlText)
-
-        if not Path("./archive/json/").exists(): Path("./archive/json/").mkdir(parents=True)
-        with open(f"./archive/json/{saveId}--{dateISO}--{htmlFilename}.json", "w") as outfile:
-            json.dump(updates, outfile, indent=2, ensure_ascii=False)
-            outfile.write("\n")
-    else:
-        if not Path("./output/").exists(): Path("./output/").mkdir()
-        with open("./output/source.html", "w") as outfile:
-            outfile.write(htmlText)
-
-        with open("./output/scrape.json", "w") as outfile:
-            json.dump(updates, outfile, indent=2, ensure_ascii=False)
-            outfile.write("\n")
-
-        with open("./output/tweets.json", "w") as outfile:
-            json.dump(allTweetThreads, outfile, indent=2, ensure_ascii=False)
-            outfile.write("\n")
-
-
-    return updates
+                scrapeJSON.append(newUpdate)
+    return scrapeJSON, sourceHTML
 
     # NOTES RE: OBSERVED LC CONVENTIONS
     # CHANGE HEADING always on first line with old heading; update never (?) includes by ADD/DELETE FIELD; update sometimes (rarely) includes ADD/DELETE GEOG (on second with new heading)
@@ -229,10 +213,10 @@ def scrapeList(listSourceURL, dateISO, saveId):
     # CHANGE GEOG only one of these observed? was supposed to be ADD GEOG? see https://classweb.org/approved-subjects/2101.html
     # total updates = new headings + changed headings (includes some ADD/DELETE GEOG) + cancelled headings + updated fields (includes all ADD/DELETE fields and some ADD/DELETE GEOG)
 
-def toTwitterJSON(allUpdates):
+def toTwitterJSON(scrapeJSON):
     # generate tweet threads from updates
-    allTweetThreads = []
-    for update in allUpdates:
+    tweetsJSON = []
+    for update in scrapeJSON:
         if update["headingType"] == "mainSubjectHeadings": hashtags = "#newLCSH"
         if update["headingType"] == "genreFormTerms": hashtags = "#newLCGFT"
         if update["headingType"] == "childrensSubjectHeadings": hashtags = "#newLCSHAC"
@@ -276,47 +260,112 @@ def toTwitterJSON(allUpdates):
                     tweetThread.append("..." + chunk + "...")
                 tweetThread.append("..." + tweetBodyChunks[-1])
 
-        listSourceURL = update["listSource"]
-        datePretty = date.fromisoformat(update["listDate"]).strftime("%b. %d, %Y").replace(" 0", " ")
         # TODO: warn re: inactive links for cancelled headings?
+        datePretty = date.fromisoformat(update["listDate"]).strftime("%b. %d, %Y").replace(" 0", " ")
+        listSourceURL = update["listSource"]
         if update["headingType"] not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
             tweetThread.append(f"🗓️ Approved {datePretty} →\n{listSourceURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n🔗 LCCN Permalink →\n{update['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
         else:
             tweetThread.append(f"🗓️ Approved {datePretty} →\n{listSourceURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n*Links might not be active for very recently approved subject headings")
 
-        allTweetThreads.append(tweetThread)
-    return allTweetThreads
+        tweetsJSON.append(tweetThread)
+    return tweetsJSON
 
-def printSummary(allUpdates):
+def printSummary(scrapeJSON):
     print(
         "----------------------------------",
-        "TOTAL UPDATES:                " + str(len(allUpdates)),
+        "TOTAL UPDATES:                " + str(len(scrapeJSON)),
         "----------------------------------",
-        "Approved before meeting (A):  " + str(len([update for update in allUpdates if update["approvedBeforeMeeting"]])),
-        "Submitted by coop. lib. (C):  " + str(len([update for update in allUpdates if update["submittedByCoopLib"]])),
+        "Approved before meeting (A):  " + str(len([update for update in scrapeJSON if update["approvedBeforeMeeting"]])),
+        "Submitted by coop. lib. (C):  " + str(len([update for update in scrapeJSON if update["submittedByCoopLib"]])),
         "----------------------------------",
-        "Main subject headings:        " + str(len([update for update in allUpdates if update["headingType"] == "mainSubjectHeadings"])),
-        "Genre/form terms:             " + str(len([update for update in allUpdates if update["headingType"] == "genreFormTerms"])),
-        "Children's subject headings:  " + str(len([update for update in allUpdates if update["headingType"] == "childrensSubjectHeadings"])),
-        "Medium of performance terms:  " + str(len([update for update in allUpdates if update["headingType"] == "mediumOfPerformanceTerms"])),
-        "Demographic group terms:      " + str(len([update for update in allUpdates if update["headingType"] == "demographicGroupTerms"])),
+        "Main subject headings:        " + str(len([update for update in scrapeJSON if update["headingType"] == "mainSubjectHeadings"])),
+        "Genre/form terms:             " + str(len([update for update in scrapeJSON if update["headingType"] == "genreFormTerms"])),
+        "Children's subject headings:  " + str(len([update for update in scrapeJSON if update["headingType"] == "childrensSubjectHeadings"])),
+        "Medium of performance terms:  " + str(len([update for update in scrapeJSON if update["headingType"] == "mediumOfPerformanceTerms"])),
+        "Demographic group terms:      " + str(len([update for update in scrapeJSON if update["headingType"] == "demographicGroupTerms"])),
         "----------------------------------",
-        "New headings:                 " + str(len([update for update in allUpdates if update["statusNewHeading"]])),
-        "Changed headings:             " + str(len([update for update in allUpdates if update["statusChangedHeading"]])),
-        "├──With added geog:           " + str(len([update for update in allUpdates if (update["statusAddedGeog"] and update["statusChangedHeading"])])),
-        "├──With deleted geog:         " + str(len([update for update in allUpdates if (update["statusDeletedGeog"] and update["statusChangedHeading"])])),
-        "└──With changed geog:         " + str(len([update for update in allUpdates if (update["statusChangedGeog"] and update["statusChangedHeading"])])),
-        "Cancelled headings:           " + str(len([update for update in allUpdates if update["statusCancelledHeading"]])),
-        "With other changes:           " + str(len([update for update in allUpdates if (update["statusUpdatedField"] or update["statusUpdatedGeog"] and not update["statusChangedHeading"])])),
-        "├──With added field(s):       " + str(len([update for update in allUpdates if update["statusAddedField"]])),
-        "├──With deleted field(s):     " + str(len([update for update in allUpdates if update["statusDeletedField"]])),
-        "├──With added geog:           " + str(len([update for update in allUpdates if (update["statusAddedGeog"] and not update["statusChangedHeading"])])),
-        "├──With deleted geog:         " + str(len([update for update in allUpdates if (update["statusDeletedGeog"] and not update["statusChangedHeading"])])),
-        "└──With changed geog:         " + str(len([update for update in allUpdates if (update["statusChangedGeog"] and not update["statusChangedHeading"])])),
+        "New headings:                 " + str(len([update for update in scrapeJSON if update["statusNewHeading"]])),
+        "Changed headings:             " + str(len([update for update in scrapeJSON if update["statusChangedHeading"]])),
+        "├──With added geog:           " + str(len([update for update in scrapeJSON if (update["statusAddedGeog"] and update["statusChangedHeading"])])),
+        "├──With deleted geog:         " + str(len([update for update in scrapeJSON if (update["statusDeletedGeog"] and update["statusChangedHeading"])])),
+        "└──With changed geog:         " + str(len([update for update in scrapeJSON if (update["statusChangedGeog"] and update["statusChangedHeading"])])),
+        "Cancelled headings:           " + str(len([update for update in scrapeJSON if update["statusCancelledHeading"]])),
+        "With other changes:           " + str(len([update for update in scrapeJSON if (update["statusUpdatedField"] or update["statusUpdatedGeog"] and not update["statusChangedHeading"])])),
+        "├──With added field(s):       " + str(len([update for update in scrapeJSON if update["statusAddedField"]])),
+        "├──With deleted field(s):     " + str(len([update for update in scrapeJSON if update["statusDeletedField"]])),
+        "├──With added geog:           " + str(len([update for update in scrapeJSON if (update["statusAddedGeog"] and not update["statusChangedHeading"])])),
+        "├──With deleted geog:         " + str(len([update for update in scrapeJSON if (update["statusDeletedGeog"] and not update["statusChangedHeading"])])),
+        "└──With changed geog:         " + str(len([update for update in scrapeJSON if (update["statusChangedGeog"] and not update["statusChangedHeading"])])),
         "----------------------------------",
         sep="\n"
     )
 
-allUpdates = scrapeList(listSourceURL, dateISO, saveId)
-allTweetThreads = toTwitterJSON(allUpdates)
-printSummary(allUpdates)
+def saveFiles(listSourceURL, dateISO, saveId, scrapeJSON, sourceHTML, tweetsJSON=None):
+    if saveId:
+        listSourceFilename = Path(listSourceURL).stem # kind of misusing Path module, maybe
+        outputFilenameHTML = f"{saveId}--{dateISO}--{listSourceFilename}" + ".html"
+        outputFilenameJSON = f"{saveId}--{dateISO}--{listSourceFilename}" + ".json"
+
+        if not Path("./archive/source/").exists(): Path("./archive/source/").mkdir(parents=True)
+        with open("./archive/source/" + outputFilenameHTML, "w") as outfile:
+            outfile.write(sourceHTML)
+
+        if not Path("./archive/scrape/").exists(): Path("./archive/scrape/").mkdir(parents=True)
+        with open("./archive/scrape/" + outputFilenameJSON, "w") as outfile:
+            json.dump(scrapeJSON, outfile, indent=2, ensure_ascii=False)
+            outfile.write("\n") # here and below: ensure newline at EOFfor POSIX compliance
+
+        with open("./archive/batch.json", "r+") as batchFile:
+            newRun = {
+                "id": saveId,
+                "date": dateISO,
+                "url": listSourceURL
+            }
+
+            archiveBatch = json.load(batchFile)
+            archiveBatch.append(newRun)
+            batchFile.seek(0)
+            json.dump(archiveBatch, batchFile, indent=2)
+
+        if not skipTweets:
+            s3 = boto3.resource("s3")
+            tweetsObj = s3.Object("lc-new-subjects", "input/" + outputFilenameJSON)
+            tweetsObj.put(Body=(json.dumps(tweetsJSON, indent=2, default=str, ensure_ascii=False)), ContentType="application/json")
+            print(f"Saved {outputFilenameJSON} to lc-new-subjects bucket")
+    else:
+        if not Path("./output/").exists(): Path("./output/").mkdir()
+        with open("./output/source.html", "w") as outfile:
+            outfile.write(sourceHTML)
+
+        with open("./output/scrape.json", "w") as outfile:
+            json.dump(scrapeJSON, outfile, indent=2, ensure_ascii=False)
+            outfile.write("\n")
+
+        with open("./output/tweets.json", "w") as outfile:
+            json.dump(tweetsJSON, outfile, indent=2, ensure_ascii=False)
+            outfile.write("\n")
+
+def runBatch():
+    with open(inputBatchPath, "r") as infile:
+        batchList = json.load(infile)
+
+    for newRun in batchList:
+        newListSourceURL = newRun["url"]
+        newDateISO = newRun["date"]
+        newSaveId = newRun["id"]
+
+        scrapeJSON, sourceHTML = scrapeList(newListSourceURL, newDateISO)
+        saveFiles(newListSourceURL, newDateISO, newSaveId, scrapeJSON, sourceHTML, tweetsJSON=None)
+
+        listSourceFilename = Path(newListSourceURL).stem
+        print(f"Done: {newSaveId}--{newDateISO}--{listSourceFilename}")
+
+def runSingle():
+    scrapeJSON, sourceHTML = scrapeList(inputListSourceURL, inputDateISO)
+    printSummary(scrapeJSON)
+
+    tweetsJSON = toTwitterJSON(scrapeJSON) if not skipTweets else None
+    saveFiles(inputListSourceURL, inputDateISO, inputSaveId, scrapeJSON, sourceHTML, tweetsJSON)
+
+runBatch() if doBatch else runSingle()
