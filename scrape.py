@@ -1,13 +1,16 @@
 # approved subject lists here: https://classweb.org/approved-subjects/
-#
-# example use:
+
+# save source.html, scrape.json, and tweets.json to output/
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
-#
-# TODO
-# save requested html as output/source.html
-# automate saving output to archive
-# write script for pushing tweets.json to s3 bucket
-# write script for running batches from input list
+
+# save source and scrape to archive/ and push tweets to s3; also updates archive/batch.json
+# python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001
+
+# update archive, skip tweets
+# python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001 --skip-tweets
+
+# update archive from any batch file; skips tweets
+# python scrape.py --batch archive/batch.json
 
 import sys
 from datetime import date
@@ -19,16 +22,16 @@ import requests
 from bs4 import BeautifulSoup
 import boto3
 
-doBatch = True if sys.argv[1] == "--batch" else False
-if doBatch:
+batchMode = True if sys.argv[1] == "--batch" else False
+if batchMode:
     inputBatchPath = sys.argv[2]
     inputListSourceURL = inputDateISO = inputSaveId = None
-    skipTweets = True
+    skipTweetsMode = True
 else:
     inputListSourceURL = sys.argv[1]
     inputDateISO = sys.argv[2]
     inputSaveId = sys.argv[3] if len(sys.argv) > 3 else None
-    skipTweets = True if (len(sys.argv) > 4 and sys.argv[4] == "--skip-tweets") else False
+    skipTweetsMode = True if (len(sys.argv) > 4 and sys.argv[4] == "--skip-tweets") else False
 
 def newUpdateObj(headingType, dateISO, listSourceURL):
     return {
@@ -37,8 +40,8 @@ def newUpdateObj(headingType, dateISO, listSourceURL):
         "listSource": listSourceURL,
         "LCLinkedDataURI": None,
         "LCCNPermalink": None,
-        "approvedBeforeMeeting": False,
-        "submittedByCoopLib": False,
+        "statusApprovedBeforeMeeting": False,
+        "statusSubmittedByCoopLib": False,
         "statusNewHeading": False,
         "statusChangedHeading": False,
         "statusCancelledHeading": False,
@@ -68,28 +71,28 @@ def extractRecordId(inputString):
     return outputString, outputRecordId
 
 def getRecordIdApproved(recordIdProposed, currentHeadingType):
-    if currentHeadingType == "mainSubjectHeadings":
+    if currentHeadingType == "mainSubjectHeading":
         return recordIdProposed.replace("sp", "sh")
-    elif currentHeadingType == "genreFormTerms":
+    elif currentHeadingType == "genreFormTerm":
         return recordIdProposed.replace("gp", "gf")
-    elif currentHeadingType == "childrensSubjectHeadings":
+    elif currentHeadingType == "childrensSubjectHeading":
         return recordIdProposed.replace("sp", "sj")
-    elif currentHeadingType == "mediumOfPerformanceTerms":
+    elif currentHeadingType == "mediumOfPerformanceTerm":
         return recordIdProposed.replace("pp", "mp")
-    elif currentHeadingType == "demographicGroupTerms":
+    elif currentHeadingType == "demographicGroupTerm":
         return recordIdProposed.replace("dp", "dg")
 
 def getLCLinkedDataURI(recordIdProposed, currentHeadingType):
     recordIdApproved = getRecordIdApproved(recordIdProposed, currentHeadingType)
-    if currentHeadingType == "mainSubjectHeadings":
+    if currentHeadingType == "mainSubjectHeading":
         return "http://id.loc.gov/authorities/subjects/" + recordIdApproved
-    elif currentHeadingType == "genreFormTerms":
+    elif currentHeadingType == "genreFormTerm":
         return "http://id.loc.gov/authorities/genreForms/" + recordIdApproved
-    elif currentHeadingType == "childrensSubjectHeadings":
+    elif currentHeadingType == "childrensSubjectHeading":
         return "http://id.loc.gov/authorities/childrensSubjects/" + recordIdApproved
-    elif currentHeadingType == "mediumOfPerformanceTerms":
+    elif currentHeadingType == "mediumOfPerformanceTerm":
         return "http://id.loc.gov/authorities/performanceMediums/" + recordIdApproved
-    elif currentHeadingType == "demographicGroupTerms":
+    elif currentHeadingType == "demographicGroupTerm":
         return "http://id.loc.gov/authorities/demographicTerms" + recordIdApproved
 
 # LCCN Permalink not available for demographic group terms or medium of performance terms
@@ -125,16 +128,16 @@ def scrapeList(listSourceURL, dateISO):
     htmlSoup = BeautifulSoup(sourceHTML, 'html.parser')
 
     scrapeJSON = []
-    currentHeadingType = "mainSubjectHeadings" # LC always starts with this?
+    currentHeadingType = "mainSubjectHeading" # LC always starts with this?
     addingUpdate = False
 
     # break html table into chunks based on blank rows
     for tr in htmlSoup.select("body > table > tr"):
         # detect subject heading type based on page section titles
-        if "GENRE/FORM TERMS" in tr.text: currentHeadingType = "genreFormTerms"
-        if "CHILDREN'S SUBJECT HEADINGS" in tr.text: currentHeadingType = "childrensSubjectHeadings"
-        if "MEDIUM OF PERFORMANCE TERMS" in tr.text: currentHeadingType = "mediumOfPerformanceTerms"
-        if "DEMOGRAPHIC GROUP TERMS" in tr.text: currentHeadingType = "demographicGroupTerms"
+        if "GENRE/FORM TERMS" in tr.text: currentHeadingType = "genreFormTerm"
+        if "CHILDREN'S SUBJECT HEADINGS" in tr.text: currentHeadingType = "childrensSubjectHeading"
+        if "MEDIUM OF PERFORMANCE TERMS" in tr.text: currentHeadingType = "mediumOfPerformanceTerm"
+        if "DEMOGRAPHIC GROUP TERMS" in tr.text: currentHeadingType = "demographicGroupTerm"
 
         # detect heading, fields, geog updates
         changeHeadingLine = True if "CHANGE HEADING" in tr.text else False
@@ -155,8 +158,8 @@ def scrapeList(listSourceURL, dateISO):
                 newUpdate = newUpdateObj(currentHeadingType, dateISO, listSourceURL)
 
                 # set (A) and (C)
-                if approvedBeforeMeetingLine: newUpdate["approvedBeforeMeeting"] = True
-                if submittedByCoopLibLine: newUpdate["submittedByCoopLib"] = True
+                if approvedBeforeMeetingLine: newUpdate["statusApprovedBeforeMeeting"] = True
+                if submittedByCoopLibLine: newUpdate["statusSubmittedByCoopLib"] = True
 
                 fn = squashSpaces(tr.select_one("td > table > tr > td:first-child").get_text())
                 fc = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
@@ -173,7 +176,7 @@ def scrapeList(listSourceURL, dateISO):
                         if changeGeogLine: newUpdate["statusChangedGeog"] = True
                     fcNew, recordIdProposed = extractRecordId(fc)
                     newUpdate["LCLinkedDataURI"] = getLCLinkedDataURI(recordIdProposed, currentHeadingType)
-                    if currentHeadingType not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
+                    if currentHeadingType not in ["demographicGroupTerm", "mediumOfPerformanceTerm"]:
                         newUpdate["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentHeadingType)
                     newUpdate["lines"].append(fn + " " + fcNew)
             else: # blank rows
@@ -190,7 +193,7 @@ def scrapeList(listSourceURL, dateISO):
                         if changeGeogLine: newUpdate["statusChangedGeog"] = True
                     fcNew, recordIdProposed = extractRecordId(fc)
                     newUpdate["LCLinkedDataURI"] = getLCLinkedDataURI(recordIdProposed, currentHeadingType)
-                    if currentHeadingType not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
+                    if currentHeadingType not in ["demographicGroupTerm", "mediumOfPerformanceTerm"]:
                         newUpdate["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentHeadingType)
                     newUpdate["lines"].append(fn + " " + fcNew)
                 else: # non-1xx update lines
@@ -217,11 +220,11 @@ def toTwitterJSON(scrapeJSON):
     # generate tweet threads from updates
     tweetsJSON = []
     for update in scrapeJSON:
-        if update["headingType"] == "mainSubjectHeadings": hashtags = "#newLCSH"
-        if update["headingType"] == "genreFormTerms": hashtags = "#newLCGFT"
-        if update["headingType"] == "childrensSubjectHeadings": hashtags = "#newLCSHAC"
-        if update["headingType"] == "mediumOfPerformanceTerms": hashtags = "#newLCMPT"
-        if update["headingType"] == "demographicGroupTerms": hashtags = "#newLCDGT"
+        if update["headingType"] == "mainSubjectHeading": hashtags = "#newLCSH"
+        if update["headingType"] == "genreFormTerm": hashtags = "#newLCGFT"
+        if update["headingType"] == "childrensSubjectHeading": hashtags = "#newLCSHAC"
+        if update["headingType"] == "mediumOfPerformanceTerm": hashtags = "#newLCMPT"
+        if update["headingType"] == "demographicGroupTerm": hashtags = "#newLCDGT"
         if update["statusNewHeading"]: hashtags += " #newHeading"
         if update["statusChangedHeading"]: hashtags += " #changedHeading"
         if update["statusCancelledHeading"]: hashtags += " #cancelledHeading"
@@ -263,7 +266,7 @@ def toTwitterJSON(scrapeJSON):
         # TODO: warn re: inactive links for cancelled headings?
         datePretty = date.fromisoformat(update["listDate"]).strftime("%b. %d, %Y").replace(" 0", " ")
         listSourceURL = update["listSource"]
-        if update["headingType"] not in ["demographicGroupTerms", "mediumOfPerformanceTerms"]:
+        if update["headingType"] not in ["demographicGroupTerm", "mediumOfPerformanceTerm"]:
             tweetThread.append(f"🗓️ Approved {datePretty} →\n{listSourceURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n🔗 LCCN Permalink →\n{update['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
         else:
             tweetThread.append(f"🗓️ Approved {datePretty} →\n{listSourceURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n*Links might not be active for very recently approved subject headings")
@@ -276,14 +279,14 @@ def printSummary(scrapeJSON):
         "----------------------------------",
         "TOTAL UPDATES:                " + str(len(scrapeJSON)),
         "----------------------------------",
-        "Approved before meeting (A):  " + str(len([update for update in scrapeJSON if update["approvedBeforeMeeting"]])),
-        "Submitted by coop. lib. (C):  " + str(len([update for update in scrapeJSON if update["submittedByCoopLib"]])),
+        "Approved before meeting (A):  " + str(len([update for update in scrapeJSON if update["statusApprovedBeforeMeeting"]])),
+        "Submitted by coop. lib. (C):  " + str(len([update for update in scrapeJSON if update["statusSubmittedByCoopLib"]])),
         "----------------------------------",
-        "Main subject headings:        " + str(len([update for update in scrapeJSON if update["headingType"] == "mainSubjectHeadings"])),
-        "Genre/form terms:             " + str(len([update for update in scrapeJSON if update["headingType"] == "genreFormTerms"])),
-        "Children's subject headings:  " + str(len([update for update in scrapeJSON if update["headingType"] == "childrensSubjectHeadings"])),
-        "Medium of performance terms:  " + str(len([update for update in scrapeJSON if update["headingType"] == "mediumOfPerformanceTerms"])),
-        "Demographic group terms:      " + str(len([update for update in scrapeJSON if update["headingType"] == "demographicGroupTerms"])),
+        "Main subject headings:        " + str(len([update for update in scrapeJSON if update["headingType"] == "mainSubjectHeading"])),
+        "Genre/form terms:             " + str(len([update for update in scrapeJSON if update["headingType"] == "genreFormTerm"])),
+        "Children's subject headings:  " + str(len([update for update in scrapeJSON if update["headingType"] == "childrensSubjectHeading"])),
+        "Medium of performance terms:  " + str(len([update for update in scrapeJSON if update["headingType"] == "mediumOfPerformanceTerm"])),
+        "Demographic group terms:      " + str(len([update for update in scrapeJSON if update["headingType"] == "demographicGroupTerm"])),
         "----------------------------------",
         "New headings:                 " + str(len([update for update in scrapeJSON if update["statusNewHeading"]])),
         "Changed headings:             " + str(len([update for update in scrapeJSON if update["statusChangedHeading"]])),
@@ -316,20 +319,21 @@ def saveFiles(listSourceURL, dateISO, saveId, scrapeJSON, sourceHTML, tweetsJSON
             json.dump(scrapeJSON, outfile, indent=2, ensure_ascii=False)
             outfile.write("\n") # here and below: ensure newline at EOFfor POSIX compliance
 
-        with open("./archive/batch.json", "r+") as batchFile:
-            newRun = {
-                "id": saveId,
-                "date": dateISO,
-                "url": listSourceURL
-            }
+        if not batchMode:
+            with open("./archive/batch.json", "r+") as batchFile:
+                newRun = {
+                    "id": saveId,
+                    "date": dateISO,
+                    "url": listSourceURL
+                }
 
-            archiveBatch = json.load(batchFile)
-            archiveBatch.append(newRun)
-            batchFile.seek(0)
-            json.dump(archiveBatch, batchFile, indent=2)
+                archiveBatch = json.load(batchFile)
+                archiveBatch.append(newRun)
+                batchFile.seek(0)
+                json.dump(archiveBatch, batchFile, indent=2)
 
-        if not skipTweets:
-            s3 = boto3.resource("s3")
+        if not skipTweetsMode:
+            s3 = boto3.resource("s3") # use AWS CLI to configure local security credentials
             tweetsObj = s3.Object("lc-new-subjects", "input/" + outputFilenameJSON)
             tweetsObj.put(Body=(json.dumps(tweetsJSON, indent=2, default=str, ensure_ascii=False)), ContentType="application/json")
             print(f"Saved {outputFilenameJSON} to lc-new-subjects bucket")
@@ -365,7 +369,7 @@ def runSingle():
     scrapeJSON, sourceHTML = scrapeList(inputListSourceURL, inputDateISO)
     printSummary(scrapeJSON)
 
-    tweetsJSON = toTwitterJSON(scrapeJSON) if not skipTweets else None
+    tweetsJSON = toTwitterJSON(scrapeJSON) if not skipTweetsMode else None
     saveFiles(inputListSourceURL, inputDateISO, inputSaveId, scrapeJSON, sourceHTML, tweetsJSON)
 
-runBatch() if doBatch else runSingle()
+runBatch() if batchMode else runSingle()
