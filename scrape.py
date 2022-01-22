@@ -9,8 +9,12 @@
 # update archive, skip tweets
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001 --skip-tweets
 
-# update archive from any batch file; skips tweets
+# update archive from any batch file (skips tweets)
 # python scrape.py --batch archive/batch.json
+
+# todo:
+# - reformat tweets?
+# - hashtags for (C) or (A)?
 
 import sys
 from datetime import date
@@ -319,7 +323,7 @@ def saveFiles(listSourceURL, dateISO, saveId, scrapeJSON, sourceHTML, tweetsJSON
             json.dump(scrapeJSON, outfile, indent=2, ensure_ascii=False)
             outfile.write("\n") # here and below: ensure newline at EOFfor POSIX compliance
 
-        if not batchMode:
+        if not (skipTweetsMode or batchMode):
             with open("./archive/batch.json", "r+") as batchFile:
                 newRun = {
                     "id": saveId,
