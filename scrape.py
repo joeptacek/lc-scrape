@@ -3,18 +3,20 @@
 # save source.html, scrape.json, and tweets.json to output/
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
 
-# save source and scrape to archive/ and push tweets to s3; also updates archive/batch.json
+# save source and scrape to archive/, push tweets to s3
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001
 
-# update archive, skip tweets
+# save source and scrape to archive, push tweets to s3, save run parameters to archive/batch.json
+# python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001 --save-run
+
+# save source and scrape to archive, skip everything related to tweets
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001 --skip-tweets
 
-# update archive from any batch file (skips tweets)
-# python scrape.py --batch archive/batch.json
+# run batch job to update archive from archive/batch.json (or other batch file)
+# python scrape.py --batch <optional: path/to/batch.json>
 
 # todo:
-# - reformat tweets?
-# - hashtags for (C) or (A)?
+# hashtags for (C) or (A)?
 
 import sys
 from datetime import date
@@ -28,14 +30,16 @@ import boto3
 
 batchMode = True if sys.argv[1] == "--batch" else False
 if batchMode:
-    inputBatchPath = sys.argv[2]
+    inputBatchPath = sys.argv[2] if len(sys.argv) > 2 else "archive/batch.json"
     inputListSourceURL = inputDateISO = inputSaveId = None
     skipTweetsMode = True
+    saveRunMode = False
 else:
     inputListSourceURL = sys.argv[1]
     inputDateISO = sys.argv[2]
     inputSaveId = sys.argv[3] if len(sys.argv) > 3 else None
-    skipTweetsMode = True if (len(sys.argv) > 4 and sys.argv[4] == "--skip-tweets") else False
+    skipTweetsMode = True if "--skip-tweets" in sys.argv else False
+    saveRunMode = True if "--save-run" in sys.argv else False
 
 def newUpdateObj(headingType, dateISO, listSourceURL):
     return {
@@ -63,8 +67,9 @@ def newUpdateObj(headingType, dateISO, listSourceURL):
 def squashSpaces(s):
     return " ".join(s.split())
 
-def extractRecordId(inputString):
-    outputString = inputString
+# strip proposal id from string, return stripped string and normalized proposal id
+def stripRecordId(inputString):
+    outputString = inputString # why
     outputRecordId = None
     pattern = r"\[(sp|gp|dp|pp).+]"
     found = re.search(pattern, inputString)
@@ -104,6 +109,9 @@ def getLCCNPermalink(recordIdProposed, currentHeadingType):
     recordIdApproved = getRecordIdApproved(recordIdProposed, currentHeadingType)
     return "https://lccn.loc.gov/" + recordIdApproved
 
+def stripHeadingStatus(line):
+    return line.replace("CANCEL HEADING", "").replace("CHANGE HEADING", "").strip()
+
 # twitter double-weights characters unless they fall in certain unicode ranges (see https://developer.twitter.com/en/docs/counting-characters)
 def isSpecial(chr):
     chrVal = ord(chr)
@@ -121,6 +129,16 @@ def isSpecial(chr):
 
 def countSpecialCharacters(inputString):
     return len([chr for chr in inputString if isSpecial(chr)])
+
+def getLongestHeading(scrapeJSON):
+    maxLen, maxTxt = 0, ""
+    for update in scrapeJSON:
+        headerTxt = update["lines"][0]
+        headerLen = len(headerTxt)
+        if headerLen > maxLen:
+            maxLen = headerLen
+            maxTxt = headerTxt
+    return maxLen, maxTxt
 
 # scrape updates from html source
 def scrapeList(listSourceURL, dateISO):
@@ -165,12 +183,12 @@ def scrapeList(listSourceURL, dateISO):
                 if approvedBeforeMeetingLine: newUpdate["statusApprovedBeforeMeeting"] = True
                 if submittedByCoopLibLine: newUpdate["statusSubmittedByCoopLib"] = True
 
-                fn = squashSpaces(tr.select_one("td > table > tr > td:first-child").get_text())
-                fc = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
-                if fn[0] != "1": raise Exception("Expected update to start with 1xx, instead: ", fn)
+                fieldNum = squashSpaces(tr.select_one("td > table > tr > td:first-child").get_text())
+                fieldTxt = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
+                if fieldNum[0] != "1": raise Exception("Expected update to start with 1xx, instead: ", fieldNum)
                 if changeHeadingLine: # 1xx for changed heading; represents old heading
                     newUpdate["statusChangedHeading"] = True
-                    newUpdate["lines"].append(fn + " " + fc)
+                    newUpdate["lines"].append(fieldNum + " " + fieldTxt)
                 else: # 1xx for non-changed heading
                     if cancelHeadingLine: newUpdate["statusCancelledHeading"] = True
                     if addGeogLine or deleteGeogLine or changeGeogLine:
@@ -178,34 +196,34 @@ def scrapeList(listSourceURL, dateISO):
                         if addGeogLine: newUpdate["statusAddedGeog"] = True
                         if deleteGeogLine: newUpdate["statusDeletedGeog"] = True
                         if changeGeogLine: newUpdate["statusChangedGeog"] = True
-                    fcNew, recordIdProposed = extractRecordId(fc)
+                    fieldTxtStripped, recordIdProposed = stripRecordId(fieldTxt)
                     newUpdate["LCLinkedDataURI"] = getLCLinkedDataURI(recordIdProposed, currentHeadingType)
                     if currentHeadingType not in ["demographicGroupTerm", "mediumOfPerformanceTerm"]:
                         newUpdate["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentHeadingType)
-                    newUpdate["lines"].append(fn + " " + fcNew)
+                    newUpdate["lines"].append(fieldNum + " " + fieldTxtStripped)
             else: # blank rows
                 continue
         else:
             if tr.select_one("table"): # adding update lines
-                fn = squashSpaces(tr.select_one("td > table > tr > td:first-child").get_text())
-                fc = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
-                if fn[0] == "1": # 1xx after changed heading; represents new heading
+                fieldNum = squashSpaces(tr.select_one("td > table > tr > td:first-child").get_text())
+                fieldTxt = squashSpaces(tr.select_one("td > table > tr > td:last-child").get_text())
+                if fieldNum[0] == "1": # 1xx after changed heading; represents new heading
                     if addGeogLine or deleteGeogLine or changeGeogLine:
                         newUpdate["statusUpdatedGeog"] = True
                         if addGeogLine: newUpdate["statusAddedGeog"] = True
                         if deleteGeogLine: newUpdate["statusDeletedGeog"] = True
                         if changeGeogLine: newUpdate["statusChangedGeog"] = True
-                    fcNew, recordIdProposed = extractRecordId(fc)
+                    fieldTxtStripped, recordIdProposed = stripRecordId(fieldTxt)
                     newUpdate["LCLinkedDataURI"] = getLCLinkedDataURI(recordIdProposed, currentHeadingType)
                     if currentHeadingType not in ["demographicGroupTerm", "mediumOfPerformanceTerm"]:
                         newUpdate["LCCNPermalink"] = getLCCNPermalink(recordIdProposed, currentHeadingType)
-                    newUpdate["lines"].append(fn + " " + fcNew)
+                    newUpdate["lines"].append(fieldNum + " " + fieldTxtStripped)
                 else: # non-1xx update lines
                     if addFieldLine or deleteFieldLine:
                         newUpdate["statusUpdatedField"] = True
                         if addFieldLine: newUpdate["statusAddedField"] = True
                         if deleteFieldLine: newUpdate["statusDeletedField"] = True
-                    newUpdate["lines"].append(fn + " " + fc)
+                    newUpdate["lines"].append(fieldNum + " " + fieldTxt)
             else: # first blank row after update
                 addingUpdate = False
                 if not (newUpdate["statusChangedHeading"] or newUpdate["statusCancelledHeading"] or newUpdate["statusUpdatedField"] or newUpdate["statusUpdatedGeog"]): newUpdate["statusNewHeading"] = True
@@ -216,9 +234,8 @@ def scrapeList(listSourceURL, dateISO):
     # CHANGE HEADING always on first line with old heading; update never (?) includes by ADD/DELETE FIELD; update sometimes (rarely) includes ADD/DELETE GEOG (on second with new heading)
     # CANCEL HEADING always brief
     # ADD/DELETE FIELD sometimes update also includes ADD/REMOVE GEOG
-    # ADD/DELETE GEOG usually first line (unless first line contains CHANGE HEADING); sometimes (rarely) on second line if first line includes CHANGE HEADING; sometimes (rarely) update includes only ADD/DELETE GEOG with no other field updates
-    # CHANGE GEOG only one of these observed? was supposed to be ADD GEOG? see https://classweb.org/approved-subjects/2101.html
-    # total updates = new headings + changed headings (includes some ADD/DELETE GEOG) + cancelled headings + updated fields (includes all ADD/DELETE fields and some ADD/DELETE GEOG)
+    # ADD/DELETE/CHANGE GEOG usually first line; sometimes (rarely) on second line if first line includes CHANGE HEADING; sometimes (rarely) update includes only ADD/DELETECHANGE GEOG with no other field updates
+    # total updates = new headings + changed headings (includes some ADD/DELETE/CHANGE GEOG) + cancelled headings + updated fields (includes all ADD/DELETE fields and some ADD/DELETE/CHANGE GEOG)
 
 def toTwitterJSON(scrapeJSON):
     # generate tweet threads from updates
@@ -229,20 +246,32 @@ def toTwitterJSON(scrapeJSON):
         if update["headingType"] == "childrensSubjectHeading": hashtags = "#newLCSHAC"
         if update["headingType"] == "mediumOfPerformanceTerm": hashtags = "#newLCMPT"
         if update["headingType"] == "demographicGroupTerm": hashtags = "#newLCDGT"
-        if update["statusNewHeading"]: hashtags += " #newHeading"
-        if update["statusChangedHeading"]: hashtags += " #changedHeading"
-        if update["statusCancelledHeading"]: hashtags += " #cancelledHeading"
-        if update["statusUpdatedField"]: hashtags += " #updatedField"
-        if update["statusUpdatedGeog"]: hashtags += " #updatedGeog"
+
+        if update["statusNewHeading"]:
+            intro = "NEW HEADING"
+            hashtags += " #newHeading"
+
+        if update["statusChangedHeading"]:
+            intro = "CHANGE HEADING"
+            hashtags += " #changedHeading"
+
+        if update["statusCancelledHeading"]:
+            intro = "CANCEL HEADING"
+            hashtags += " #cancelledHeading"
+
+        if update["statusUpdatedField"] or update["statusUpdatedGeog"]:
+            intro = "UPDATE DETAILS"
+            hashtags += " #updatedField" if update["statusUpdatedField"] else " #updatedGeog"
 
         tweetThread = []
         tweetBody = ""
         for index, line in enumerate(update["lines"]):
             # first 1-2 heading-related lines = stanalone tweets
             if index == 0:
-                tweetThread.append(f"{line}\n\n{hashtags}")
+                lineStripped = stripHeadingStatus(line) if update["statusNewHeading"] or update["statusChangedHeading"] else line
+                tweetThread.append(f"{intro} ⇨\n{lineStripped}\n\n{hashtags}")
             elif index == 1 and update["statusChangedHeading"]:
-                tweetThread.append(f"NEW HEADING →\n{line}")
+                tweetThread.append(f"NEW HEADING (CHANGED) →\n{line}")
             else:
                 # concatenate any remaining lines as tweetBody
                 if tweetBody == "":
@@ -279,6 +308,7 @@ def toTwitterJSON(scrapeJSON):
     return tweetsJSON
 
 def printSummary(scrapeJSON):
+    maxLen, maxTxt = getLongestHeading(scrapeJSON)
     print(
         "----------------------------------",
         "TOTAL UPDATES:                " + str(len(scrapeJSON)),
@@ -305,6 +335,9 @@ def printSummary(scrapeJSON):
         "├──With deleted geog:         " + str(len([update for update in scrapeJSON if (update["statusDeletedGeog"] and not update["statusChangedHeading"])])),
         "└──With changed geog:         " + str(len([update for update in scrapeJSON if (update["statusChangedGeog"] and not update["statusChangedHeading"])])),
         "----------------------------------",
+        "Longest heading:              " + maxTxt,
+        "Heading length:               " + str(maxLen),
+        "----------------------------------",
         sep="\n"
     )
 
@@ -323,7 +356,7 @@ def saveFiles(listSourceURL, dateISO, saveId, scrapeJSON, sourceHTML, tweetsJSON
             json.dump(scrapeJSON, outfile, indent=2, ensure_ascii=False)
             outfile.write("\n") # here and below: ensure newline at EOFfor POSIX compliance
 
-        if not (skipTweetsMode or batchMode):
+        if saveRunMode:
             with open("./archive/batch.json", "r+") as batchFile:
                 newRun = {
                     "id": saveId,
@@ -365,6 +398,7 @@ def runBatch():
 
         scrapeJSON, sourceHTML = scrapeList(newListSourceURL, newDateISO)
         saveFiles(newListSourceURL, newDateISO, newSaveId, scrapeJSON, sourceHTML, tweetsJSON=None)
+        # printSummary(scrapeJSON)
 
         listSourceFilename = Path(newListSourceURL).stem
         print(f"Done: {newSaveId}--{newDateISO}--{listSourceFilename}")
