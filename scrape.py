@@ -334,9 +334,9 @@ def printSummary(scrapeJSON):
         "├──With added geog:           " + str(len([update for update in scrapeJSON if (update["statusAddedGeog"] and not update["statusChangedHeading"])])),
         "├──With deleted geog:         " + str(len([update for update in scrapeJSON if (update["statusDeletedGeog"] and not update["statusChangedHeading"])])),
         "└──With changed geog:         " + str(len([update for update in scrapeJSON if (update["statusChangedGeog"] and not update["statusChangedHeading"])])),
-        "----------------------------------",
-        "Longest heading:              " + maxTxt,
-        "Heading length:               " + str(maxLen),
+        # "----------------------------------",
+        # "Longest heading:              " + maxTxt,
+        # "Heading length:               " + str(maxLen),
         "----------------------------------",
         sep="\n"
     )
