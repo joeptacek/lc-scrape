@@ -112,6 +112,15 @@ def getLCCNPermalink(recordIdProposed, currentHeadingType):
 def stripHeadingStatus(line):
     return line.replace("CANCEL HEADING", "").replace("CHANGE HEADING", "").strip()
 
+def getPrettyDate(inputDate):
+    if len(inputDate) == 10:
+        # if YYYY-MM-DD
+        return date.fromisoformat(inputDate).strftime("%b. %d, %Y").replace(" 0", " ")
+    else:
+        # if YYYY-MM
+        dateTemp = inputDate + "-01" # python datetime can't handle YYYY-MM
+        return date.fromisoformat(dateTemp).strftime("%b. %Y")
+
 # twitter double-weights characters unless they fall in certain unicode ranges (see https://developer.twitter.com/en/docs/counting-characters)
 def isSpecial(chr):
     chrVal = ord(chr)
@@ -297,7 +306,7 @@ def toTwitterJSON(scrapeJSON):
                 tweetThread.append("..." + tweetBodyChunks[-1])
 
         # TODO: warn re: inactive links for cancelled headings?
-        datePretty = date.fromisoformat(update["listDate"]).strftime("%b. %d, %Y").replace(" 0", " ")
+        datePretty = getPrettyDate(update["listDate"])
         listSourceURL = update["listSource"]
         if update["headingType"] not in ["demographicGroupTerm", "mediumOfPerformanceTerm"]:
             tweetThread.append(f"🗓️ Approved {datePretty} →\n{listSourceURL}\n\n🌐 LC Linked Data Service URI →\n{update['LCLinkedDataURI']}\n\n🔗 LCCN Permalink →\n{update['LCCNPermalink']}\n\n*Links might not be active for very recently approved subject headings")
