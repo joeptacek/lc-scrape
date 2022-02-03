@@ -15,6 +15,12 @@
 # run batch job to update archive from archive/batch.json (or other batch file)
 # python scrape.py --batch <optional: path/to/batch.json>
 
+# for list dates with no day, use YYYY-MM
+# python scrape.py https://classweb.org/approved-subjects/2123x.html 2022-01
+
+# scrape and save approved lists as they're released, no need to order by approved date
+# e.g., list approved on 2021-11-15 (saved as 0003) was relased AFTER list approved on 2021-11-23 (0002)
+
 # todo:
 # hashtags for (C) or (A)?
 
@@ -377,6 +383,8 @@ def saveFiles(listSourceURL, dateISO, saveId, scrapeJSON, sourceHTML, tweetsJSON
                 archiveBatch.append(newRun)
                 batchFile.seek(0)
                 json.dump(archiveBatch, batchFile, indent=2)
+                batchFile.write("\n")
+
 
         if not skipTweetsMode:
             s3 = boto3.resource("s3") # use AWS CLI to configure local security credentials
