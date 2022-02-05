@@ -276,7 +276,8 @@ def toTwitterJSON(scrapeJSON):
 
         if update["statusUpdatedField"] or update["statusUpdatedGeog"]:
             intro = "UPDATE DETAILS"
-            hashtags += " #updatedField" if update["statusUpdatedField"] else " #updatedGeog"
+            if update["statusUpdatedField"]: hashtags += " #updatedField"
+            if update["statusUpdatedGeog"]: hashtags += " #updatedGeog"
 
         tweetThread = []
         tweetBody = ""
