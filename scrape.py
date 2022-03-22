@@ -1,13 +1,16 @@
-# approved subject lists here: https://classweb.org/approved-subjects/
+# WORKFLOW
+# run in venv
+# source env/bin/activate
 
-# save source.html, scrape.json, and tweets.json to output/
+# save source.html, scrape.json, and tweets.json to output/ (confirm output looks OK)
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12
-
-# save source and scrape to archive/, push tweets to s3
-# python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001
 
 # save source and scrape to archive, push tweets to s3, save run parameters to archive/batch.json
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001 --save-run
+
+# OPTIONS
+# save source and scrape to archive/, push tweets to s3 (skip batchfile update)
+# python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001
 
 # save source and scrape to archive, skip everything related to tweets
 # python scrape.py https://classweb.org/approved-subjects/2111b.html 2021-11-12 0001 --skip-tweets
@@ -15,13 +18,18 @@
 # run batch job to update archive from archive/batch.json (or other batch file)
 # python scrape.py --batch <optional: path/to/batch.json>
 
+# NOTES
+# approved subject lists here: https://classweb.org/approved-subjects/
+# currently monitoring with Versionista
+# scrape/save approved lists as they're released with IDs counting up from 0001
+# IDs don't need to reflect approval date chronology, e.g., 0002--2021-11-23--2111y, 0003--2021-11-15--2111
+
+# dates come from HTML file (manually check)
 # for list dates with no day, use YYYY-MM
 # python scrape.py https://classweb.org/approved-subjects/2123x.html 2022-01
 
-# scrape and save approved lists as they're released, no need to order by approved date
-# e.g., list approved on 2021-11-15 (saved as 0003) was relased AFTER list approved on 2021-11-23 (0002)
-
-# todo:
+# TODO
+# import older lists, update numbering scheme for newer lists
 # hashtags for (C) or (A)?
 
 import sys
