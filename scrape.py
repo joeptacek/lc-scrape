@@ -283,7 +283,7 @@ def toTwitterJSON(scrapeJSON):
             hashtags += " #cancelledHeading"
 
         if update["statusUpdatedField"] or update["statusUpdatedGeog"]:
-            intro = "UPDATE DETAILS"
+            intro = "UPDATE DETAILS" if not update["statusChangedHeading"] else "CHANGE HEADING"
             if update["statusUpdatedField"]: hashtags += " #updatedField"
             if update["statusUpdatedGeog"]: hashtags += " #updatedGeog"
 
