@@ -168,7 +168,7 @@ def scrapeList(listSourceURL, dateISO):
     sourceHTML = requests.get(listSourceURL).text
     # can use local html for testing instead
     # import codecs
-    # htmlText = codecs.open("./archive/html/0001--2021-11-12--2111b.html", "r", "utf-8").read()
+    # sourceHTML = codecs.open("./archive/source/0001--2021-11-12--2111b.html", "r", "utf-8").read()
 
     htmlSoup = BeautifulSoup(sourceHTML, 'html.parser')
 
@@ -334,6 +334,7 @@ def toTwitterJSON(scrapeJSON):
 def printSummary(scrapeJSON):
     maxLen, maxTxt = getLongestHeading(scrapeJSON)
     print(
+        "",
         "-----------------------------------",
         f"TOTAL UPDATES:                {len(scrapeJSON):>5}",
         "-----------------------------------",
@@ -361,6 +362,7 @@ def printSummary(scrapeJSON):
         "-----------------------------------",
         f"Longest heading ({maxLen} chr):",
         f"{maxTxt[:32]}...",
+        "-----------------------------------",
         "",
         sep="\n"
     )
@@ -399,7 +401,7 @@ def saveFiles(listSourceURL, dateISO, saveId, scrapeJSON, sourceHTML, tweetsJSON
             s3 = boto3.resource("s3") # use AWS CLI to configure local security credentials
             tweetsObj = s3.Object("lc-new-subjects", "input/" + outputFilenameJSON)
             tweetsObj.put(Body=(json.dumps(tweetsJSON, indent=2, default=str, ensure_ascii=False)), ContentType="application/json")
-            print(f"Saved {outputFilenameJSON} to lc-new-subjects bucket")
+            print(f"[Saved {outputFilenameJSON} to lc-new-subjects bucket]\n")
     else:
         if not Path("./output/").exists(): Path("./output/").mkdir()
         with open("./output/source.html", "w") as outfile:
