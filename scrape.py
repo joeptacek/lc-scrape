@@ -264,28 +264,28 @@ def toTwitterJSON(scrapeJSON):
     # generate tweet threads from updates
     tweetsJSON = []
     for update in scrapeJSON:
-        if update["headingType"] == "mainSubjectHeading": hashtags = "#newLCSH"
-        if update["headingType"] == "genreFormTerm": hashtags = "#newLCGFT"
-        if update["headingType"] == "childrensSubjectHeading": hashtags = "#newLCSHAC"
-        if update["headingType"] == "mediumOfPerformanceTerm": hashtags = "#newLCMPT"
-        if update["headingType"] == "demographicGroupTerm": hashtags = "#newLCDGT"
+        if update["headingType"] == "mainSubjectHeading": hashtags = "-newLCSH"
+        if update["headingType"] == "genreFormTerm": hashtags = "-newLCGFT"
+        if update["headingType"] == "childrensSubjectHeading": hashtags = "-newLCSHAC"
+        if update["headingType"] == "mediumOfPerformanceTerm": hashtags = "-newLCMPT"
+        if update["headingType"] == "demographicGroupTerm": hashtags = "-newLCDGT"
 
         if update["statusNewHeading"]:
             intro = "NEW HEADING"
-            hashtags += " #newHeading"
+            hashtags += " -newHeading"
 
         if update["statusChangedHeading"]:
             intro = "CHANGE HEADING"
-            hashtags += " #changedHeading"
+            hashtags += " -changedHeading"
 
         if update["statusCancelledHeading"]:
             intro = "CANCEL HEADING"
-            hashtags += " #cancelledHeading"
+            hashtags += " -cancelledHeading"
 
         if update["statusUpdatedField"] or update["statusUpdatedGeog"]:
             intro = "UPDATE DETAILS" if not update["statusChangedHeading"] else "CHANGE HEADING"
-            if update["statusUpdatedField"]: hashtags += " #updatedField"
-            if update["statusUpdatedGeog"]: hashtags += " #updatedGeog"
+            if update["statusUpdatedField"]: hashtags += " -updatedField"
+            if update["statusUpdatedGeog"]: hashtags += " -updatedGeog"
 
         tweetThread = []
         tweetBody = ""
