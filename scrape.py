@@ -22,7 +22,7 @@
 # approved subject lists here: https://classweb.org/approved-subjects/
 # currently monitoring with Versionista
 # scrape/save approved lists as they're released with IDs counting up from 0001
-# IDs don't need to reflect approval date chronology, e.g., 0002--2021-11-23--2111y, 0003--2021-11-15--2111
+# ID numbering doesn't need to reflect approval date chronology, e.g., 0002--2021-11-23--2111y, 0003--2021-11-15--2111
 
 # dates come from HTML file (manually check)
 # for list dates with no day, use YYYY-MM
@@ -334,34 +334,34 @@ def toTwitterJSON(scrapeJSON):
 def printSummary(scrapeJSON):
     maxLen, maxTxt = getLongestHeading(scrapeJSON)
     print(
-        "----------------------------------",
-        "TOTAL UPDATES:                " + str(len(scrapeJSON)),
-        "----------------------------------",
-        "Approved before meeting (A):  " + str(len([update for update in scrapeJSON if update["statusApprovedBeforeMeeting"]])),
-        "Submitted by coop. lib. (C):  " + str(len([update for update in scrapeJSON if update["statusSubmittedByCoopLib"]])),
-        "----------------------------------",
-        "Main subject headings:        " + str(len([update for update in scrapeJSON if update["headingType"] == "mainSubjectHeading"])),
-        "Genre/form terms:             " + str(len([update for update in scrapeJSON if update["headingType"] == "genreFormTerm"])),
-        "Children's subject headings:  " + str(len([update for update in scrapeJSON if update["headingType"] == "childrensSubjectHeading"])),
-        "Medium of performance terms:  " + str(len([update for update in scrapeJSON if update["headingType"] == "mediumOfPerformanceTerm"])),
-        "Demographic group terms:      " + str(len([update for update in scrapeJSON if update["headingType"] == "demographicGroupTerm"])),
-        "----------------------------------",
-        "New headings:                 " + str(len([update for update in scrapeJSON if update["statusNewHeading"]])),
-        "Changed headings:             " + str(len([update for update in scrapeJSON if update["statusChangedHeading"]])),
-        "├──With added geog:           " + str(len([update for update in scrapeJSON if (update["statusAddedGeog"] and update["statusChangedHeading"])])),
-        "├──With deleted geog:         " + str(len([update for update in scrapeJSON if (update["statusDeletedGeog"] and update["statusChangedHeading"])])),
-        "└──With changed geog:         " + str(len([update for update in scrapeJSON if (update["statusChangedGeog"] and update["statusChangedHeading"])])),
-        "Cancelled headings:           " + str(len([update for update in scrapeJSON if update["statusCancelledHeading"]])),
-        "With other changes:           " + str(len([update for update in scrapeJSON if (update["statusUpdatedField"] or update["statusUpdatedGeog"] and not update["statusChangedHeading"])])),
-        "├──With added field(s):       " + str(len([update for update in scrapeJSON if update["statusAddedField"]])),
-        "├──With deleted field(s):     " + str(len([update for update in scrapeJSON if update["statusDeletedField"]])),
-        "├──With added geog:           " + str(len([update for update in scrapeJSON if (update["statusAddedGeog"] and not update["statusChangedHeading"])])),
-        "├──With deleted geog:         " + str(len([update for update in scrapeJSON if (update["statusDeletedGeog"] and not update["statusChangedHeading"])])),
-        "└──With changed geog:         " + str(len([update for update in scrapeJSON if (update["statusChangedGeog"] and not update["statusChangedHeading"])])),
-        # "----------------------------------",
-        # "Longest heading:              " + maxTxt,
-        # "Heading length:               " + str(maxLen),
-        "----------------------------------",
+        "-----------------------------------",
+        f"TOTAL UPDATES:                {len(scrapeJSON):>5}",
+        "-----------------------------------",
+        f"Approved before meeting (A):  {len([update for update in scrapeJSON if update['statusApprovedBeforeMeeting']]):>5}",
+        f"Submitted by coop. lib. (C):  {len([update for update in scrapeJSON if update['statusSubmittedByCoopLib']]):>5}",
+        "-----------------------------------",
+        f"Main subject headings:        {len([update for update in scrapeJSON if update['headingType'] == 'mainSubjectHeading']):>5}",
+        f"Genre/form terms:             {len([update for update in scrapeJSON if update['headingType'] == 'genreFormTerm']):>5}",
+        f"Children's subject headings:  {len([update for update in scrapeJSON if update['headingType'] == 'childrensSubjectHeading']):>5}",
+        f"Medium of performance terms:  {len([update for update in scrapeJSON if update['headingType'] == 'mediumOfPerformanceTerm']):>5}",
+        f"Demographic group terms:      {len([update for update in scrapeJSON if update['headingType'] == 'demographicGroupTerm']):>5}",
+        "-----------------------------------",
+        f"New headings:                 {len([update for update in scrapeJSON if update['statusNewHeading']]):>5}",
+        f"Changed headings:             {len([update for update in scrapeJSON if update['statusChangedHeading']]):>5}",
+        f"├──With added geog:           {len([update for update in scrapeJSON if (update['statusAddedGeog'] and update['statusChangedHeading'])]):>5}",
+        f"├──With deleted geog:         {len([update for update in scrapeJSON if (update['statusDeletedGeog'] and update['statusChangedHeading'])]):>5}",
+        f"└──With changed geog:         {len([update for update in scrapeJSON if (update['statusChangedGeog'] and update['statusChangedHeading'])]):>5}",
+        f"Cancelled headings:           {len([update for update in scrapeJSON if update['statusCancelledHeading']]):>5}",
+        f"Other changes:                {len([update for update in scrapeJSON if (update['statusUpdatedField'] or update['statusUpdatedGeog'] and not update['statusChangedHeading'])]):>5}",
+        f"├──With added field(s):       {len([update for update in scrapeJSON if update['statusAddedField']]):>5}",
+        f"├──With deleted field(s):     {len([update for update in scrapeJSON if update['statusDeletedField']]):>5}",
+        f"├──With added geog:           {len([update for update in scrapeJSON if (update['statusAddedGeog'] and not update['statusChangedHeading'])]):>5}",
+        f"├──With deleted geog:         {len([update for update in scrapeJSON if (update['statusDeletedGeog'] and not update['statusChangedHeading'])]):>5}",
+        f"└──With changed geog:         {len([update for update in scrapeJSON if (update['statusChangedGeog'] and not update['statusChangedHeading'])]):>5}",
+        "-----------------------------------",
+        f"Longest heading ({maxLen} chr):",
+        f"{maxTxt[:32]}...",
+        "",
         sep="\n"
     )
 
