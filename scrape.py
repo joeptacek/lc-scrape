@@ -116,7 +116,7 @@ def getLCLinkedDataURI(recordIdProposed, currentHeadingType):
     elif currentHeadingType == "mediumOfPerformanceTerm":
         return "http://id.loc.gov/authorities/performanceMediums/" + recordIdApproved
     elif currentHeadingType == "demographicGroupTerm":
-        return "http://id.loc.gov/authorities/demographicTerms" + recordIdApproved
+        return "http://id.loc.gov/authorities/demographicTerms/" + recordIdApproved
 
 # LCCN Permalink not available for demographic group terms or medium of performance terms
 def getLCCNPermalink(recordIdProposed, currentHeadingType):
