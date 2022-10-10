@@ -1,3 +1,19 @@
+# LoC HTML BUG
+#
+# starting with the 0035--2022-10-14--2210e list, HTML from LoC includes a bug Beautiful Soup can't handle
+# specifically, LoC's HTML includes an unclosed <center> tag, which causes Beautiful Soup to fail
+#
+# for now, manually editing LoC's HTML to include closing <center> tag and then passing this to scrape.py locally
+# eventually, Beautiful Soup includes another more lenient parser worth trying, html5lib; currently using html.parser
+#
+# see:
+# https://stackoverflow.com/questions/43283131/python-beautifulsoup-how-to-deal-with-missing-closing-tags
+# https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+#
+#
+#
+#
+#
 # WORKFLOW
 # run in venv
 # source env/bin/activate
@@ -168,7 +184,7 @@ def scrapeList(listSourceURL, dateISO):
     sourceHTML = requests.get(listSourceURL).text
     # can use local html for testing instead
     # import codecs
-    # sourceHTML = codecs.open("./archive/source/0001--2021-11-12--2111b.html", "r", "utf-8").read()
+    # sourceHTML = codecs.open("./source.html", "r", "utf-8").read()
 
     htmlSoup = BeautifulSoup(sourceHTML, 'html.parser')
 
