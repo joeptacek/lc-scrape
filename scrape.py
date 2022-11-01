@@ -182,6 +182,7 @@ def getLongestHeading(scrapeJSON):
 # scrape updates from html source
 def scrapeList(listSourceURL, dateISO):
     sourceHTML = requests.get(listSourceURL).text
+
     # can use local html for testing instead
     # import codecs
     # sourceHTML = codecs.open("./source.html", "r", "utf-8").read()
