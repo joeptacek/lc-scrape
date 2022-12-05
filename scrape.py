@@ -1,19 +1,3 @@
-# LoC HTML BUG
-#
-# starting with the 0035--2022-10-14--2210e list, HTML from LoC includes a bug Beautiful Soup can't handle
-# specifically, LoC's HTML includes an unclosed <center> tag, which causes Beautiful Soup to fail
-#
-# for now, manually editing LoC's HTML to include closing <center> tag and then passing this to scrape.py locally
-# eventually, Beautiful Soup includes another more lenient parser worth trying, html5lib; currently using html.parser
-#
-# see:
-# https://stackoverflow.com/questions/43283131/python-beautifulsoup-how-to-deal-with-missing-closing-tags
-# https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
-#
-#
-#
-#
-#
 # WORKFLOW
 # run in venv
 # source env/bin/activate
